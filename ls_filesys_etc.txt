@@ -1,0 +1,2527 @@
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:54 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  439 Sep 25 19:09 git-prompt
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  890 Aug 10 09:24 im-multipress.conf
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 2445 Sep 30 18:21 vimrc
+-rw-r--r--   1 root root  662 Sep 30 18:21 vimrc.tiny
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:53 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 4655 Aug 10  2016 wildmidi.cfg
+total 24
+drwxr-xr-x   2 root root 4096 Nov 29 01:17 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  173 Sep 13 16:47 apt
+-rw-r--r--   1 root root   79 Apr 18  2017 aptitude
+-rw-r--r--   1 root root  232 Jun 10  2015 dpkg
+-rw-r--r--   1 root root  515 Jan 18  2017 rsyslog
+total 16
+drwxr-xr-x   4 root root 4096 Nov 29 02:17 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 02:17 conf-available
+drwxr-xr-x   2 root root 4096 Nov 29 02:17 conf-enabled
+total 20
+drwxr-xr-x   3 root root 4096 Nov 29 01:36 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 1747 Jan 23  2017 avahi-daemon.conf
+-rw-r--r--   1 root root 1121 Jan 23  2017 hosts
+drwxr-xr-x   2 root root 4096 Jan 23  2017 services
+total 44
+drwxr-xr-x   4 root root  4096 Nov 29 01:30 .
+drwxr-xr-x 111 root root  4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 20480 Nov 29 01:37 certs
+-rw-r--r--   1 root root 10771 Nov  2 11:29 openssl.cnf
+drwx------   2 root root  4096 Nov  2 11:29 private
+total 20
+drwxr-xr-x   2 root root 4096 Nov 29 02:05 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 4042 Jun  1  2017 psprint.conf
+-rw-r--r--   1 root root  206 Jun  1  2017 sofficerc
+-rw-r--r--   1 root root  803 Jun  1  2017 soffice.sh
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 02:17 conf-available
+total 20
+drwxr-xr-x   3 root root 4096 Nov 29 02:17 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 epiphany
+-rw-r--r--   1 root root 4872 Mar  4  2017 menus.blacklist
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:17 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root    0 Oct 15  2016 palette.original
+total 24
+drwxr-xr-x   2 root root 4096 Nov 29 01:30 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   12 Oct 30 10:38 00-vmcs.conf
+-rw-r--r--   1 root root   74 Jun 15  2017 arm-linux-gnueabihf.conf
+-rw-r--r--   1 root root   41 Jan 17  2017 fakeroot-arm-linux-gnueabihf.conf
+-rw-r--r--   1 root root   44 Mar 20  2016 libc.conf
+total 20
+drwxr-xr-x   4 root root 4096 Nov 29 01:30 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Sep 12 16:37 CPAN
+drwxr-xr-x   2 root root 4096 Nov 29 01:30 Net
+-rw-r--r--   1 root root  599 Sep 12 16:37 sitecustomize.pl
+total 20
+drwxr-xr-x   2 root root 4096 Nov 29 01:35 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   50 Mar  8  2017 cifs.idmap.conf
+-rw-r--r--   1 root root   52 Mar  8  2017 cifs.spnego.conf
+-rw-r--r--   1 root root   55 Dec 15  2016 id_resolver.conf
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:36 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   39 Jan 19  2017 gdbinit
+total 24
+drwxr-xr-x   2 root root 4096 Nov 29 01:23 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root    8 Nov 20 22:24 gdbcommands
+-rw-r--r--   1 root root 9231 Nov 29 01:23 smb.conf
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  612 Oct 25  2016 default
+total 20
+drwxr-xr-x   4 root root 4096 Nov 29 01:54 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxrwxr-x   2 root root 4096 Nov 29 01:54 customizations
+-rw-rw-r--   1 root root  163 Aug 30  2016 default
+drwxrwxr-x   4 root root 4096 Nov 29 01:50 policies
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:36 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   94 Nov 29 01:36 debian_config
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 02:14 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 02:14 .systemPrefs
+total 28
+drwxr-xr-x   4 root root 4096 Nov 29 01:36 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  446 Nov 28  2014 dpkg.cfg
+drwxr-xr-x   2 root root 4096 Nov 29 01:36 dpkg.cfg.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:08 origins
+-rw-r--r--   1 root root  260 Nov 28  2014 shlibs.default
+-rw-r--r--   1 root root  253 Nov 28  2014 shlibs.override
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 03:33 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   22 Nov 29 01:37 S01avahi-daemon -> ../init.d/avahi-daemon
+lrwxrwxrwx   1 root root   19 Nov 29 01:35 S01bluetooth -> ../init.d/bluetooth
+lrwxrwxrwx   1 root root   26 Nov 29 01:33 S01console-setup.sh -> ../init.d/console-setup.sh
+lrwxrwxrwx   1 root root   14 Nov 29 01:16 S01cron -> ../init.d/cron
+lrwxrwxrwx   1 root root   14 Nov 29 01:33 S01dbus -> ../init.d/dbus
+lrwxrwxrwx   1 root root   16 Nov 29 01:38 S01dhcpcd -> ../init.d/dhcpcd
+lrwxrwxrwx   1 root root   24 Nov 29 01:35 S01dphys-swapfile -> ../init.d/dphys-swapfile
+lrwxrwxrwx   1 root root   17 Nov 29 01:49 S01lightdm -> ../init.d/lightdm
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 S01paxctld -> ../init.d/paxctld
+lrwxrwxrwx   1 root root   18 Nov 29 01:10 S01plymouth -> ../init.d/plymouth
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01raspi-config -> ../init.d/raspi-config
+lrwxrwxrwx   1 root root   15 Nov 29 01:30 S01rsync -> ../init.d/rsync
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 S01rsyslog -> ../init.d/rsyslog
+lrwxrwxrwx   1 root root   13 Nov 29 01:36 S01ssh -> ../init.d/ssh
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01triggerhappy -> ../init.d/triggerhappy
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:25 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  155 Jan 19  2017 sitecustomize.py
+total 8
+drwxr-xr-x   2 root root 4096 Nov 25  2016 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+total 16
+drwxr-xr-x   4 root root 4096 Nov 29 01:38 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:39 ip-down.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:39 ip-up.d
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 03:33 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   22 Nov 29 01:37 S01avahi-daemon -> ../init.d/avahi-daemon
+lrwxrwxrwx   1 root root   19 Nov 29 01:35 S01bluetooth -> ../init.d/bluetooth
+lrwxrwxrwx   1 root root   26 Nov 29 01:33 S01console-setup.sh -> ../init.d/console-setup.sh
+lrwxrwxrwx   1 root root   14 Nov 29 01:16 S01cron -> ../init.d/cron
+lrwxrwxrwx   1 root root   14 Nov 29 01:33 S01dbus -> ../init.d/dbus
+lrwxrwxrwx   1 root root   16 Nov 29 01:38 S01dhcpcd -> ../init.d/dhcpcd
+lrwxrwxrwx   1 root root   24 Nov 29 01:35 S01dphys-swapfile -> ../init.d/dphys-swapfile
+lrwxrwxrwx   1 root root   17 Nov 29 01:49 S01lightdm -> ../init.d/lightdm
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 S01paxctld -> ../init.d/paxctld
+lrwxrwxrwx   1 root root   18 Nov 29 01:10 S01plymouth -> ../init.d/plymouth
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01raspi-config -> ../init.d/raspi-config
+lrwxrwxrwx   1 root root   15 Nov 29 01:30 S01rsync -> ../init.d/rsync
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 S01rsyslog -> ../init.d/rsyslog
+lrwxrwxrwx   1 root root   13 Nov 29 01:36 S01ssh -> ../init.d/ssh
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01triggerhappy -> ../init.d/triggerhappy
+total 52
+drwxr-xr-x   4 root root 4096 Nov 29 01:18 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 4620 May 27  2017 access.conf
+-rw-r--r--   1 root root 3635 May 27  2017 group.conf
+-rw-r--r--   1 root root 2150 May 27  2017 limits.conf
+drwxr-xr-x   2 root root 4096 Nov 29 02:19 limits.d
+-rw-r--r--   1 root root 1440 May 27  2017 namespace.conf
+drwxr-xr-x   2 root root 4096 May 27  2017 namespace.d
+-rwxr-xr-x   1 root root 1016 May 27  2017 namespace.init
+-rw-------   1 root root    0 Nov 29 01:09 opasswd
+-rw-r--r--   1 root root 2972 May 27  2017 pam_env.conf
+-rw-r--r--   1 root root  419 May 27  2017 sepermit.conf
+-rw-r--r--   1 root root 2179 May 27  2017 time.conf
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:48 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  890 Jan 26  2017 im-multipress.conf
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  102 May 19  2015 .placeholder
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 02:04 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  368 Jun 12  2013 esd.conf
+total 40
+drwxr-xr-x   7 root root 4096 Nov 29 02:58 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:39 if-down.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:39 if-post-down.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:39 if-pre-up.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:39 if-up.d
+-rw-r--r--   1 root root  271 Nov 29 01:39 interfaces
+drwxr-xr-x   2 root root 4096 Jan 30  2017 interfaces.d
+-rw-r--r--   1 root root  142 Nov 29 01:17 interfaces.dpkg-old
+-rw-r--r--   1 root root 1024 Nov 29 02:58 .interfaces.swp
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   20 Nov 29 01:09 K01hwclock.sh -> ../init.d/hwclock.sh
+lrwxrwxrwx   1 root root   20 Nov 29 01:35 K01nfs-common -> ../init.d/nfs-common
+lrwxrwxrwx   1 root root   17 Nov 29 01:35 K01rpcbind -> ../init.d/rpcbind
+lrwxrwxrwx   1 root root   20 Nov 29 01:22 S01alsa-utils -> ../init.d/alsa-utils
+lrwxrwxrwx   1 root root   22 Nov 29 01:29 S01fake-hwclock -> ../init.d/fake-hwclock
+lrwxrwxrwx   1 root root   27 Nov 29 01:33 S01keyboard-setup.sh -> ../init.d/keyboard-setup.sh
+lrwxrwxrwx   1 root root   14 Nov 29 01:08 S01kmod -> ../init.d/kmod
+lrwxrwxrwx   1 root root   20 Nov 29 01:17 S01networking -> ../init.d/networking
+lrwxrwxrwx   1 root root   22 Nov 29 01:10 S01plymouth-log -> ../init.d/plymouth-log
+lrwxrwxrwx   1 root root   16 Nov 29 01:09 S01procps -> ../init.d/procps
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01raspi-config -> ../init.d/raspi-config
+lrwxrwxrwx   1 root root   14 Nov 29 01:10 S01udev -> ../init.d/udev
+lrwxrwxrwx   1 root root   20 Nov 29 01:49 S01x11-common -> ../init.d/x11-common
+total 28
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rwxr-xr-x   1 root root 1396 Sep 28  2007 menu-xdg
+-rwxr-xr-x   1 root root 1855 Oct 15  2016 openbox
+-rwxr-xr-x   1 root root 1469 Jan 17  2010 xdg-desktop-entry-spec-apps
+-rwxr-xr-x   1 root root 1308 Jan 17  2010 xdg-desktop-entry-spec-dirs
+-rwxr-xr-x   1 root root 1526 Jan 17  2010 xdg-desktop-entry-spec-sessions
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 01:15 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:33 ignore.d.server
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:29 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-r--r-----   1 root root   27 Oct 18  2016 010_pi-nopasswd
+-r--r-----   1 root root  958 Jun  5  2017 README
+total 16
+drwxr-xr-x   4 root root 4096 Nov 29 01:51 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:53 cidfmap.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:53 fontmap.d
+total 24
+drwxr-xr-x   2 root root 4096 Nov 29 01:35 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  397 May 19  2014 input.conf
+-rw-r--r--   1 root root 4051 Oct 20 09:37 main.conf
+-rw-r--r--   1 root root  120 Dec 24  2012 network.conf
+-rw-r--r--   1 root root  258 Dec 24  2012 proximity.conf
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 01:26 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:36 update-libc.d
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 01:27 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 May 19  2017 update.d
+total 148
+drwxr-xr-x   2 root root 4096 Nov 29 03:33 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  328 May 21  2014 bootmisc.sh.conf
+-rw-r--r--   1 root root  232 May 21  2014 checkfs.sh.conf
+-rw-r--r--   1 root root  253 May 21  2014 checkroot-bootclean.sh.conf
+-rw-r--r--   1 root root  307 May 21  2014 checkroot.sh.conf
+-rw-r--r--   1 root root  268 May 21  2014 mountall-bootclean.sh.conf
+-rw-r--r--   1 root root 1232 May 21  2014 mountall.conf
+-rw-r--r--   1 root root  349 May 21  2014 mountall-net.conf
+-rw-r--r--   1 root root  261 May 21  2014 mountall-reboot.conf
+-rw-r--r--   1 root root  311 May 21  2014 mountall.sh.conf
+-rw-r--r--   1 root root 1201 May 21  2014 mountall-shell.conf
+-rw-r--r--   1 root root  327 May 21  2014 mountdevsubfs.sh.conf
+-rw-r--r--   1 root root  405 May 21  2014 mounted-debugfs.conf
+-rw-r--r--   1 root root  730 May 21  2014 mounted-dev.conf
+-rw-r--r--   1 root root  536 May 21  2014 mounted-proc.conf
+-rw-r--r--   1 root root  618 May 21  2014 mounted-run.conf
+-rw-r--r--   1 root root 1890 May 21  2014 mounted-tmp.conf
+-rw-r--r--   1 root root  903 May 21  2014 mounted-var.conf
+-rw-r--r--   1 root root  323 May 21  2014 mountkernfs.sh.conf
+-rw-r--r--   1 root root  249 May 21  2014 mountnfs-bootclean.sh.conf
+-rw-r--r--   1 root root  313 May 21  2014 mountnfs.sh.conf
+-rw-r--r--   1 root root  238 May 21  2014 mtab.sh.conf
+-rw-r--r--   1 root root 2493 Jun  2  2015 networking.conf
+-rw-r--r--   1 root root  933 Jun  2  2015 network-interface.conf
+-rw-r--r--   1 root root  530 Jun  2  2015 network-interface-container.conf
+-rw-r--r--   1 root root 1756 Jun  2  2015 network-interface-security.conf
+-rw-r--r--   1 root root  202 Jan  1  2015 paxctld.conf
+-rw-r--r--   1 root root  815 May  5  2017 portmap-wait.conf
+-rw-r--r--   1 root root  230 May  5  2017 rpcbind-boot.conf
+-rw-r--r--   1 root root 1083 May  5  2017 rpcbind.conf
+-rw-r--r--   1 root root    7 Nov 29 01:38 rpcbind.override
+-rw-r--r--   1 root root  637 Jun 18  2017 ssh.conf
+-rw-r--r--   1 root root  337 Jul  5  2017 udev.conf
+-rw-r--r--   1 root root  360 Jul  5  2017 udevmonitor.conf
+-rw-r--r--   1 root root  352 Jul  5  2017 udevtrigger.conf
+-rw-r--r--   1 root root  138 Jan 23  2017 usb-modeswitch-upstart.conf
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:33 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   31 Nov 29 01:30 catalog -> /var/lib/sgml-base/supercatalog
+-rw-r--r--   1 root root   45 Nov  7  2016 xml-core.cat
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 03:33 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   22 Nov 29 01:37 S01avahi-daemon -> ../init.d/avahi-daemon
+lrwxrwxrwx   1 root root   19 Nov 29 01:35 S01bluetooth -> ../init.d/bluetooth
+lrwxrwxrwx   1 root root   26 Nov 29 01:33 S01console-setup.sh -> ../init.d/console-setup.sh
+lrwxrwxrwx   1 root root   14 Nov 29 01:16 S01cron -> ../init.d/cron
+lrwxrwxrwx   1 root root   14 Nov 29 01:33 S01dbus -> ../init.d/dbus
+lrwxrwxrwx   1 root root   16 Nov 29 01:38 S01dhcpcd -> ../init.d/dhcpcd
+lrwxrwxrwx   1 root root   24 Nov 29 01:35 S01dphys-swapfile -> ../init.d/dphys-swapfile
+lrwxrwxrwx   1 root root   17 Nov 29 01:49 S01lightdm -> ../init.d/lightdm
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 S01paxctld -> ../init.d/paxctld
+lrwxrwxrwx   1 root root   18 Nov 29 01:10 S01plymouth -> ../init.d/plymouth
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01raspi-config -> ../init.d/raspi-config
+lrwxrwxrwx   1 root root   15 Nov 29 01:30 S01rsync -> ../init.d/rsync
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 S01rsyslog -> ../init.d/rsyslog
+lrwxrwxrwx   1 root root   13 Nov 29 01:36 S01ssh -> ../init.d/ssh
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01triggerhappy -> ../init.d/triggerhappy
+total 592
+drwxr-xr-x   2 root root   4096 Nov 29 02:56 .
+drwxr-xr-x 111 root root   4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 553122 Jun 18  2017 moduli
+-rw-r--r--   1 root root   1723 Jun 18  2017 ssh_config
+-rw-r--r--   1 root root   3298 Jun 18  2017 sshd_config
+-rw-------   1 root root    668 Nov 29 02:56 ssh_host_dsa_key
+-rw-r--r--   1 root root    606 Nov 29 02:56 ssh_host_dsa_key.pub
+-rw-------   1 root root    227 Nov 29 02:56 ssh_host_ecdsa_key
+-rw-r--r--   1 root root    178 Nov 29 02:56 ssh_host_ecdsa_key.pub
+-rw-------   1 root root    411 Nov 29 02:56 ssh_host_ed25519_key
+-rw-r--r--   1 root root     98 Nov 29 02:56 ssh_host_ed25519_key.pub
+-rw-------   1 root root   1675 Nov 29 02:56 ssh_host_rsa_key
+-rw-r--r--   1 root root    398 Nov 29 02:56 ssh_host_rsa_key.pub
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 02:19 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  101 Nov 29 02:19 plymouthd.conf
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:08 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  212 Sep  7 17:05 README
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:29 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   51 Oct 18  2016 98-rpi.conf
+lrwxrwxrwx   1 root root   14 Jul  5  2017 99-sysctl.conf -> ../sysctl.conf
+-rw-r--r--   1 root root  639 Nov 22  2016 README.sysctl
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:37 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   94 Nov 29 01:37 debian_config
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   20 Nov 29 01:22 K01alsa-utils -> ../init.d/alsa-utils
+lrwxrwxrwx   1 root root   22 Nov 29 01:37 K01avahi-daemon -> ../init.d/avahi-daemon
+lrwxrwxrwx   1 root root   19 Nov 29 01:35 K01bluetooth -> ../init.d/bluetooth
+lrwxrwxrwx   1 root root   16 Nov 29 01:38 K01dhcpcd -> ../init.d/dhcpcd
+lrwxrwxrwx   1 root root   22 Nov 29 01:29 K01fake-hwclock -> ../init.d/fake-hwclock
+lrwxrwxrwx   1 root root   17 Nov 29 01:49 K01lightdm -> ../init.d/lightdm
+lrwxrwxrwx   1 root root   20 Nov 29 01:35 K01nfs-common -> ../init.d/nfs-common
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 K01paxctld -> ../init.d/paxctld
+lrwxrwxrwx   1 root root   17 Nov 29 01:35 K01rpcbind -> ../init.d/rpcbind
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 K01rsyslog -> ../init.d/rsyslog
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 K01triggerhappy -> ../init.d/triggerhappy
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:54 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  702 Nov 29 01:54 includes
+-rw-r--r--   1 root root 2215 Jan  5  2017 xpdfrc
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 1048 Dec 13  2016 man.local
+-rw-r--r--   1 root root 1042 Dec 13  2016 mdoc.local
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 01:22 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Aug 30  2016 triggers.d
+total 48
+drwxr-xr-x   3 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   85 Dec 12  2016 bpf_pinning
+-rw-r--r--   1 root root   75 Dec 12  2016 ematch_map
+-rw-r--r--   1 root root   31 Dec 12  2016 group
+-rw-r--r--   1 root root  264 Dec 12  2016 nl_protos
+-rw-r--r--   1 root root  331 Dec 12  2016 rt_dsfield
+-rw-r--r--   1 root root  326 Dec 12  2016 rt_protos
+-rw-r--r--   1 root root  112 Dec 12  2016 rt_realms
+-rw-r--r--   1 root root   92 Dec 12  2016 rt_scopes
+-rw-r--r--   1 root root   87 Dec 12  2016 rt_tables
+drwxr-xr-x   2 root root 4096 Nov 29 01:16 rt_tables.d
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:35 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   17 May  5  2017 rpcbind
+total 44
+drwxr-xr-x   5 root root 4096 Nov 29 01:10 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 1014 Jul  5  2017 journald.conf
+-rw-r--r--   1 root root 1022 Jul  5  2017 logind.conf
+drwxr-xr-x   2 root root 4096 Nov 29 01:22 network
+-rw-r--r--   1 root root  642 Jul  5  2017 resolved.conf
+drwxr-xr-x  17 root root 4096 Nov 29 02:17 system
+-rw-r--r--   1 root root 1601 Jul  5  2017 system.conf
+-rw-r--r--   1 root root  607 Jul  5  2017 timesyncd.conf
+drwxr-xr-x   2 root root 4096 Jul  5  2017 user
+-rw-r--r--   1 root root 1130 Jul  5  2017 user.conf
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 01:47 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 abstractions
+total 140
+drwxr-xr-x   2 root root 4096 Nov 29 02:56 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rwxr-xr-x   1 root root 5336 Feb  1  2016 alsa-utils
+-rwxr-xr-x   1 root root 2401 Jan 23  2017 avahi-daemon
+-rwxr-xr-x   1 root root 2948 Oct 24  2016 bluetooth
+-rwxr-xr-x   1 root root 1232 Apr  7  2017 console-setup.sh
+-rwxr-xr-x   1 root root 3049 May 19  2015 cron
+-rwxr-xr-x   1 root root 2813 Jul 30  2017 dbus
+-rwxr-xr-x   1 root root 1901 Sep 14  2015 dhcpcd
+-rwxr-xr-x   1 root root 2198 Oct 23  2016 dphys-swapfile
+-rwxr-xr-x   1 root root  824 Sep  5  2014 fake-hwclock
+-rwxr-xr-x   1 root root 3809 Mar 22  2017 hwclock.sh
+-rwxr-xr-x   1 root root 1479 May 19  2016 keyboard-setup.sh
+-rwxr-xr-x   1 root root 2044 Dec 26  2016 kmod
+-rwxr-xr-x   1 root root 2610 Jul 25  2011 lightdm
+-rwxr-xr-x   1 root root 4597 Sep 16  2016 networking
+-rwxr-xr-x   1 root root 5658 Dec 15  2016 nfs-common
+-rwxr-xr-x   1 root root 2786 Dec 18  2014 paxctld
+-rwxr-xr-x   1 root root 1366 Dec 18  2016 plymouth
+-rwxr-xr-x   1 root root  752 Dec 18  2016 plymouth-log
+-rwxr-xr-x   1 root root 1191 Nov 22  2016 procps
+-rwxr-xr-x   1 root root 1210 Jul  4  2017 raspi-config
+-rwxr-xr-x   1 root root 2358 May  5  2017 rpcbind
+-rwxr-xr-x   1 root root 4355 Jul 10  2014 rsync
+-rwxr-xr-x   1 root root 2868 Jan 18  2017 rsyslog
+-rwxr-xr-x   1 root root 4033 Jun 18  2017 ssh
+-rwxr-xr-x   1 root root  731 Jun  5  2017 sudo
+-rwxr-xr-x   1 root root 3217 Aug 30  2016 triggerhappy
+-rwxr-xr-x   1 root root 6087 Jul  5  2017 udev
+-rwxr-xr-x   1 root root 2757 Nov 23  2016 x11-common
+total 24
+drwxr-xr-x   4 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 1426 Nov 26  2016 debug
+-rw-r--r--   1 root root 1735 Nov 26  2016 dhclient.conf
+drwxr-xr-x   2 root root 4096 Nov 29 01:39 dhclient-enter-hooks.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:16 dhclient-exit-hooks.d
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:23 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   30 Nov 29 01:23 idmap-plugin -> /etc/alternatives/idmap-plugin
+total 84
+drwxr-xr-x  11 root root  4096 Nov 29 02:04 .
+drwxr-xr-x 111 root root  4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root  4096 Nov 29 02:05 app-defaults
+-rw-r--r--   1 root root    18 Nov 29 01:49 default-display-manager
+drwxr-xr-x   4 root root  4096 Nov 29 02:12 fonts
+drwxr-xr-x   3 root root  4096 Nov 29 02:04 ja_JP.eucJP
+drwxr-xr-x   3 root root  4096 Nov 29 02:04 ja_JP.UTF-8
+lrwxrwxrwx   1 root root    14 Oct 23 10:13 openbox -> ../xdg/openbox
+-rw-r--r--   1 root root 17394 Nov 23  2016 rgb.txt
+-rw-r--r--   1 root root  1290 Nov 29 02:04 vncserver-virtual.conf
+drwxr-xr-x   2 root root  4096 Nov 29 01:49 xinit
+drwxr-xr-x   2 root root  4096 Jul 18  2017 xkb
+-rwxr-xr-x   1 root root   709 Nov 23  2016 Xreset
+drwxr-xr-x   2 root root  4096 Nov 29 01:49 Xreset.d
+drwxr-xr-x   2 root root  4096 Nov 29 01:54 Xresources
+-rwxr-xr-x   1 root root  3517 Nov 23  2016 Xsession
+drwxr-xr-x   2 root root  4096 Nov 29 02:19 Xsession.d
+-rw-r--r--   1 root root   265 Nov 23  2016 Xsession.options
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rwxr-xr-x   1 root root  723 Dec 13  2016 man-db
+-rw-r--r--   1 root root  102 May 19  2015 .placeholder
+total 8
+drwxr-xr-x   2 root root 4096 Jan 23  2017 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:08 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rwxr-xr-x   1 root root   23 Jul 27  2017 10-uname
+total 24
+drwxr-xr-x   2 root root 4096 Nov 29 02:19 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   20 Mar  2  2017 blacklist-rtl8192cu.conf
+-rw-r--r--   1 root root   19 Mar  2  2017 blacklist-rtl8xxxu.conf
+-rw-r--r--   1 root root   65 Nov 29 01:22 ipv6.conf
+-rw-r--r--   1 root root   16 Mar  8  2009 libpisock9.conf
+-rw-r--r--   1 root root    0 Nov 29 02:19 raspi-blacklist.conf
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:33 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 1130 Apr 10  2017 classid
+-rw-r--r--   1 root root 1532 Apr 10  2017 pktloc
+total 32
+drwxr-xr-x   5 root root 4096 Nov 29 01:10 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Apr 26  2017 conf.d
+drwxr-xr-x   2 root root 4096 Apr 26  2017 hooks
+-rw-r--r--   1 root root 1107 Feb 18  2017 initramfs.conf
+-rw-r--r--   1 root root  246 Nov 29 01:10 modules
+drwxr-xr-x  12 root root 4096 Apr 26  2017 scripts
+-rw-r--r--   1 root root  378 Oct 27  2014 update-initramfs.conf
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:53 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root    0 Apr  5  2017 .placeholder
+total 20
+drwxr-xr-x   5 root root 4096 Nov 29 01:47 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwx------   7 root root 4096 Nov 29 01:47 localauthority
+drwxr-xr-x   2 root root 4096 Nov 29 02:14 localauthority.conf.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 nullbackend.conf.d
+total 8
+drwxr-xr-x   2 root root 4096 Jan 18  2017 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+total 52
+drwxr-xr-x   2 root root  4096 Nov 29 03:34 .
+drwxr-xr-x 111 root root  4096 Feb  6 03:21 ..
+-rwxr-xr-x   1 root root   937 Oct 14 12:18 action_wpa.sh
+-rwxr-xr-x   1 root root 25619 Oct 14 12:18 functions.sh
+-rwxr-xr-x   1 root root  4696 Oct 14 12:18 ifupdown.sh
+-rw-r--r--   1 root root   140 Nov 29 03:34 wpa_supplicant.conf
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:08 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 2041 Dec 30  2016 semanage.conf
+total 20
+drwxr-xr-x   4 root root 4096 Nov 29 01:09 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Jul  5  2017 hwdb.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:29 rules.d
+-rw-r--r--   1 root root  153 Jul  5  2017 udev.conf
+total 24
+drwxr-xr-x   3 root root 4096 Nov 29 02:56 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  234 Nov 29 02:04 config
+drwxr-xr-x   2 root root 4096 Nov 29 02:04 config.d
+lrwxrwxrwx   1 root root   28 Nov 29 02:04 get_primary_ip4 -> /usr/lib/vnc/get_primary_ip4
+lrwxrwxrwx   1 root root   23 Nov 29 02:04 vncelevate -> /usr/lib/vnc/vncelevate
+-rw-r--r--   1 root root 1492 Nov 29 02:04 vncelevatecfg
+-rwxr-xr-x   1 root root 2903 Nov 29 02:04 xstartup
+total 16
+drwxr-xr-x   4 root root 4096 Nov 29 01:26 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Jul 30  2017 session.d
+drwxr-xr-x   2 root root 4096 Nov 29 02:05 system.d
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:29 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  332 Aug 10 19:12 ldap.conf
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 01:25 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:30 mech.d
+total 16
+drwxr-xr-x   3 root root 4096 Nov 29 01:48 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 site-start.d
+-rw-r--r--   1 root root  412 May 21  2014 site-start.el
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   20 Nov 29 01:22 K01alsa-utils -> ../init.d/alsa-utils
+lrwxrwxrwx   1 root root   22 Nov 29 01:37 K01avahi-daemon -> ../init.d/avahi-daemon
+lrwxrwxrwx   1 root root   19 Nov 29 01:35 K01bluetooth -> ../init.d/bluetooth
+lrwxrwxrwx   1 root root   16 Nov 29 01:38 K01dhcpcd -> ../init.d/dhcpcd
+lrwxrwxrwx   1 root root   22 Nov 29 01:29 K01fake-hwclock -> ../init.d/fake-hwclock
+lrwxrwxrwx   1 root root   20 Nov 29 01:09 K01hwclock.sh -> ../init.d/hwclock.sh
+lrwxrwxrwx   1 root root   17 Nov 29 01:49 K01lightdm -> ../init.d/lightdm
+lrwxrwxrwx   1 root root   20 Nov 29 01:17 K01networking -> ../init.d/networking
+lrwxrwxrwx   1 root root   20 Nov 29 01:35 K01nfs-common -> ../init.d/nfs-common
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 K01paxctld -> ../init.d/paxctld
+lrwxrwxrwx   1 root root   18 Nov 29 01:10 K01plymouth -> ../init.d/plymouth
+lrwxrwxrwx   1 root root   17 Nov 29 01:35 K01rpcbind -> ../init.d/rpcbind
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 K01rsyslog -> ../init.d/rsyslog
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 K01triggerhappy -> ../init.d/triggerhappy
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:50 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root    0 Nov 29 01:50 ispell-default
+total 24
+drwxr-xr-x   2 root root 4096 Nov 29 01:33 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  756 Nov 29 01:33 catalog
+-rw-r--r--   1 root root  610 Nov 29 01:33 catalog.old
+-rw-r--r--   1 root root  840 Nov 29 01:33 xml-core.xml
+-rw-r--r--   1 root root  673 Nov 29 01:33 xml-core.xml.old
+total 20
+drwxr-xr-x   5 root root 4096 Nov 29 01:06 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Jul  5  2017 install.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:17 postinst.d
+drwxr-xr-x   2 root root 4096 Nov 29 01:10 postrm.d
+total 20
+drwxr-xr-x   5 root root 4096 Nov 29 01:45 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:48 2
+drwxr-xr-x   2 root root 4096 Nov 29 02:04 gconf.xml.defaults
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 gconf.xml.mandatory
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 01:29 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rwxr-xr-x   1 root root  191 Feb 22  2012 fake-hwclock
+-rw-r--r--   1 root root  102 May 19  2015 .placeholder
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:08 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   10 Jul  5  2017 modules.conf -> ../modules
+total 36
+drwxr-xr-x   2 root root  4096 Nov 29 02:18 .
+drwxr-xr-x 111 root root  4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 14019 Nov 20  2016 dillorc
+-rw-r--r--   1 root root   990 Nov 20  2016 domainrc
+-rw-r--r--   1 root root   175 Nov 20  2016 dpidrc
+-rw-r--r--   1 root root  2943 Nov 20  2016 keysrc
+total 32
+drwxr-xr-x   2 root root 4096 Nov 29 02:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   40 Dec 19  2016 keys.conf
+-rw-r--r--   1 root root 6830 Nov 29 02:16 lightdm.conf
+-rw-r--r--   1 root root 2757 Nov 16  2016 lightdm-gtk-greeter.conf
+-rw-r--r--   1 root root  262 Feb  5 04:10 pi-greeter.conf
+-rw-r--r--   1 root root  452 Dec 19  2016 users.conf
+total 24
+drwxr-xr-x   2 root root  4096 Nov 29 01:53 .
+drwxr-xr-x 111 root root  4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 14050 Sep 14  2016 alsoft.conf
+total 52
+drwxr-xr-x  10 root root 4096 Nov 29 01:54 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 02:16 autostart
+lrwxrwxrwx   1 root root   29 Nov 29 01:54 gstomx.conf -> /etc/alternatives/gstomx.conf
+-rw-r--r--   1 root root 2755 Sep 21 12:22 gstomx-rpi.conf
+drwxr-xr-x   2 root root 4096 Nov 29 01:48 libfm
+drwxr-xr-x   6 root root 4096 Nov 29 02:14 lxpanel
+drwxr-xr-x   4 root root 4096 Nov 29 02:09 lxsession
+drwxr-xr-x   2 root root 4096 Nov 29 02:17 menus
+drwxr-xr-x   3 root root 4096 Nov 29 02:14 openbox
+drwxr-xr-x   5 root root 4096 Nov 29 02:12 pcmanfm
+drwxr-xr-x   2 root root 4096 Nov 29 01:06 systemd
+-rw-r--r--   1 root root  414 Sep 25  2014 user-dirs.conf
+-rw-r--r--   1 root root  418 Sep 25  2014 user-dirs.defaults
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 03:33 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   22 Nov 29 01:37 S01avahi-daemon -> ../init.d/avahi-daemon
+lrwxrwxrwx   1 root root   19 Nov 29 01:35 S01bluetooth -> ../init.d/bluetooth
+lrwxrwxrwx   1 root root   26 Nov 29 01:33 S01console-setup.sh -> ../init.d/console-setup.sh
+lrwxrwxrwx   1 root root   14 Nov 29 01:16 S01cron -> ../init.d/cron
+lrwxrwxrwx   1 root root   14 Nov 29 01:33 S01dbus -> ../init.d/dbus
+lrwxrwxrwx   1 root root   16 Nov 29 01:38 S01dhcpcd -> ../init.d/dhcpcd
+lrwxrwxrwx   1 root root   24 Nov 29 01:35 S01dphys-swapfile -> ../init.d/dphys-swapfile
+lrwxrwxrwx   1 root root   17 Nov 29 01:49 S01lightdm -> ../init.d/lightdm
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 S01paxctld -> ../init.d/paxctld
+lrwxrwxrwx   1 root root   18 Nov 29 01:10 S01plymouth -> ../init.d/plymouth
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01raspi-config -> ../init.d/raspi-config
+lrwxrwxrwx   1 root root   15 Nov 29 01:30 S01rsync -> ../init.d/rsync
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 S01rsyslog -> ../init.d/rsyslog
+lrwxrwxrwx   1 root root   13 Nov 29 01:36 S01ssh -> ../init.d/ssh
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 S01triggerhappy -> ../init.d/triggerhappy
+total 20
+drwxr-xr-x   2 root root 4096 Nov 29 01:22 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  220 May 15  2017 .bash_logout
+-rw-r--r--   1 root root 3523 Nov 29 01:22 .bashrc
+-rw-r--r--   1 root root  675 May 15  2017 .profile
+total 92
+drwxr-xr-x   2 root root 4096 Nov 29 02:05 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  219 Jan 23  2017 avahi-daemon
+-rw-r--r--   1 root root  845 Oct 24  2016 bluetooth
+-rw-r--r--   1 root root  222 Oct 25  2016 bsdmainutils
+-rw-r--r--   1 root root  276 Nov 29 01:37 console-setup
+-rw-r--r--   1 root root  549 Aug 23  2014 crda
+-rw-r--r--   1 root root  955 May 19  2015 cron
+-rw-r--r--   1 root root  297 Jul 30  2017 dbus
+-rw-r--r--   1 root root   84 Mar  5  2012 fake-hwclock
+-rw-r--r--   1 root root  657 Mar 22  2017 hwclock
+-rw-r--r--   1 root root  150 Nov 29 01:29 keyboard
+-rw-r--r--   1 root root   52 Nov 29 01:19 locale
+-rw-r--r--   1 root root  306 Jun  2  2015 networking
+-rw-r--r--   1 root root  793 Dec 15  2016 nfs-common
+-rw-r--r--   1 root root 1756 Jun 15  2017 nss
+-rw-r--r--   1 root root  292 Oct 30 10:38 raspberrypi-kernel
+-rw-r--r--   1 root root 2062 Dec 30  2015 rsync
+-rw-r--r--   1 root root  124 Jan 18  2017 rsyslog
+-rw-r--r--   1 root root  133 Jun 18  2017 ssh
+-rw-r--r--   1 root root  625 Aug  2  2016 timidity
+-rw-r--r--   1 root root  548 Aug 30  2016 triggerhappy
+-rw-r--r--   1 root root 1118 Nov 29 01:37 useradd
+total 8
+drwxr-xr-x   2 root root 4096 Jul  5  2017 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+total 40
+drwxr-xr-x   2 root root 4096 Nov 29 01:17 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rwxr-xr-x   1 root root 1474 Sep 13 16:47 apt-compat
+-rwxr-xr-x   1 root root  314 Apr 18  2017 aptitude
+-rwxr-xr-x   1 root root  355 Oct 25  2016 bsdmainutils
+-rwxr-xr-x   1 root root 1597 Feb 22  2017 dpkg
+-rwxr-xr-x   1 root root   89 May  5  2015 logrotate
+-rwxr-xr-x   1 root root 1065 Dec 13  2016 man-db
+-rwxr-xr-x   1 root root  249 May 17  2017 passwd
+-rw-r--r--   1 root root  102 May 19  2015 .placeholder
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 01:38 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:38 action.d
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:54 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 1201 Jun 18  2017 client.conf
+total 28
+drwxr-xr-x   5 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 02:16 conf.avail
+drwxr-xr-x   2 root root 4096 Nov 29 02:07 conf.d
+-rw-r--r--   1 root root 5776 Aug 24  2016 fonts.conf
+drwxr-xr-x   4 root root 4096 Nov 29 02:16 infinality
+total 144
+drwxr-xr-x   2 root root 4096 Nov 29 01:35 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 2427 Nov 29 01:35 cached_Lat15-Fixed16.psf.gz
+-rwxr-xr-x   1 root root  359 Nov 29 01:38 cached_setup_font.sh
+-rwxr-xr-x   1 root root  358 Nov 29 01:38 cached_setup_keyboard.sh
+-rwxr-xr-x   1 root root   73 Nov 29 01:38 cached_setup_terminal.sh
+-rw-r--r--   1 root root 4446 Nov 29 01:38 cached_UTF-8_del.kmap.gz
+-rw-r--r--   1 root root   34 Apr  7  2017 compose.ARMSCII-8.inc
+-rw-r--r--   1 root root   31 Apr  7  2017 compose.CP1251.inc
+-rw-r--r--   1 root root   31 Apr  7  2017 compose.CP1255.inc
+-rw-r--r--   1 root root   31 Apr  7  2017 compose.CP1256.inc
+-rw-r--r--   1 root root   41 Apr  7  2017 compose.GEORGIAN-ACADEMY.inc
+-rw-r--r--   1 root root   36 Apr  7  2017 compose.GEORGIAN-PS.inc
+-rw-r--r--   1 root root   32 Apr  7  2017 compose.IBM1133.inc
+-rw-r--r--   1 root root   35 Apr  7  2017 compose.ISIRI-3342.inc
+-rw-r--r--   1 root root   36 Apr  7  2017 compose.ISO-8859-10.inc
+-rw-r--r--   1 root root   36 Apr  7  2017 compose.ISO-8859-11.inc
+-rw-r--r--   1 root root 3737 Apr  7  2017 compose.ISO-8859-13.inc
+-rw-r--r--   1 root root 3020 Apr  7  2017 compose.ISO-8859-14.inc
+-rw-r--r--   1 root root 3552 Apr  7  2017 compose.ISO-8859-15.inc
+-rw-r--r--   1 root root   36 Apr  7  2017 compose.ISO-8859-16.inc
+-rw-r--r--   1 root root 3596 Apr  7  2017 compose.ISO-8859-1.inc
+-rw-r--r--   1 root root 2893 Apr  7  2017 compose.ISO-8859-2.inc
+-rw-r--r--   1 root root 3387 Apr  7  2017 compose.ISO-8859-3.inc
+-rw-r--r--   1 root root 2805 Apr  7  2017 compose.ISO-8859-4.inc
+-rw-r--r--   1 root root   35 Apr  7  2017 compose.ISO-8859-5.inc
+-rw-r--r--   1 root root   35 Apr  7  2017 compose.ISO-8859-6.inc
+-rw-r--r--   1 root root 1217 Apr  7  2017 compose.ISO-8859-7.inc
+-rw-r--r--   1 root root   35 Apr  7  2017 compose.ISO-8859-8.inc
+-rw-r--r--   1 root root 3617 Apr  7  2017 compose.ISO-8859-9.inc
+-rw-r--r--   1 root root   31 Apr  7  2017 compose.KOI8-R.inc
+-rw-r--r--   1 root root   31 Apr  7  2017 compose.KOI8-U.inc
+-rw-r--r--   1 root root   32 Apr  7  2017 compose.TIS-620.inc
+-rw-r--r--   1 root root   31 Apr  7  2017 compose.VISCII.inc
+-rw-r--r--   1 root root 1359 Apr  7  2017 remap.inc
+total 36
+drwxr-xr-x   6 root root 4096 Nov 29 02:56 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 02:56 apt.conf.d
+-rw-r--r--   1 root root  104 Nov 29 01:37 listchanges.conf
+drwxr-xr-x   2 root root 4096 Sep 13 16:47 preferences.d
+-rw-r--r--   1 root root  236 Nov 29 01:18 sources.list
+drwxr-xr-x   2 root root 4096 Nov 29 02:56 sources.list.d
+-rw-r--r--   1 root root 2416 Nov 29 01:18 trusted.gpg
+drwxr-xr-x   2 root root 4096 Sep 13 16:47 trusted.gpg.d
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root   20 Nov 29 01:22 K01alsa-utils -> ../init.d/alsa-utils
+lrwxrwxrwx   1 root root   22 Nov 29 01:37 K01avahi-daemon -> ../init.d/avahi-daemon
+lrwxrwxrwx   1 root root   19 Nov 29 01:35 K01bluetooth -> ../init.d/bluetooth
+lrwxrwxrwx   1 root root   16 Nov 29 01:38 K01dhcpcd -> ../init.d/dhcpcd
+lrwxrwxrwx   1 root root   22 Nov 29 01:29 K01fake-hwclock -> ../init.d/fake-hwclock
+lrwxrwxrwx   1 root root   20 Nov 29 01:09 K01hwclock.sh -> ../init.d/hwclock.sh
+lrwxrwxrwx   1 root root   17 Nov 29 01:49 K01lightdm -> ../init.d/lightdm
+lrwxrwxrwx   1 root root   20 Nov 29 01:17 K01networking -> ../init.d/networking
+lrwxrwxrwx   1 root root   20 Nov 29 01:35 K01nfs-common -> ../init.d/nfs-common
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 K01paxctld -> ../init.d/paxctld
+lrwxrwxrwx   1 root root   18 Nov 29 01:10 K01plymouth -> ../init.d/plymouth
+lrwxrwxrwx   1 root root   17 Nov 29 01:35 K01rpcbind -> ../init.d/rpcbind
+lrwxrwxrwx   1 root root   17 Nov 29 01:16 K01rsyslog -> ../init.d/rsyslog
+lrwxrwxrwx   1 root root   22 Nov 29 01:22 K01triggerhappy -> ../init.d/triggerhappy
+total 8
+drwxr-xr-x   2 root root 4096 Nov 29 01:06 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  102 May 19  2015 .placeholder
+total 16
+drwxr-xr-x   2 root root 4096 Nov 29 02:05 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  706 Mar  8  2017 PackageKit.conf
+-rw-r--r--   1 root root 1880 Mar  8  2017 Vendor.conf
+total 12
+drwxr-xr-x   3 root root 4096 Nov 29 01:26 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+drwxr-xr-x   2 root root 4096 Nov 29 01:36 applications.d
+total 8
+drwxr-xr-x   2 root root 4096 Jul  5  2017 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+total 112
+drwxr-xr-x   2 root root 4096 Nov 29 02:04 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  384 May 17  2017 chfn
+-rw-r--r--   1 root root   92 May 17  2017 chpasswd
+-rw-r--r--   1 root root  581 May 17  2017 chsh
+-rw-r--r--   1 root root 1208 Nov 29 01:36 common-account
+-rw-r--r--   1 root root 1221 Nov 29 01:36 common-auth
+-rw-r--r--   1 root root 1440 Nov 29 01:36 common-password
+-rw-r--r--   1 root root 1224 Nov 29 01:36 common-session
+-rw-r--r--   1 root root 1154 Nov 29 01:36 common-session-noninteractive
+-rw-r--r--   1 root root  606 May 19  2015 cron
+-rw-r--r--   1 root root 1354 Dec 19  2016 lightdm
+-rw-r--r--   1 root root 1428 Dec 19  2016 lightdm-autologin
+-rw-r--r--   1 root root  493 Dec 19  2016 lightdm-greeter
+-rw-r--r--   1 root root 4945 May 17  2017 login
+-rw-r--r--   1 root root   92 May 17  2017 newusers
+-rw-r--r--   1 root root  520 May 27  2017 other
+-rw-r--r--   1 root root   92 May 17  2017 passwd
+-rw-r--r--   1 root root  270 May 24  2017 polkit-1
+-rw-r--r--   1 root root  143 Mar 22  2017 runuser
+-rw-r--r--   1 root root  138 Mar 22  2017 runuser-l
+-rw-r--r--   1 root root   84 Oct  4 19:02 samba
+-rw-r--r--   1 root root 2133 Jun 18  2017 sshd
+-rw-r--r--   1 root root 2257 May 17  2017 su
+-rw-r--r--   1 root root   95 Jun  5  2017 sudo
+-rw-r--r--   1 root root  317 Jul  5  2017 systemd-user
+-rw-r--r--   1 root root  504 Nov 29 02:04 vncserver
+total 148
+drwxr-xr-x   2 root root 12288 Nov 29 02:18 .
+drwxr-xr-x 111 root root  4096 Feb  6 03:21 ..
+lrwxrwxrwx   1 root root    57 Nov 29 02:13 appletviewer -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/appletviewer
+lrwxrwxrwx   1 root root    67 Nov 29 02:13 appletviewer.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/appletviewer.1.gz
+lrwxrwxrwx   1 root root    24 Nov 29 01:17 aptitude -> /usr/bin/aptitude-curses
+lrwxrwxrwx   1 root root    40 Nov 29 01:17 aptitude.8.gz -> /usr/share/man/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.cs.8.gz -> /usr/share/man/cs/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.de.8.gz -> /usr/share/man/de/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.es.8.gz -> /usr/share/man/es/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.fi.8.gz -> /usr/share/man/fi/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.fr.8.gz -> /usr/share/man/fr/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.gl.8.gz -> /usr/share/man/gl/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.it.8.gz -> /usr/share/man/it/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.ja.8.gz -> /usr/share/man/ja/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    43 Nov 29 01:17 aptitude.pl.8.gz -> /usr/share/man/pl/man8/aptitude-curses.8.gz
+lrwxrwxrwx   1 root root    13 Nov 29 01:07 awk -> /usr/bin/mawk
+lrwxrwxrwx   1 root root    29 Nov 29 01:07 awk.1.gz -> /usr/share/man/man1/mawk.1.gz
+lrwxrwxrwx   1 root root    38 Nov 29 01:09 builtins.7.gz -> /usr/share/man/man7/bash-builtins.7.gz
+lrwxrwxrwx   1 root root    12 Nov 29 01:36 c++ -> /usr/bin/g++
+lrwxrwxrwx   1 root root    16 Nov 29 01:36 c89 -> /usr/bin/c89-gcc
+lrwxrwxrwx   1 root root    32 Nov 29 01:36 c89.1.gz -> /usr/share/man/man1/c89-gcc.1.gz
+lrwxrwxrwx   1 root root    16 Nov 29 01:36 c99 -> /usr/bin/c99-gcc
+lrwxrwxrwx   1 root root    32 Nov 29 01:36 c99.1.gz -> /usr/share/man/man1/c99-gcc.1.gz
+lrwxrwxrwx   1 root root    12 Nov 29 01:36 cc -> /usr/bin/gcc
+lrwxrwxrwx   1 root root    12 Nov 29 01:35 cpp -> /usr/bin/cpp
+lrwxrwxrwx   1 root root    76 Nov 29 01:53 desktop-background -> /usr/share/desktop-base/active-theme/wallpaper/contents/images/1920x1080.svg
+lrwxrwxrwx   1 root root    67 Nov 29 01:53 desktop-background.xml -> /usr/share/desktop-base/active-theme/wallpaper/gnome-background.xml
+lrwxrwxrwx   1 root root    54 Nov 29 01:53 desktop-grub -> /usr/share/desktop-base/active-theme/grub/grub-4x3.png
+lrwxrwxrwx   1 root root    60 Nov 29 01:53 desktop-grub.sh -> /usr/share/desktop-base/active-theme/grub/grub_background.sh
+lrwxrwxrwx   1 root root    68 Nov 29 01:53 desktop-lockscreen.xml -> /usr/share/desktop-base/active-theme/lockscreen/gnome-background.xml
+lrwxrwxrwx   1 root root    57 Nov 29 01:53 desktop-login-background -> /usr/share/desktop-base/active-theme/login/background.svg
+lrwxrwxrwx   1 root root    46 Nov 29 01:53 desktop-plasma5-wallpaper -> /usr/share/desktop-base/active-theme/wallpaper
+lrwxrwxrwx   1 root root    39 Nov 29 01:53 desktop-theme -> /usr/share/desktop-base/softwaves-theme
+lrwxrwxrwx   1 root root    13 Nov 29 01:38 dhcpcd -> /sbin/dhcpcd5
+lrwxrwxrwx   1 root root    32 Nov 29 01:38 dhcpcd.8.gz -> /usr/share/man/man8/dhcpcd5.8.gz
+lrwxrwxrwx   1 root root     9 Nov 29 01:16 editor -> /bin/nano
+lrwxrwxrwx   1 root root    29 Nov 29 01:16 editor.1.gz -> /usr/share/man/man1/nano.1.gz
+lrwxrwxrwx   1 root root    17 Nov 29 01:16 ex -> /usr/bin/vim.tiny
+lrwxrwxrwx   1 root root    28 Nov 29 01:16 ex.1.gz -> /usr/share/man/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 ex.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 ex.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 ex.ja.1.gz -> /usr/share/man/ja/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 ex.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 ex.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+lrwxrwxrwx   1 root root    53 Nov 29 02:13 extcheck -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/extcheck
+lrwxrwxrwx   1 root root    63 Nov 29 02:13 extcheck.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/extcheck.1.gz
+lrwxrwxrwx   1 root root    35 Nov 29 01:36 faked.1.gz -> /usr/share/man/man1/faked-sysv.1.gz
+lrwxrwxrwx   1 root root    38 Nov 29 01:36 faked.es.1.gz -> /usr/share/man/es/man1/faked-sysv.1.gz
+lrwxrwxrwx   1 root root    38 Nov 29 01:36 faked.fr.1.gz -> /usr/share/man/fr/man1/faked-sysv.1.gz
+lrwxrwxrwx   1 root root    38 Nov 29 01:36 faked.sv.1.gz -> /usr/share/man/sv/man1/faked-sysv.1.gz
+lrwxrwxrwx   1 root root    22 Nov 29 01:36 fakeroot -> /usr/bin/fakeroot-sysv
+lrwxrwxrwx   1 root root    38 Nov 29 01:36 fakeroot.1.gz -> /usr/share/man/man1/fakeroot-sysv.1.gz
+lrwxrwxrwx   1 root root    41 Nov 29 01:36 fakeroot.es.1.gz -> /usr/share/man/es/man1/fakeroot-sysv.1.gz
+lrwxrwxrwx   1 root root    41 Nov 29 01:36 fakeroot.fr.1.gz -> /usr/share/man/fr/man1/fakeroot-sysv.1.gz
+lrwxrwxrwx   1 root root    41 Nov 29 01:36 fakeroot.sv.1.gz -> /usr/share/man/sv/man1/fakeroot-sysv.1.gz
+lrwxrwxrwx   1 root root    17 Nov 29 01:16 from -> /usr/bin/bsd-from
+lrwxrwxrwx   1 root root    33 Nov 29 01:16 from.1.gz -> /usr/share/man/man1/bsd-from.1.gz
+lrwxrwxrwx   1 root root    16 Nov 29 01:49 gnome-text-editor -> /usr/bin/leafpad
+lrwxrwxrwx   1 root root    32 Nov 29 01:49 gnome-text-editor.1.gz -> /usr/share/man/man1/leafpad.1.gz
+lrwxrwxrwx   1 root root    25 Nov 29 01:54 gnome-www-browser -> /usr/bin/chromium-browser
+lrwxrwxrwx   1 root root    24 Nov 29 01:54 gstomx.conf -> /etc/xdg/gstomx-rpi.conf
+lrwxrwxrwx   1 root root    49 Nov 29 02:13 idlj -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/idlj
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 idlj.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/idlj.1.gz
+lrwxrwxrwx   1 root root    50 Nov 29 01:23 idmap-plugin -> /usr/lib/arm-linux-gnueabihf/cifs-utils/idmapwb.so
+lrwxrwxrwx   1 root root    32 Nov 29 01:23 idmap-plugin.8.gz -> /usr/share/man/man8/idmapwb.8.gz
+lrwxrwxrwx   1 root root    13 Nov 29 01:16 infobrowser -> /usr/bin/info
+lrwxrwxrwx   1 root root    29 Nov 29 01:16 infobrowser.1.gz -> /usr/share/man/man1/info.1.gz
+lrwxrwxrwx   1 root root    48 Nov 29 02:13 jar -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jar
+lrwxrwxrwx   1 root root    58 Nov 29 02:13 jar.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jar.1.gz
+lrwxrwxrwx   1 root root    54 Nov 29 02:13 jarsigner -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jarsigner
+lrwxrwxrwx   1 root root    64 Nov 29 02:13 jarsigner.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jarsigner.1.gz
+lrwxrwxrwx   1 root root    53 Nov 29 02:13 java -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/java
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 java.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/java.1.gz
+lrwxrwxrwx   1 root root    50 Nov 29 02:13 javac -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/javac
+lrwxrwxrwx   1 root root    60 Nov 29 02:13 javac.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/javac.1.gz
+lrwxrwxrwx   1 root root    52 Nov 29 02:13 javadoc -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/javadoc
+lrwxrwxrwx   1 root root    62 Nov 29 02:13 javadoc.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/javadoc.1.gz
+lrwxrwxrwx   1 root root    50 Nov 29 02:13 javah -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/javah
+lrwxrwxrwx   1 root root    60 Nov 29 02:13 javah.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/javah.1.gz
+lrwxrwxrwx   1 root root    50 Nov 29 02:13 javap -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/javap
+lrwxrwxrwx   1 root root    60 Nov 29 02:13 javap.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/javap.1.gz
+lrwxrwxrwx   1 root root    49 Nov 29 02:13 jcmd -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jcmd
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 jcmd.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jcmd.1.gz
+lrwxrwxrwx   1 root root    53 Nov 29 02:13 jconsole -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jconsole
+lrwxrwxrwx   1 root root    63 Nov 29 02:13 jconsole.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jconsole.1.gz
+lrwxrwxrwx   1 root root    48 Nov 29 02:13 jdb -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jdb
+lrwxrwxrwx   1 root root    58 Nov 29 02:13 jdb.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jdb.1.gz
+lrwxrwxrwx   1 root root    50 Nov 29 02:13 jdeps -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jdeps
+lrwxrwxrwx   1 root root    60 Nov 29 02:13 jdeps.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jdeps.1.gz
+lrwxrwxrwx   1 root root    54 Nov 29 02:13 jexec -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/lib/jexec
+lrwxrwxrwx   1 root root    49 Nov 29 02:13 jhat -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jhat
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 jhat.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jhat.1.gz
+lrwxrwxrwx   1 root root    50 Nov 29 02:13 jinfo -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jinfo
+lrwxrwxrwx   1 root root    60 Nov 29 02:13 jinfo.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jinfo.1.gz
+lrwxrwxrwx   1 root root    49 Nov 29 02:13 jmap -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jmap
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 jmap.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jmap.1.gz
+lrwxrwxrwx   1 root root    48 Nov 29 02:13 jps -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jps
+lrwxrwxrwx   1 root root    58 Nov 29 02:13 jps.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jps.1.gz
+lrwxrwxrwx   1 root root    55 Nov 29 02:13 jrunscript -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jrunscript
+lrwxrwxrwx   1 root root    65 Nov 29 02:13 jrunscript.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jrunscript.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 02:18 js -> /usr/bin/nodejs
+lrwxrwxrwx   1 root root    31 Nov 29 02:18 js.1.gz -> /usr/share/man/man1/nodejs.1.gz
+lrwxrwxrwx   1 root root    54 Nov 29 02:13 jsadebugd -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jsadebugd
+lrwxrwxrwx   1 root root    64 Nov 29 02:13 jsadebugd.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jsadebugd.1.gz
+lrwxrwxrwx   1 root root    51 Nov 29 02:13 jstack -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jstack
+lrwxrwxrwx   1 root root    61 Nov 29 02:13 jstack.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jstack.1.gz
+lrwxrwxrwx   1 root root    50 Nov 29 02:13 jstat -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jstat
+lrwxrwxrwx   1 root root    60 Nov 29 02:13 jstat.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jstat.1.gz
+lrwxrwxrwx   1 root root    51 Nov 29 02:13 jstatd -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/jstatd
+lrwxrwxrwx   1 root root    61 Nov 29 02:13 jstatd.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/jstatd.1.gz
+lrwxrwxrwx   1 root root    56 Nov 29 02:13 keytool -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/keytool
+lrwxrwxrwx   1 root root    62 Nov 29 02:13 keytool.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/keytool.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:16 lft -> /usr/bin/lft.db
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 lft.1.gz -> /usr/share/man/man1/lft.db.1.gz
+lrwxrwxrwx   1 root root    29 Nov 29 02:04 libblas.so.3 -> /usr/lib/libblas/libblas.so.3
+lrwxrwxrwx   1 root root    53 Nov 29 02:14 libgksu-gconf-defaults -> /usr/share/libgksu/debian/gconf-defaults.libgksu-sudo
+lrwxrwxrwx   1 root root    59 Nov 29 01:54 libgstomx-arm-linux-gnueabihf.so -> /usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libgstomx-rpi.so
+lrwxrwxrwx   1 root root    30 Nov 29 02:05 liblapack.so.3 -> /usr/lib/lapack/liblapack.so.3
+lrwxrwxrwx   1 root root    48 Nov 29 02:14 libtxc-dxtn-arm-linux-gnueabihf -> /usr/lib/arm-linux-gnueabihf/s2tc/libtxc_dxtn.so
+lrwxrwxrwx   1 root root    39 Nov 29 02:16 lightdm-greeter -> /usr/share/xgreeters/pi-greeter.desktop
+lrwxrwxrwx   1 root root    16 Nov 29 01:22 lua-compiler -> /usr/bin/luac5.1
+lrwxrwxrwx   1 root root    32 Nov 29 01:22 lua-compiler-manual -> /usr/share/man/man1/luac5.1.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:22 lua-interpreter -> /usr/bin/lua5.1
+lrwxrwxrwx   1 root root    31 Nov 29 01:22 lua-manual -> /usr/share/man/man1/lua5.1.1.gz
+lrwxrwxrwx   1 root root    14 Nov 29 01:08 lzcat -> /usr/bin/xzcat
+lrwxrwxrwx   1 root root    30 Nov 29 01:08 lzcat.1.gz -> /usr/share/man/man1/xzcat.1.gz
+lrwxrwxrwx   1 root root    14 Nov 29 01:08 lzcmp -> /usr/bin/xzcmp
+lrwxrwxrwx   1 root root    30 Nov 29 01:08 lzcmp.1.gz -> /usr/share/man/man1/xzcmp.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:08 lzdiff -> /usr/bin/xzdiff
+lrwxrwxrwx   1 root root    31 Nov 29 01:08 lzdiff.1.gz -> /usr/share/man/man1/xzdiff.1.gz
+lrwxrwxrwx   1 root root    16 Nov 29 01:08 lzegrep -> /usr/bin/xzegrep
+lrwxrwxrwx   1 root root    32 Nov 29 01:08 lzegrep.1.gz -> /usr/share/man/man1/xzegrep.1.gz
+lrwxrwxrwx   1 root root    16 Nov 29 01:08 lzfgrep -> /usr/bin/xzfgrep
+lrwxrwxrwx   1 root root    32 Nov 29 01:08 lzfgrep.1.gz -> /usr/share/man/man1/xzfgrep.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:08 lzgrep -> /usr/bin/xzgrep
+lrwxrwxrwx   1 root root    31 Nov 29 01:08 lzgrep.1.gz -> /usr/share/man/man1/xzgrep.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:08 lzless -> /usr/bin/xzless
+lrwxrwxrwx   1 root root    31 Nov 29 01:08 lzless.1.gz -> /usr/share/man/man1/xzless.1.gz
+lrwxrwxrwx   1 root root    11 Nov 29 01:08 lzma -> /usr/bin/xz
+lrwxrwxrwx   1 root root    27 Nov 29 01:08 lzma.1.gz -> /usr/share/man/man1/xz.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:08 lzmore -> /usr/bin/xzmore
+lrwxrwxrwx   1 root root    31 Nov 29 01:08 lzmore.1.gz -> /usr/share/man/man1/xzmore.1.gz
+lrwxrwxrwx   1 root root    11 Nov 29 01:08 mt -> /bin/mt-gnu
+lrwxrwxrwx   1 root root    31 Nov 29 01:08 mt.1.gz -> /usr/share/man/man1/mt-gnu.1.gz
+lrwxrwxrwx   1 root root    57 Nov 29 02:13 native2ascii -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/native2ascii
+lrwxrwxrwx   1 root root    67 Nov 29 02:13 native2ascii.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/native2ascii.1.gz
+lrwxrwxrwx   1 root root    13 Nov 29 01:07 nawk -> /usr/bin/mawk
+lrwxrwxrwx   1 root root    29 Nov 29 01:07 nawk.1.gz -> /usr/share/man/man1/mawk.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:16 nc -> /bin/nc.openbsd
+lrwxrwxrwx   1 root root    35 Nov 29 01:16 nc.1.gz -> /usr/share/man/man1/nc_openbsd.1.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:16 netcat -> /bin/nc.openbsd
+lrwxrwxrwx   1 root root    35 Nov 29 01:16 netcat.1.gz -> /usr/share/man/man1/nc_openbsd.1.gz
+lrwxrwxrwx   1 root root    20 Nov 29 01:49 netsurf-browser -> /usr/bin/netsurf-gtk
+lrwxrwxrwx   1 root root    36 Nov 29 01:49 netsurf-manual -> /usr/share/man/man1/netsurf-gtk.1.gz
+lrwxrwxrwx   1 root root    53 Nov 29 02:13 orbd -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/orbd
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 orbd.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/orbd.1.gz
+lrwxrwxrwx   1 root root    56 Nov 29 02:13 pack200 -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/pack200
+lrwxrwxrwx   1 root root    62 Nov 29 02:13 pack200.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/pack200.1.gz
+lrwxrwxrwx   1 root root     9 Nov 29 01:16 pager -> /bin/less
+lrwxrwxrwx   1 root root    29 Nov 29 01:16 pager.1.gz -> /usr/share/man/man1/less.1.gz
+lrwxrwxrwx   1 root root     9 Nov 29 01:16 pico -> /bin/nano
+lrwxrwxrwx   1 root root    29 Nov 29 01:16 pico.1.gz -> /usr/share/man/man1/nano.1.gz
+lrwxrwxrwx   1 root root    24 Nov 29 01:17 pinentry -> /usr/bin/pinentry-curses
+lrwxrwxrwx   1 root root    40 Nov 29 01:17 pinentry.1.gz -> /usr/share/man/man1/pinentry-curses.1.gz
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 policytool -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/policytool
+lrwxrwxrwx   1 root root    65 Nov 29 02:13 policytool.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/policytool.1.gz
+lrwxrwxrwx   1 root root    12 Nov 29 01:35 rcp -> /usr/bin/scp
+lrwxrwxrwx   1 root root    28 Nov 29 01:35 rcp.1.gz -> /usr/share/man/man1/scp.1.gz
+-rw-r--r--   1 root root   100 May 17  2017 README
+lrwxrwxrwx   1 root root    20 Nov 29 01:35 rename -> /usr/bin/file-rename
+lrwxrwxrwx   1 root root    37 Nov 29 01:35 rename.1.gz -> /usr/share/man/man1/file-rename.1p.gz
+lrwxrwxrwx   1 root root    15 Nov 29 01:35 rlogin -> /usr/bin/slogin
+lrwxrwxrwx   1 root root    31 Nov 29 01:35 rlogin.1.gz -> /usr/share/man/man1/slogin.1.gz
+lrwxrwxrwx   1 root root    49 Nov 29 02:13 rmic -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/rmic
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 rmic.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/rmic.1.gz
+lrwxrwxrwx   1 root root    53 Nov 29 02:13 rmid -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/rmid
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 rmid.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/rmid.1.gz
+lrwxrwxrwx   1 root root    60 Nov 29 02:13 rmiregistry -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/rmiregistry
+lrwxrwxrwx   1 root root    66 Nov 29 02:13 rmiregistry.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/rmiregistry.1.gz
+lrwxrwxrwx   1 root root    17 Nov 29 01:09 rmt -> /usr/sbin/rmt-tar
+lrwxrwxrwx   1 root root    32 Nov 29 01:09 rmt.8.gz -> /usr/share/man/man8/rmt-tar.8.gz
+lrwxrwxrwx   1 root root    12 Nov 29 01:35 rsh -> /usr/bin/ssh
+lrwxrwxrwx   1 root root    28 Nov 29 01:35 rsh.1.gz -> /usr/share/man/man1/ssh.1.gz
+lrwxrwxrwx   1 root root    17 Nov 29 01:16 rview -> /usr/bin/vim.tiny
+lrwxrwxrwx   1 root root    54 Nov 29 02:13 schemagen -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/schemagen
+lrwxrwxrwx   1 root root    64 Nov 29 02:13 schemagen.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/schemagen.1.gz
+lrwxrwxrwx   1 root root    54 Nov 29 02:13 serialver -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/serialver
+lrwxrwxrwx   1 root root    64 Nov 29 02:13 serialver.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/serialver.1.gz
+lrwxrwxrwx   1 root root    59 Nov 29 02:13 servertool -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/servertool
+lrwxrwxrwx   1 root root    65 Nov 29 02:13 servertool.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/servertool.1.gz
+lrwxrwxrwx   1 root root    52 Nov 29 01:49 start-here-16.png -> /usr/share/icons/gnome/16x16/places/debian-swirl.png
+lrwxrwxrwx   1 root root    52 Nov 29 01:49 start-here-22.png -> /usr/share/icons/gnome/22x22/places/debian-swirl.png
+lrwxrwxrwx   1 root root    52 Nov 29 01:49 start-here-24.png -> /usr/share/icons/gnome/24x24/places/debian-swirl.png
+lrwxrwxrwx   1 root root    54 Nov 29 01:49 start-here-256.png -> /usr/share/icons/gnome/256x256/places/debian-swirl.png
+lrwxrwxrwx   1 root root    52 Nov 29 01:49 start-here-32.png -> /usr/share/icons/gnome/32x32/places/debian-swirl.png
+lrwxrwxrwx   1 root root    52 Nov 29 01:49 start-here-48.png -> /usr/share/icons/gnome/48x48/places/debian-swirl.png
+lrwxrwxrwx   1 root root    55 Nov 29 01:49 start-here.svg -> /usr/share/icons/gnome/scalable/places/debian-swirl.svg
+lrwxrwxrwx   1 root root    26 Nov 29 01:16 tcptraceroute -> /usr/sbin/tcptraceroute.db
+lrwxrwxrwx   1 root root    41 Nov 29 01:16 tcptraceroute.8.gz -> /usr/share/man/man8/tcptraceroute.db.8.gz
+lrwxrwxrwx   1 root root    58 Nov 29 02:13 tnameserv -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/tnameserv
+lrwxrwxrwx   1 root root    64 Nov 29 02:13 tnameserv.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/tnameserv.1.gz
+lrwxrwxrwx   1 root root    22 Nov 29 01:16 traceproto -> /usr/bin/traceproto.db
+lrwxrwxrwx   1 root root    38 Nov 29 01:16 traceproto.1.gz -> /usr/share/man/man1/traceproto.db.1.gz
+lrwxrwxrwx   1 root root    22 Nov 29 01:16 traceroute -> /usr/bin/traceroute.db
+lrwxrwxrwx   1 root root    38 Nov 29 01:16 traceroute.1.gz -> /usr/share/man/man1/traceroute.db.1.gz
+lrwxrwxrwx   1 root root    23 Nov 29 01:16 traceroute6 -> /usr/bin/traceroute6.db
+lrwxrwxrwx   1 root root    39 Nov 29 01:16 traceroute6.1.gz -> /usr/share/man/man1/traceroute6.db.1.gz
+lrwxrwxrwx   1 root root    22 Nov 29 01:16 traceroute.sbin -> /usr/bin/traceroute.db
+lrwxrwxrwx   1 root root    13 Nov 29 01:08 unlzma -> /usr/bin/unxz
+lrwxrwxrwx   1 root root    29 Nov 29 01:08 unlzma.1.gz -> /usr/share/man/man1/unxz.1.gz
+lrwxrwxrwx   1 root root    58 Nov 29 02:13 unpack200 -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/jre/bin/unpack200
+lrwxrwxrwx   1 root root    64 Nov 29 02:13 unpack200.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/unpack200.1.gz
+lrwxrwxrwx   1 root root    17 Nov 29 01:16 vi -> /usr/bin/vim.tiny
+lrwxrwxrwx   1 root root    28 Nov 29 01:16 vi.1.gz -> /usr/share/man/man1/vim.1.gz
+lrwxrwxrwx   1 root root    17 Nov 29 01:16 view -> /usr/bin/vim.tiny
+lrwxrwxrwx   1 root root    28 Nov 29 01:16 view.1.gz -> /usr/share/man/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 view.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 view.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 view.ja.1.gz -> /usr/share/man/ja/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 view.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 view.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 vi.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 vi.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 vi.ja.1.gz -> /usr/share/man/ja/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 vi.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+lrwxrwxrwx   1 root root    31 Nov 29 01:16 vi.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+lrwxrwxrwx   1 root root    17 Nov 29 01:09 w -> /usr/bin/w.procps
+lrwxrwxrwx   1 root root    33 Nov 29 01:09 w.1.gz -> /usr/share/man/man1/w.procps.1.gz
+lrwxrwxrwx   1 root root    18 Nov 29 01:16 write -> /usr/bin/bsd-write
+lrwxrwxrwx   1 root root    34 Nov 29 01:16 write.1.gz -> /usr/share/man/man1/bsd-write.1.gz
+lrwxrwxrwx   1 root root    50 Nov 29 02:13 wsgen -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/wsgen
+lrwxrwxrwx   1 root root    60 Nov 29 02:13 wsgen.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/wsgen.1.gz
+lrwxrwxrwx   1 root root    53 Nov 29 02:13 wsimport -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/wsimport
+lrwxrwxrwx   1 root root    63 Nov 29 02:13 wsimport.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/wsimport.1.gz
+lrwxrwxrwx   1 root root    37 Nov 29 01:49 x-cursor-theme -> /usr/share/icons/Adwaita/cursor.theme
+lrwxrwxrwx   1 root root    48 Nov 29 02:13 xjc -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/bin/xjc
+lrwxrwxrwx   1 root root    58 Nov 29 02:13 xjc.1.gz -> /usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/man/man1/xjc.1.gz
+lrwxrwxrwx   1 root root    21 Nov 29 02:14 x-session-manager -> /usr/bin/startlxde-pi
+lrwxrwxrwx   1 root root    34 Nov 29 02:14 x-session-manager.1.gz -> /usr/share/man/man1/startlxde.1.gz
+lrwxrwxrwx   1 root root    19 Nov 29 01:49 x-terminal-emulator -> /usr/bin/lxterminal
+lrwxrwxrwx   1 root root    35 Nov 29 01:49 x-terminal-emulator.1.gz -> /usr/share/man/man1/lxterminal.1.gz
+lrwxrwxrwx   1 root root    16 Nov 29 01:49 x-window-manager -> /usr/bin/openbox
+lrwxrwxrwx   1 root root    32 Nov 29 01:49 x-window-manager.1.gz -> /usr/share/man/man1/openbox.1.gz
+lrwxrwxrwx   1 root root    25 Nov 29 01:54 x-www-browser -> /usr/bin/chromium-browser
+total 12
+drwxr-xr-x   2 root root 4096 Nov 29 01:25 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root  155 Jan 19  2017 sitecustomize.py
+total 60
+drwxr-xr-x   2 root root  4096 Nov 29 02:16 .
+drwxr-xr-x 111 root root  4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root   663 Apr 12  2016 bash_completion.sh
+-rw-r--r--   1 root root 42845 Jan  5  2013 infinality-settings.sh
+-rw-r--r--   1 root root   324 Jun 13  2017 sshpwd.sh
+total 20
+drwxr-xr-x   2 root root 4096 Nov 29 02:05 .
+drwxr-xr-x 111 root root 4096 Feb  6 03:21 ..
+-rw-r--r--   1 root root 4655 Aug 10  2006 freepats.cfg
+-rw-r--r--   1 root root 1185 Aug  2  2016 timidity.cfg
+total 8
+drwxr-xr-x 2 root root 4096 Nov 29 02:17 .
+drwxr-xr-x 4 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx 1 root root   42 Nov 29 02:17 90-javascript-alias.conf -> ../conf-available/90-javascript-alias.conf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 02:17 .
+drwxr-xr-x 4 root root 4096 Nov 29 02:17 ..
+-rw-r--r-- 1 root root   56 Jul 28  2013 90-javascript-alias.conf
+total 8
+drwxr-xr-x 2 root root 4096 Jan 23  2017 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:36 ..
+total 8
+drwx------ 2 root root 4096 Nov  2 11:29 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:30 ..
+total 852
+drwxr-xr-x 2 root root  20480 Nov 29 01:37 .
+drwxr-xr-x 4 root root   4096 Nov 29 01:30 ..
+lrwxrwxrwx 1 root root     26 Nov 29 01:35 00673b5b.0 -> thawte_Primary_Root_CA.pem
+lrwxrwxrwx 1 root root     45 Nov 29 01:34 02265526.0 -> Entrust_Root_Certification_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     29 Nov 29 01:34 024dc131.0 -> Microsec_e-Szigno_Root_CA.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 02756ea4.0 -> Certplus_Root_CA_G1.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 02b73561.0 -> Comodo_Secure_Services_root.pem
+lrwxrwxrwx 1 root root     36 Nov 29 01:34 03179a64.0 -> Staat_der_Nederlanden_EV_Root_CA.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 034868d6.0 -> Swisscom_Root_EV_CA_2.pem
+lrwxrwxrwx 1 root root     41 Nov 29 01:34 04f60c28.0 -> USERTrust_ECC_Certification_Authority.pem
+lrwxrwxrwx 1 root root     40 Nov 29 01:34 052e396b.0 -> AddTrust_Qualified_Certificates_Root.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 062cdee6.0 -> GlobalSign_Root_CA_-_R3.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 064e0aa9.0 -> QuoVadis_Root_CA_2_G3.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:34 080911ac.0 -> QuoVadis_Root_CA.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 0810ba98.0 -> Root_CA_Generalitat_Valenciana.pem
+lrwxrwxrwx 1 root root     49 Nov 29 01:35 08aef7bb.0 -> WellsSecure_Public_Root_Certificate_Authority.pem
+lrwxrwxrwx 1 root root     54 Nov 29 01:34 09789157.0 -> Starfield_Services_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     16 Nov 29 01:34 0b1b94ef.0 -> CFCA_EV_ROOT.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 0c4c9b6c.0 -> Global_Chambersign_Root_-_2008.pem
+lrwxrwxrwx 1 root root     57 Nov 29 01:34 0d1b923b.0 -> S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.pem
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 0d5a4e1c.0 -> TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 0d69c7e1.0 -> GlobalSign_ECC_Root_CA_-_R4.pem
+lrwxrwxrwx 1 root root     54 Nov 29 01:34 10531352.0 -> Starfield_Services_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     46 Nov 29 01:34 106f3e4d.0 -> Entrust_Root_Certification_Authority_-_EC1.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 111e6273.0 -> GlobalSign_Root_CA_-_R2.pem
+lrwxrwxrwx 1 root root     49 Nov 29 01:34 116bf586.0 -> GeoTrust_Primary_Certification_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     11 Nov 29 01:34 119afc2e.0 -> Juur-SK.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 11f154d6.0 -> Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx 1 root root     32 Nov 29 01:34 124bbd54.0 -> Comodo_Trusted_Services_root.pem
+lrwxrwxrwx 1 root root     35 Nov 29 01:34 128805a3.0 -> EE_Certification_Centre_Root_CA.pem
+lrwxrwxrwx 1 root root     18 Nov 29 01:34 12d55845.0 -> DST_Root_CA_X3.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 157753a5.0 -> AddTrust_External_Root.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 1636090b.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 1676090a.0 -> China_Internet_Network_Information_Center_EV_Certificates_Root.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 17b51fe6.0 -> Certplus_Class_2_Primary_CA.pem
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 1874d4aa.0 -> China_Internet_Network_Information_Center_EV_Certificates_Root.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 18856ac4.0 -> SecureSign_RootCA11.pem
+lrwxrwxrwx 1 root root     29 Nov 29 01:34 19c1fa33.0 -> S-TRUST_Universal_Root_CA.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 1d3472b9.0 -> GlobalSign_ECC_Root_CA_-_R5.pem
+lrwxrwxrwx 1 root root     18 Nov 29 01:34 1dac3003.0 -> DST_ACES_CA_X6.pem
+lrwxrwxrwx 1 root root     15 Nov 29 01:34 1dcd6f4c.0 -> Taiwan_GRCA.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 1df5a75f.0 -> D-TRUST_Root_Class_3_CA_2_2009.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:34 1e08bfd1.0 -> IdenTrust_Public_Sector_Root_CA_1.pem
+lrwxrwxrwx 1 root root     32 Nov 29 01:34 1e09d511.0 -> T-TeleSec_GlobalRoot_Class_2.pem
+lrwxrwxrwx 1 root root     32 Nov 29 01:34 1e1eab7c.0 -> T-TeleSec_GlobalRoot_Class_3.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 1e8e7201.0 -> GlobalSign_Root_CA_-_R3.pem
+lrwxrwxrwx 1 root root     36 Nov 29 01:34 1eb37bdf.0 -> Chambers_of_Commerce_Root_-_2008.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 1f58a078.0 -> QuoVadis_Root_CA_2_G3.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:34 21855f49.0 -> CA_Disig_Root_R1.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 219d9499.0 -> Go_Daddy_Class_2_CA.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 23f4c490.0 -> Starfield_Class_2_CA.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 244b5494.0 -> DigiCert_High_Assurance_EV_Root_CA.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:35 24ad0b63.0 -> Verisign_Class_1_Public_Primary_Certification_Authority.pem
+lrwxrwxrwx 1 root root     49 Nov 29 01:34 27af790d.0 -> GeoTrust_Primary_Certification_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 2add47b6.0 -> GlobalSign_ECC_Root_CA_-_R5.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:34 2ae6433e.0 -> CA_Disig_Root_R2.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 2b349938.0 -> AffirmTrust_Commercial.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 2c11d503.0 -> OpenTrust_Root_CA_G3.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 2c543cd1.0 -> GeoTrust_Global_CA.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 2d9dafe4.0 -> Buypass_Class_3_Root_CA.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:35 2e4eed3c.0 -> thawte_Primary_Root_CA.pem
+lrwxrwxrwx 1 root root     18 Nov 29 01:34 2e5ac55d.0 -> DST_Root_CA_X3.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:35 2edf7016.0 -> Verisign_Class_1_Public_Primary_Certification_Authority.pem
+lrwxrwxrwx 1 root root     43 Nov 29 01:34 2fa87019.0 -> Network_Solutions_Certificate_Authority.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 32888f65.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 343eb6cb.0 -> Cybertrust_Global_Root.pem
+lrwxrwxrwx 1 root root     10 Nov 29 01:34 349f2832.0 -> EC-ACC.pem
+lrwxrwxrwx 1 root root     41 Nov 29 01:34 35105088.0 -> USERTrust_RSA_Certification_Authority.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 3513523f.0 -> DigiCert_Global_Root_CA.pem
+lrwxrwxrwx 1 root root     17 Nov 29 01:34 381ce4dd.0 -> ACEDICOM_Root.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 3929ec9f.0 -> OpenTrust_Root_CA_G2.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 399e7759.0 -> DigiCert_Global_Root_CA.pem
+lrwxrwxrwx 1 root root     35 Nov 29 01:34 3a3b02ce.0 -> OISTE_WISeKey_Global_Root_GA_CA.pem
+lrwxrwxrwx 1 root root     29 Nov 29 01:34 3ad48a91.0 -> Baltimore_CyberTrust_Root.pem
+lrwxrwxrwx 1 root root     51 Nov 29 01:34 3b2716e5.0 -> EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.pem
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 3bde41ac.0 -> Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 3c58f906.0 -> AddTrust_External_Root.pem
+lrwxrwxrwx 1 root root     36 Nov 29 01:34 3c6676aa.0 -> Staat_der_Nederlanden_EV_Root_CA.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 3c860d51.0 -> SwissSign_Gold_CA_-_G2.pem
+lrwxrwxrwx 1 root root     13 Nov 29 01:34 3c9a4d3b.0 -> ACCVRAIZ1.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 3d441de8.0 -> Staat_der_Nederlanden_Root_CA_-_G2.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 3e45d192.0 -> Hongkong_Post_Root_CA_1.pem
+lrwxrwxrwx 1 root root     45 Nov 29 01:34 3e7271e8.0 -> Entrust.net_Premium_2048_Secure_Server_CA.pem
+lrwxrwxrwx 1 root root      9 Nov 29 01:34 3ee7e181.0 -> IGC_A.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 3efd4dc0.0 -> Swisscom_Root_CA_2.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 40193066.0 -> Certum_Trusted_Network_CA_2.pem
+lrwxrwxrwx 1 root root     16 Nov 29 01:34 4042bcee.0 -> ISRG_Root_X1.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 40547a79.0 -> COMODO_Certification_Authority.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 40dc992e.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:35 415660c1.0 -> Verisign_Class_3_Public_Primary_Certification_Authority.pem
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 418595b9.0 -> TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem
+lrwxrwxrwx 1 root root     43 Nov 29 01:34 4304c5e5.0 -> Network_Solutions_Certificate_Authority.pem
+lrwxrwxrwx 1 root root     18 Nov 29 01:34 442adcac.0 -> Certum_Root_CA.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 450c6e38.0 -> Swisscom_Root_CA_2.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 451b5485.0 -> Certplus_Root_CA_G2.pem
+lrwxrwxrwx 1 root root     45 Nov 29 01:34 455f1b52.0 -> Entrust_Root_Certification_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     30 Nov 29 01:34 46b2fd3b.0 -> SwissSign_Platinum_CA_-_G2.pem
+lrwxrwxrwx 1 root root     44 Nov 29 01:34 480720ec.0 -> GeoTrust_Primary_Certification_Authority.pem
+lrwxrwxrwx 1 root root     14 Nov 29 01:34 48a195d8.0 -> Izenpe.com.pem
+lrwxrwxrwx 1 root root     29 Nov 29 01:34 48bec511.0 -> Certum_Trusted_Network_CA.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 4a6481c9.0 -> GlobalSign_Root_CA_-_R2.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:34 4be590e0.0 -> IdenTrust_Public_Sector_Root_CA_1.pem
+lrwxrwxrwx 1 root root     45 Nov 29 01:34 4bfab552.0 -> Starfield_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     30 Nov 29 01:34 4e18c148.0 -> Deutsche_Telekom_Root_CA_2.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 4f316efb.0 -> SwissSign_Gold_CA_-_G2.pem
+lrwxrwxrwx 1 root root     28 Nov 29 01:34 5046c355.0 -> SwissSign_Silver_CA_-_G2.pem
+lrwxrwxrwx 1 root root     51 Nov 29 01:35 524d9b43.0 -> VeriSign_Universal_Root_Certification_Authority.pem
+lrwxrwxrwx 1 root root     35 Nov 29 01:34 5273a94c.0 -> E-Tugra_Certification_Authority.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 52b525c7.0 -> QuoVadis_Root_CA_1_G3.pem
+lrwxrwxrwx 1 root root     32 Nov 29 01:34 5443e9e3.0 -> T-TeleSec_GlobalRoot_Class_3.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 54657681.0 -> Buypass_Class_2_Root_CA.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 559f7c71.0 -> OpenTrust_Root_CA_G3.pem
+lrwxrwxrwx 1 root root     32 Nov 29 01:34 5620c4aa.0 -> TC_TrustCenter_Class_3_CA_II.pem
+lrwxrwxrwx 1 root root     32 Nov 29 01:34 56657bde.0 -> Comodo_Trusted_Services_root.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 57692373.0 -> GeoTrust_Global_CA_2.pem
+lrwxrwxrwx 1 root root     21 Nov 29 01:34 578d5c04.0 -> Equifax_Secure_CA.pem
+lrwxrwxrwx 1 root root     39 Nov 29 01:34 57bbd831.0 -> ApplicationCA_-_Japanese_Government.pem
+lrwxrwxrwx 1 root root     28 Nov 29 01:34 57bcb2da.0 -> SwissSign_Silver_CA_-_G2.pem
+lrwxrwxrwx 1 root root      9 Nov 29 01:34 58a44af1.0 -> IGC_A.pem
+lrwxrwxrwx 1 root root     53 Nov 29 01:34 592c0a9a.0 -> TURKTRUST_Certificate_Services_Provider_Root_2007.pem
+lrwxrwxrwx 1 root root     21 Nov 29 01:34 594f1775.0 -> Equifax_Secure_CA.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 5a250ea7.0 -> Staat_der_Nederlanden_Root_CA_-_G3.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 5a3f0ff8.0 -> COMODO_Certification_Authority.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 5a4d6896.0 -> Staat_der_Nederlanden_Root_CA_-_G3.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 5ad8a5d6.0 -> GlobalSign_Root_CA.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 5c44d531.0 -> Staat_der_Nederlanden_Root_CA_-_G2.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 5cd81ad7.0 -> TeliaSonera_Root_CA_v1.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:34 5cf9d536.0 -> QuoVadis_Root_CA.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:34 5e4e69e7.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 5f15c80c.0 -> TWCA_Global_Root_CA.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 5f47b495.0 -> Actalis_Authentication_Root_CA.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 607986c7.0 -> DigiCert_Global_Root_G2.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 608a55ad.0 -> OpenTrust_Root_CA_G2.pem
+lrwxrwxrwx 1 root root     48 Nov 29 01:34 60afe812.0 -> NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+lrwxrwxrwx 1 root root     16 Nov 29 01:34 6187b673.0 -> ISRG_Root_X1.pem
+lrwxrwxrwx 1 root root     29 Nov 29 01:34 631c779f.0 -> S-TRUST_Universal_Root_CA.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 63a2c897.0 -> TeliaSonera_Root_CA_v1.pem
+lrwxrwxrwx 1 root root     15 Nov 29 01:34 6410666e.0 -> Taiwan_GRCA.pem
+lrwxrwxrwx 1 root root     29 Nov 29 01:34 653b494a.0 -> Baltimore_CyberTrust_Root.pem
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 65b876bd.0 -> TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 6645de82.0 -> TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H6.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 667c66d4.0 -> Swisscom_Root_CA_1.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:35 67495436.0 -> thawte_Primary_Root_CA_-_G3.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 69105f4f.0 -> DigiCert_Assured_ID_Root_CA.pem
+lrwxrwxrwx 1 root root     40 Nov 29 01:34 6b99d060.0 -> Entrust_Root_Certification_Authority.pem
+lrwxrwxrwx 1 root root     18 Nov 29 01:34 6e8bf996.0 -> Certum_Root_CA.pem
+lrwxrwxrwx 1 root root     30 Nov 29 01:34 6f2c1157.0 -> AC_Raíz_Certicámara_S.A..pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:35 6fcc125d.0 -> Visa_eCommerce_Root.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:35 706f604c.0 -> XRamp_Global_CA_Root.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 72f369af.0 -> Buypass_Class_2_CA_1.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 749e9e03.0 -> QuoVadis_Root_CA_1_G3.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 74c26bd0.0 -> Equifax_Secure_Global_eBusiness_CA.pem
+lrwxrwxrwx 1 root root     28 Nov 29 01:34 75680d2e.0 -> Comodo_AAA_Services_root.pem
+lrwxrwxrwx 1 root root     28 Nov 29 01:34 75d1b2ed.0 -> DigiCert_Trusted_Root_G4.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:35 7651b327.0 -> Verisign_Class_3_Public_Primary_Certification_Authority.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:35 76579174.0 -> XRamp_Global_CA_Root.pem
+lrwxrwxrwx 1 root root     33 Nov 29 01:34 7672ac4b.0 -> Certinomis_-_Autorité_Racine.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 76cb8f92.0 -> Cybertrust_Global_Root.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 76faf6c0.0 -> QuoVadis_Root_CA_3.pem
+lrwxrwxrwx 1 root root     63 Nov 29 01:34 7719f463.0 -> Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+lrwxrwxrwx 1 root root     18 Nov 29 01:34 790a7190.0 -> DST_ACES_CA_X6.pem
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 7992b8bb.0 -> TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 7999be0d.0 -> GeoTrust_Global_CA.pem
+lrwxrwxrwx 1 root root     33 Nov 29 01:34 79ad8b43.0 -> Equifax_Secure_eBusiness_CA_1.pem
+lrwxrwxrwx 1 root root     32 Nov 29 01:34 7a481e66.0 -> TC_TrustCenter_Class_3_CA_II.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 7a819ef2.0 -> QuoVadis_Root_CA_2.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:34 7d0b38bd.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 7d453d8f.0 -> Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx 1 root root     49 Nov 29 01:35 7d5a75e4.0 -> WellsSecure_Public_Root_Certificate_Authority.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 7f3d5d1d.0 -> DigiCert_Assured_ID_Root_G3.pem
+lrwxrwxrwx 1 root root     30 Nov 29 01:34 812e17de.0 -> Deutsche_Telekom_Root_CA_2.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 8160b96c.0 -> Microsec_e-Szigno_Root_CA_2009.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 81b9768f.0 -> DigiCert_High_Assurance_EV_Root_CA.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 82223c44.0 -> Buypass_Class_2_Root_CA.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 8470719d.0 -> RSA_Security_2048_v3.pem
+lrwxrwxrwx 1 root root     45 Nov 29 01:34 85cde254.0 -> Starfield_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     36 Nov 29 01:34 861a399d.0 -> AddTrust_Low-Value_Services_Root.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 86212b19.0 -> AffirmTrust_Networking.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 87229d21.0 -> OpenTrust_Root_CA_G1.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 87753b0d.0 -> GeoTrust_Universal_CA_2.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:35 882de061.0 -> certSIGN_ROOT_CA.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 8867006a.0 -> GeoTrust_Universal_CA_2.pem
+lrwxrwxrwx 1 root root     14 Nov 29 01:34 895cad1a.0 -> CNNIC_ROOT.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 89c02a45.0 -> COMODO_ECC_Certification_Authority.pem
+lrwxrwxrwx 1 root root     33 Nov 29 01:34 8b59b1ad.0 -> AddTrust_Public_Services_Root.pem
+lrwxrwxrwx 1 root root     14 Nov 29 01:34 8c24b137.0 -> PSCProcert.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 8d6437c3.0 -> DigiCert_Assured_ID_Root_G2.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:35 8d86cdd1.0 -> certSIGN_ROOT_CA.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:34 9007ae68.0 -> CA_Disig_Root_R1.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 9168f543.0 -> Certplus_Root_CA_G1.pem
+lrwxrwxrwx 1 root root     35 Nov 29 01:34 91739615.0 -> EE_Certification_Centre_Root_CA.pem
+lrwxrwxrwx 1 root root     16 Nov 29 01:34 9282e51c.0 -> CFCA_EV_ROOT.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 930ac5d2.0 -> Actalis_Authentication_Root_CA.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 9339512a.0 -> QuoVadis_Root_CA_3.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 93bc0acc.0 -> AffirmTrust_Networking.pem
+lrwxrwxrwx 1 root root     63 Nov 29 01:34 9479c8c3.0 -> Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:34 9576d26b.0 -> CA_Disig_Root_R2.pem
+lrwxrwxrwx 1 root root     29 Nov 29 01:34 95aff9e3.0 -> Certum_Trusted_Network_CA.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 9685a493.0 -> Hongkong_Post_Root_CA_1.pem
+lrwxrwxrwx 1 root root     44 Nov 29 01:34 9772ca32.0 -> GeoTrust_Primary_Certification_Authority.pem
+lrwxrwxrwx 1 root root     48 Nov 29 01:34 988a38cb.0 -> NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 9ab62355.0 -> Swisscom_Root_EV_CA_2.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 9c2e7d30.0 -> Sonera_Class_2_Root_CA.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 9c3323d4.0 -> OpenTrust_Root_CA_G1.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 9c8dfbd4.0 -> AffirmTrust_Premium_ECC.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 9d04f354.0 -> DigiCert_Assured_ID_Root_G2.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:34 9d520b32.0 -> Security_Communication_EV_RootCA1.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:35 9d6523ce.0 -> ePKI_Root_Certification_Authority.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:34 9dbefe7b.0 -> Security_Communication_EV_RootCA1.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 9ec3a561.0 -> UTN_USERFirst_Email_Root_CA.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 9f0f5fd6.0 -> Certinomis_-_Root_CA.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 9f533518.0 -> Global_Chambersign_Root_-_2008.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 a0bc6fbb.0 -> Camerfirma_Global_Chambersign_Root.pem
+lrwxrwxrwx 1 root root     28 Nov 29 01:34 a2c66da8.0 -> DigiCert_Trusted_Root_G4.pem
+lrwxrwxrwx 1 root root     33 Nov 29 01:34 a2df7ad7.0 -> AddTrust_Public_Services_Root.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 a3896b44.0 -> Security_Communication_Root_CA.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 a7605362.0 -> Sonera_Class_2_Root_CA.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:35 a760e1bd.0 -> Visa_eCommerce_Root.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:35 a7d2cf64.0 -> thawte_Primary_Root_CA_-_G2.pem
+lrwxrwxrwx 1 root root     19 Nov 29 01:34 a81e292b.0 -> SZAFIR_ROOT_CA2.pem
+lrwxrwxrwx 1 root root     30 Nov 29 01:34 a8dee976.0 -> SwissSign_Platinum_CA_-_G2.pem
+lrwxrwxrwx 1 root root     13 Nov 29 01:34 a94d09e5.0 -> ACCVRAIZ1.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 ab5346f4.0 -> SecureSign_RootCA11.pem
+lrwxrwxrwx 1 root root     48 Nov 29 01:33 ACCVRAIZ1.pem -> /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
+lrwxrwxrwx 1 root root     52 Nov 29 01:33 ACEDICOM_Root.pem -> /usr/share/ca-certificates/mozilla/ACEDICOM_Root.crt
+lrwxrwxrwx 1 root root     65 Nov 29 01:33 AC_Raíz_Certicámara_S.A..pem -> /usr/share/ca-certificates/mozilla/AC_Raíz_Certicámara_S.A..crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:33 Actalis_Authentication_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 ad088e1d.0 -> GeoTrust_Universal_CA.pem
+lrwxrwxrwx 1 root root     61 Nov 29 01:33 AddTrust_External_Root.pem -> /usr/share/ca-certificates/mozilla/AddTrust_External_Root.crt
+lrwxrwxrwx 1 root root     71 Nov 29 01:33 AddTrust_Low-Value_Services_Root.pem -> /usr/share/ca-certificates/mozilla/AddTrust_Low-Value_Services_Root.crt
+lrwxrwxrwx 1 root root     68 Nov 29 01:33 AddTrust_Public_Services_Root.pem -> /usr/share/ca-certificates/mozilla/AddTrust_Public_Services_Root.crt
+lrwxrwxrwx 1 root root     75 Nov 29 01:33 AddTrust_Qualified_Certificates_Root.pem -> /usr/share/ca-certificates/mozilla/AddTrust_Qualified_Certificates_Root.crt
+lrwxrwxrwx 1 root root     10 Nov 29 01:34 aeb67534.0 -> EC-ACC.pem
+lrwxrwxrwx 1 root root     45 Nov 29 01:34 aee5f10d.0 -> Entrust.net_Premium_2048_Secure_Server_CA.pem
+lrwxrwxrwx 1 root root     61 Nov 29 01:33 AffirmTrust_Commercial.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt
+lrwxrwxrwx 1 root root     61 Nov 29 01:33 AffirmTrust_Networking.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:33 AffirmTrust_Premium_ECC.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt
+lrwxrwxrwx 1 root root     58 Nov 29 01:33 AffirmTrust_Premium.pem -> /usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt
+lrwxrwxrwx 1 root root     74 Nov 29 01:33 ApplicationCA_-_Japanese_Government.pem -> /usr/share/ca-certificates/mozilla/ApplicationCA_-_Japanese_Government.crt
+lrwxrwxrwx 1 root root     60 Nov 29 01:33 Atos_TrustedRoot_2011.pem -> /usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt
+lrwxrwxrwx 1 root root     96 Nov 29 01:33 Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem -> /usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 b0e59380.0 -> GlobalSign_ECC_Root_CA_-_R4.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 b0ed035a.0 -> TWCA_Global_Root_CA.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 b0f3e76e.0 -> GlobalSign_Root_CA.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 b1159c4c.0 -> DigiCert_Assured_ID_Root_CA.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 b13cc6df.0 -> UTN_USERFirst_Hardware_Root_CA.pem
+lrwxrwxrwx 1 root root     35 Nov 29 01:34 b1b8a7f3.0 -> OISTE_WISeKey_Global_Root_GA_CA.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 b204d74a.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+lrwxrwxrwx 1 root root     46 Nov 29 01:34 b3fb433b.0 -> Entrust_Root_Certification_Authority_-_EC1.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:34 b66938e9.0 -> Secure_Global_CA.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 b727005e.0 -> AffirmTrust_Premium.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:34 b7a5b843.0 -> TWCA_Root_Certification_Authority.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:34 b7db1890.0 -> TWCA_Root_Certification_Authority.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 b872f2b4.0 -> Atos_TrustedRoot_2011.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:35 ba89ed3b.0 -> thawte_Primary_Root_CA_-_G3.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:33 Baltimore_CyberTrust_Root.pem -> /usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt
+lrwxrwxrwx 1 root root     14 Nov 29 01:34 bb2d49a0.0 -> ComSign_CA.pem
+lrwxrwxrwx 1 root root     44 Nov 29 01:34 bc3f2570.0 -> Go_Daddy_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     14 Nov 29 01:34 bd1910d4.0 -> CNNIC_ROOT.pem
+lrwxrwxrwx 1 root root     20 Nov 29 01:34 bdacca6f.0 -> Secure_Global_CA.pem
+lrwxrwxrwx 1 root root     40 Nov 29 01:34 bf64f35b.0 -> Entrust_Root_Certification_Authority.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:33 Buypass_Class_2_CA_1.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_2_CA_1.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:33 Buypass_Class_2_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:33 Buypass_Class_3_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt
+lrwxrwxrwx 1 root root     51 Nov 29 01:35 c01cdfa2.0 -> VeriSign_Universal_Root_Certification_Authority.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:35 c089bbbd.0 -> thawte_Primary_Root_CA_-_G2.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 c0ff1f52.0 -> Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 c28a8a30.0 -> D-TRUST_Root_Class_3_CA_2_2009.pem
+lrwxrwxrwx 1 root root     36 Nov 29 01:34 c47d9980.0 -> Chambers_of_Commerce_Root_-_2008.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 c491639e.0 -> DigiCert_Assured_ID_Root_G3.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 c51c224c.0 -> Trustis_FPS_Root_CA.pem
+lrwxrwxrwx 1 root root     14 Nov 29 01:34 c5d3212a.0 -> PSCProcert.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 c5e082db.0 -> UTN_USERFirst_Email_Root_CA.pem
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 c679bc3f.0 -> TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H6.pem
+lrwxrwxrwx 1 root root     49 Nov 29 01:34 c7e2a638.0 -> GeoTrust_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx 1 root root     30 Nov 29 01:34 c8763593.0 -> AC_Raíz_Certicámara_S.A..pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 c90bc37d.0 -> DigiCert_Global_Root_G2.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 c99398f3.0 -> RSA_Security_2048_v3.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 c9f83a1c.0 -> Comodo_Secure_Services_root.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:35 ca6e4ad9.0 -> ePKI_Root_Certification_Authority.pem
+-rw-r--r-- 1 root root 261407 Nov 29 01:37 ca-certificates.crt
+lrwxrwxrwx 1 root root     55 Nov 29 01:33 CA_Disig_Root_R1.pem -> /usr/share/ca-certificates/mozilla/CA_Disig_Root_R1.crt
+lrwxrwxrwx 1 root root     55 Nov 29 01:33 CA_Disig_Root_R2.pem -> /usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt
+lrwxrwxrwx 1 root root     75 Nov 29 01:33 Camerfirma_Chambers_of_Commerce_Root.pem -> /usr/share/ca-certificates/mozilla/Camerfirma_Chambers_of_Commerce_Root.crt
+lrwxrwxrwx 1 root root     73 Nov 29 01:33 Camerfirma_Global_Chambersign_Root.pem -> /usr/share/ca-certificates/mozilla/Camerfirma_Global_Chambersign_Root.crt
+lrwxrwxrwx 1 root root     35 Nov 29 01:34 cb156124.0 -> E-Tugra_Certification_Authority.pem
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 cb1c3204.0 -> Certum_Trusted_Network_CA_2.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 cb357862.0 -> Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 cb59f961.0 -> Camerfirma_Global_Chambersign_Root.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 cbeee9e2.0 -> GeoTrust_Global_CA_2.pem
+lrwxrwxrwx 1 root root     44 Nov 29 01:34 cbf06781.0 -> Go_Daddy_Root_Certificate_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     14 Nov 29 01:34 cc450945.0 -> Izenpe.com.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 ccc52f49.0 -> AffirmTrust_Premium_ECC.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 cd58d51e.0 -> Security_Communication_RootCA2.pem
+lrwxrwxrwx 1 root root     47 Nov 29 01:33 Certigna.pem -> /usr/share/ca-certificates/mozilla/Certigna.crt
+lrwxrwxrwx 1 root root     68 Nov 29 01:33 Certinomis_-_Autorité_Racine.pem -> /usr/share/ca-certificates/mozilla/Certinomis_-_Autorité_Racine.crt
+lrwxrwxrwx 1 root root     59 Nov 29 01:33 Certinomis_-_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Certinomis_-_Root_CA.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:33 Certplus_Class_2_Primary_CA.pem -> /usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt
+lrwxrwxrwx 1 root root     58 Nov 29 01:33 Certplus_Root_CA_G1.pem -> /usr/share/ca-certificates/mozilla/Certplus_Root_CA_G1.crt
+lrwxrwxrwx 1 root root     58 Nov 29 01:33 Certplus_Root_CA_G2.pem -> /usr/share/ca-certificates/mozilla/Certplus_Root_CA_G2.crt
+lrwxrwxrwx 1 root root     55 Nov 29 01:33 certSIGN_ROOT_CA.pem -> /usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt
+lrwxrwxrwx 1 root root     53 Nov 29 01:33 Certum_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Certum_Root_CA.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:33 Certum_Trusted_Network_CA_2.pem -> /usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA_2.crt
+lrwxrwxrwx 1 root root     64 Nov 29 01:33 Certum_Trusted_Network_CA.pem -> /usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt
+lrwxrwxrwx 1 root root     18 Nov 29 01:34 cf701eeb.0 -> SecureTrust_CA.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 cfa1c2ee.0 -> Buypass_Class_2_CA_1.pem
+lrwxrwxrwx 1 root root     51 Nov 29 01:33 CFCA_EV_ROOT.pem -> /usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt
+lrwxrwxrwx 1 root root     71 Nov 29 01:33 Chambers_of_Commerce_Root_-_2008.pem -> /usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt
+lrwxrwxrwx 1 root root    101 Nov 29 01:33 China_Internet_Network_Information_Center_EV_Certificates_Root.pem -> /usr/share/ca-certificates/mozilla/China_Internet_Network_Information_Center_EV_Certificates_Root.crt
+lrwxrwxrwx 1 root root     49 Nov 29 01:33 CNNIC_ROOT.pem -> /usr/share/ca-certificates/mozilla/CNNIC_ROOT.crt
+lrwxrwxrwx 1 root root     63 Nov 29 01:33 Comodo_AAA_Services_root.pem -> /usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:33 COMODO_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt
+lrwxrwxrwx 1 root root     73 Nov 29 01:33 COMODO_ECC_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt
+lrwxrwxrwx 1 root root     73 Nov 29 01:33 COMODO_RSA_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:33 Comodo_Secure_Services_root.pem -> /usr/share/ca-certificates/mozilla/Comodo_Secure_Services_root.crt
+lrwxrwxrwx 1 root root     67 Nov 29 01:33 Comodo_Trusted_Services_root.pem -> /usr/share/ca-certificates/mozilla/Comodo_Trusted_Services_root.crt
+lrwxrwxrwx 1 root root     49 Nov 29 01:33 ComSign_CA.pem -> /usr/share/ca-certificates/mozilla/ComSign_CA.crt
+lrwxrwxrwx 1 root root     61 Nov 29 01:33 Cybertrust_Global_Root.pem -> /usr/share/ca-certificates/mozilla/Cybertrust_Global_Root.crt
+lrwxrwxrwx 1 root root     32 Nov 29 01:34 d06393bb.0 -> T-TeleSec_GlobalRoot_Class_2.pem
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 d16a5865.0 -> Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 d18e9066.0 -> IdenTrust_Commercial_Root_CA_1.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 d4c339cb.0 -> COMODO_RSA_Certification_Authority.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:34 d4dae3dd.0 -> D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 d59297b8.0 -> Security_Communication_RootCA2.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 d6325660.0 -> COMODO_RSA_Certification_Authority.pem
+lrwxrwxrwx 1 root root     53 Nov 29 01:34 d66b55d9.0 -> TURKTRUST_Certificate_Services_Provider_Root_2007.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 d6e6eab9.0 -> Certinomis_-_Root_CA.pem
+lrwxrwxrwx 1 root root     37 Nov 29 01:34 d7746a63.0 -> D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 d78a75c7.0 -> Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 d7e8dc79.0 -> QuoVadis_Root_CA_2.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 d8317ada.0 -> Certplus_Root_CA_G2.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 d853d49e.0 -> Trustis_FPS_Root_CA.pem
+lrwxrwxrwx 1 root root     33 Nov 29 01:34 d957f522.0 -> Certinomis_-_Autorité_Racine.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 dbc54cab.0 -> AffirmTrust_Premium.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 dc45b0bd.0 -> Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 dc99f41e.0 -> Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 dd8e9d41.0 -> DigiCert_Global_Root_G3.pem
+lrwxrwxrwx 1 root root     65 Nov 29 01:34 Deutsche_Telekom_Root_CA_2.pem -> /usr/share/ca-certificates/mozilla/Deutsche_Telekom_Root_CA_2.crt
+lrwxrwxrwx 1 root root     35 Nov 29 01:34 dfc0fe80.0 -> OISTE_WISeKey_Global_Root_GB_CA.pem
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 DigiCert_Assured_ID_Root_CA.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 DigiCert_Assured_ID_Root_G2.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 DigiCert_Assured_ID_Root_G3.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:34 DigiCert_Global_Root_CA.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:34 DigiCert_Global_Root_G2.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:34 DigiCert_Global_Root_G3.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt
+lrwxrwxrwx 1 root root     73 Nov 29 01:34 DigiCert_High_Assurance_EV_Root_CA.pem -> /usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt
+lrwxrwxrwx 1 root root     63 Nov 29 01:34 DigiCert_Trusted_Root_G4.pem -> /usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt
+lrwxrwxrwx 1 root root     53 Nov 29 01:34 DST_ACES_CA_X6.pem -> /usr/share/ca-certificates/mozilla/DST_ACES_CA_X6.crt
+lrwxrwxrwx 1 root root     53 Nov 29 01:34 DST_Root_CA_X3.pem -> /usr/share/ca-certificates/mozilla/DST_Root_CA_X3.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 D-TRUST_Root_Class_3_CA_2_2009.pem -> /usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt
+lrwxrwxrwx 1 root root     72 Nov 29 01:34 D-TRUST_Root_Class_3_CA_2_EV_2009.pem -> /usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt
+lrwxrwxrwx 1 root root     12 Nov 29 01:34 e113c810.0 -> Certigna.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 e18bfb83.0 -> QuoVadis_Root_CA_3_G3.pem
+lrwxrwxrwx 1 root root     36 Nov 29 01:34 e268a4c5.0 -> AddTrust_Low-Value_Services_Root.pem
+lrwxrwxrwx 1 root root     49 Nov 29 01:34 e2799e36.0 -> GeoTrust_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 e36a6752.0 -> Atos_TrustedRoot_2011.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 e442e424.0 -> QuoVadis_Root_CA_3_G3.pem
+lrwxrwxrwx 1 root root     26 Nov 29 01:34 e48193cf.0 -> AffirmTrust_Commercial.pem
+lrwxrwxrwx 1 root root     40 Nov 29 01:34 e536d871.0 -> AddTrust_Qualified_Certificates_Root.pem
+lrwxrwxrwx 1 root root     22 Nov 29 01:34 e60bf0c0.0 -> Swisscom_Root_CA_1.pem
+lrwxrwxrwx 1 root root     35 Nov 29 01:34 e73d606e.0 -> OISTE_WISeKey_Global_Root_GB_CA.pem
+lrwxrwxrwx 1 root root     25 Nov 29 01:34 e775ed2d.0 -> GeoTrust_Universal_CA.pem
+lrwxrwxrwx 1 root root     33 Nov 29 01:34 e7b8d656.0 -> Equifax_Secure_eBusiness_CA_1.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 e8651083.0 -> Microsec_e-Szigno_Root_CA_2009.pem
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 e8de2f56.0 -> Buypass_Class_3_Root_CA.pem
+lrwxrwxrwx 1 root root     17 Nov 29 01:34 ea169617.0 -> ACEDICOM_Root.pem
+lrwxrwxrwx 1 root root     86 Nov 29 01:34 EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.pem -> /usr/share/ca-certificates/mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt
+lrwxrwxrwx 1 root root     45 Nov 29 01:34 EC-ACC.pem -> /usr/share/ca-certificates/mozilla/EC-ACC.crt
+lrwxrwxrwx 1 root root     27 Nov 29 01:34 ed39abd0.0 -> DigiCert_Global_Root_G3.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 ed62f4e3.0 -> Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 ee1365c0.0 -> Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.pem
+lrwxrwxrwx 1 root root     28 Nov 29 01:34 ee64a828.0 -> Comodo_AAA_Services_root.pem
+lrwxrwxrwx 1 root root     40 Nov 29 01:34 ee7cd6fb.0 -> Camerfirma_Chambers_of_Commerce_Root.pem
+lrwxrwxrwx 1 root root     70 Nov 29 01:34 EE_Certification_Centre_Root_CA.pem -> /usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 eed8c118.0 -> COMODO_ECC_Certification_Authority.pem
+lrwxrwxrwx 1 root root     38 Nov 29 01:34 ef2f636c.0 -> Equifax_Secure_Global_eBusiness_CA.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 ef954a4e.0 -> IdenTrust_Commercial_Root_CA_1.pem
+lrwxrwxrwx 1 root root     80 Nov 29 01:34 Entrust.net_Premium_2048_Secure_Server_CA.pem -> /usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
+lrwxrwxrwx 1 root root     81 Nov 29 01:34 Entrust_Root_Certification_Authority_-_EC1.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt
+lrwxrwxrwx 1 root root     80 Nov 29 01:34 Entrust_Root_Certification_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt
+lrwxrwxrwx 1 root root     75 Nov 29 01:34 Entrust_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt
+lrwxrwxrwx 1 root root     72 Nov 29 01:34 ePKI_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt
+lrwxrwxrwx 1 root root     56 Nov 29 01:34 Equifax_Secure_CA.pem -> /usr/share/ca-certificates/mozilla/Equifax_Secure_CA.crt
+lrwxrwxrwx 1 root root     68 Nov 29 01:34 Equifax_Secure_eBusiness_CA_1.pem -> /usr/share/ca-certificates/mozilla/Equifax_Secure_eBusiness_CA_1.crt
+lrwxrwxrwx 1 root root     73 Nov 29 01:34 Equifax_Secure_Global_eBusiness_CA.pem -> /usr/share/ca-certificates/mozilla/Equifax_Secure_Global_eBusiness_CA.crt
+lrwxrwxrwx 1 root root     70 Nov 29 01:34 E-Tugra_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt
+lrwxrwxrwx 1 root root     31 Nov 29 01:34 f060240e.0 -> Certplus_Class_2_Primary_CA.pem
+lrwxrwxrwx 1 root root     23 Nov 29 01:34 f081611a.0 -> Go_Daddy_Class_2_CA.pem
+lrwxrwxrwx 1 root root     41 Nov 29 01:34 f30dd6ad.0 -> USERTrust_ECC_Certification_Authority.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 f3377b1b.0 -> Security_Communication_Root_CA.pem
+lrwxrwxrwx 1 root root     24 Nov 29 01:34 f387163d.0 -> Starfield_Class_2_CA.pem
+lrwxrwxrwx 1 root root     18 Nov 29 01:34 f39fc864.0 -> SecureTrust_CA.pem
+lrwxrwxrwx 1 root root     57 Nov 29 01:34 f559733c.0 -> S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.pem
+lrwxrwxrwx 1 root root     29 Nov 29 01:34 f61bff45.0 -> Microsec_e-Szigno_Root_CA.pem
+lrwxrwxrwx 1 root root     51 Nov 29 01:34 f80cc7f6.0 -> EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.pem
+lrwxrwxrwx 1 root root     40 Nov 29 01:34 f90208f7.0 -> Camerfirma_Chambers_of_Commerce_Root.pem
+lrwxrwxrwx 1 root root     39 Nov 29 01:34 fac084d7.0 -> ApplicationCA_-_Japanese_Government.pem
+lrwxrwxrwx 1 root root     64 Nov 29 01:35 facacbc6.0 -> VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 fb126c6d.0 -> Root_CA_Generalitat_Valenciana.pem
+lrwxrwxrwx 1 root root     41 Nov 29 01:34 fc5a8f99.0 -> USERTrust_RSA_Certification_Authority.pem
+lrwxrwxrwx 1 root root     11 Nov 29 01:34 fcac10e3.0 -> Juur-SK.pem
+lrwxrwxrwx 1 root root     12 Nov 29 01:34 fde84897.0 -> Certigna.pem
+lrwxrwxrwx 1 root root     19 Nov 29 01:34 fe8a2cd8.0 -> SZAFIR_ROOT_CA2.pem
+lrwxrwxrwx 1 root root     14 Nov 29 01:34 ff588423.0 -> ComSign_CA.pem
+lrwxrwxrwx 1 root root     34 Nov 29 01:34 ff783690.0 -> UTN_USERFirst_Hardware_Root_CA.pem
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 GeoTrust_Global_CA_2.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Global_CA_2.crt
+lrwxrwxrwx 1 root root     57 Nov 29 01:34 GeoTrust_Global_CA.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt
+lrwxrwxrwx 1 root root     84 Nov 29 01:34 GeoTrust_Primary_Certification_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt
+lrwxrwxrwx 1 root root     84 Nov 29 01:34 GeoTrust_Primary_Certification_Authority_-_G3.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt
+lrwxrwxrwx 1 root root     79 Nov 29 01:34 GeoTrust_Primary_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:34 GeoTrust_Universal_CA_2.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt
+lrwxrwxrwx 1 root root     60 Nov 29 01:34 GeoTrust_Universal_CA.pem -> /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 Global_Chambersign_Root_-_2008.pem -> /usr/share/ca-certificates/mozilla/Global_Chambersign_Root_-_2008.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 GlobalSign_ECC_Root_CA_-_R4.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 GlobalSign_ECC_Root_CA_-_R5.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt
+lrwxrwxrwx 1 root root     57 Nov 29 01:34 GlobalSign_Root_CA.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:34 GlobalSign_Root_CA_-_R2.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:34 GlobalSign_Root_CA_-_R3.pem -> /usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt
+lrwxrwxrwx 1 root root     58 Nov 29 01:34 Go_Daddy_Class_2_CA.pem -> /usr/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt
+lrwxrwxrwx 1 root root     79 Nov 29 01:34 Go_Daddy_Root_Certificate_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt
+lrwxrwxrwx 1 root root     98 Nov 29 01:34 Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem -> /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt
+lrwxrwxrwx 1 root root     94 Nov 29 01:34 Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem -> /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt
+lrwxrwxrwx 1 root root     94 Nov 29 01:34 Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem -> /usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt
+lrwxrwxrwx 1 root root     62 Nov 29 01:34 Hongkong_Post_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 IdenTrust_Commercial_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt
+lrwxrwxrwx 1 root root     72 Nov 29 01:34 IdenTrust_Public_Sector_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt
+lrwxrwxrwx 1 root root     44 Nov 29 01:34 IGC_A.pem -> /usr/share/ca-certificates/mozilla/IGC_A.crt
+lrwxrwxrwx 1 root root     51 Nov 29 01:34 ISRG_Root_X1.pem -> /usr/share/ca-certificates/mozilla/ISRG_Root_X1.crt
+lrwxrwxrwx 1 root root     49 Nov 29 01:34 Izenpe.com.pem -> /usr/share/ca-certificates/mozilla/Izenpe.com.crt
+lrwxrwxrwx 1 root root     46 Nov 29 01:34 Juur-SK.pem -> /usr/share/ca-certificates/mozilla/Juur-SK.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 Microsec_e-Szigno_Root_CA_2009.pem -> /usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA_2009.crt
+lrwxrwxrwx 1 root root     64 Nov 29 01:34 Microsec_e-Szigno_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA.crt
+lrwxrwxrwx 1 root root     83 Nov 29 01:34 NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem -> /usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt
+lrwxrwxrwx 1 root root     78 Nov 29 01:34 Network_Solutions_Certificate_Authority.pem -> /usr/share/ca-certificates/mozilla/Network_Solutions_Certificate_Authority.crt
+lrwxrwxrwx 1 root root     70 Nov 29 01:34 OISTE_WISeKey_Global_Root_GA_CA.pem -> /usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt
+lrwxrwxrwx 1 root root     70 Nov 29 01:34 OISTE_WISeKey_Global_Root_GB_CA.pem -> /usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 OpenTrust_Root_CA_G1.pem -> /usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G1.crt
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 OpenTrust_Root_CA_G2.pem -> /usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G2.crt
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 OpenTrust_Root_CA_G3.pem -> /usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G3.crt
+lrwxrwxrwx 1 root root     49 Nov 29 01:34 PSCProcert.pem -> /usr/share/ca-certificates/mozilla/PSCProcert.crt
+lrwxrwxrwx 1 root root     60 Nov 29 01:34 QuoVadis_Root_CA_1_G3.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt
+lrwxrwxrwx 1 root root     60 Nov 29 01:34 QuoVadis_Root_CA_2_G3.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt
+lrwxrwxrwx 1 root root     57 Nov 29 01:34 QuoVadis_Root_CA_2.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt
+lrwxrwxrwx 1 root root     60 Nov 29 01:34 QuoVadis_Root_CA_3_G3.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt
+lrwxrwxrwx 1 root root     57 Nov 29 01:34 QuoVadis_Root_CA_3.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt
+lrwxrwxrwx 1 root root     55 Nov 29 01:34 QuoVadis_Root_CA.pem -> /usr/share/ca-certificates/mozilla/QuoVadis_Root_CA.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 Root_CA_Generalitat_Valenciana.pem -> /usr/share/ca-certificates/mozilla/Root_CA_Generalitat_Valenciana.crt
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 RSA_Security_2048_v3.pem -> /usr/share/ca-certificates/mozilla/RSA_Security_2048_v3.crt
+lrwxrwxrwx 1 root root     55 Nov 29 01:34 Secure_Global_CA.pem -> /usr/share/ca-certificates/mozilla/Secure_Global_CA.crt
+lrwxrwxrwx 1 root root     58 Nov 29 01:34 SecureSign_RootCA11.pem -> /usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt
+lrwxrwxrwx 1 root root     53 Nov 29 01:34 SecureTrust_CA.pem -> /usr/share/ca-certificates/mozilla/SecureTrust_CA.crt
+lrwxrwxrwx 1 root root     72 Nov 29 01:34 Security_Communication_EV_RootCA1.pem -> /usr/share/ca-certificates/mozilla/Security_Communication_EV_RootCA1.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 Security_Communication_RootCA2.pem -> /usr/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 Security_Communication_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 Sonera_Class_2_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Sonera_Class_2_Root_CA.crt
+lrwxrwxrwx 1 root root     71 Nov 29 01:34 Staat_der_Nederlanden_EV_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_EV_Root_CA.crt
+lrwxrwxrwx 1 root root     73 Nov 29 01:34 Staat_der_Nederlanden_Root_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt
+lrwxrwxrwx 1 root root     73 Nov 29 01:34 Staat_der_Nederlanden_Root_CA_-_G3.pem -> /usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G3.crt
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 Starfield_Class_2_CA.pem -> /usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt
+lrwxrwxrwx 1 root root     80 Nov 29 01:34 Starfield_Root_Certificate_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt
+lrwxrwxrwx 1 root root     89 Nov 29 01:34 Starfield_Services_Root_Certificate_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
+lrwxrwxrwx 1 root root     92 Nov 29 01:34 S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.pem -> /usr/share/ca-certificates/mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt
+lrwxrwxrwx 1 root root     64 Nov 29 01:34 S-TRUST_Universal_Root_CA.pem -> /usr/share/ca-certificates/mozilla/S-TRUST_Universal_Root_CA.crt
+lrwxrwxrwx 1 root root     57 Nov 29 01:34 Swisscom_Root_CA_1.pem -> /usr/share/ca-certificates/mozilla/Swisscom_Root_CA_1.crt
+lrwxrwxrwx 1 root root     57 Nov 29 01:34 Swisscom_Root_CA_2.pem -> /usr/share/ca-certificates/mozilla/Swisscom_Root_CA_2.crt
+lrwxrwxrwx 1 root root     60 Nov 29 01:34 Swisscom_Root_EV_CA_2.pem -> /usr/share/ca-certificates/mozilla/Swisscom_Root_EV_CA_2.crt
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 SwissSign_Gold_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt
+lrwxrwxrwx 1 root root     65 Nov 29 01:34 SwissSign_Platinum_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/SwissSign_Platinum_CA_-_G2.crt
+lrwxrwxrwx 1 root root     63 Nov 29 01:34 SwissSign_Silver_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt
+lrwxrwxrwx 1 root root     54 Nov 29 01:34 SZAFIR_ROOT_CA2.pem -> /usr/share/ca-certificates/mozilla/SZAFIR_ROOT_CA2.crt
+lrwxrwxrwx 1 root root     50 Nov 29 01:34 Taiwan_GRCA.pem -> /usr/share/ca-certificates/mozilla/Taiwan_GRCA.crt
+lrwxrwxrwx 1 root root     67 Nov 29 01:34 TC_TrustCenter_Class_3_CA_II.pem -> /usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_3_CA_II.crt
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 TeliaSonera_Root_CA_v1.pem -> /usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 thawte_Primary_Root_CA_-_G2.pem -> /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G2.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 thawte_Primary_Root_CA_-_G3.pem -> /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G3.crt
+lrwxrwxrwx 1 root root     61 Nov 29 01:34 thawte_Primary_Root_CA.pem -> /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA.crt
+lrwxrwxrwx 1 root root     58 Nov 29 01:34 Trustis_FPS_Root_CA.pem -> /usr/share/ca-certificates/mozilla/Trustis_FPS_Root_CA.crt
+lrwxrwxrwx 1 root root     67 Nov 29 01:34 T-TeleSec_GlobalRoot_Class_2.pem -> /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
+lrwxrwxrwx 1 root root     67 Nov 29 01:34 T-TeleSec_GlobalRoot_Class_3.pem -> /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt
+lrwxrwxrwx 1 root root    104 Nov 29 01:34 TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem -> /usr/share/ca-certificates/mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt
+lrwxrwxrwx 1 root root     88 Nov 29 01:34 TURKTRUST_Certificate_Services_Provider_Root_2007.pem -> /usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2007.crt
+lrwxrwxrwx 1 root root     96 Nov 29 01:34 TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.pem -> /usr/share/ca-certificates/mozilla/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.crt
+lrwxrwxrwx 1 root root     96 Nov 29 01:34 TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H6.pem -> /usr/share/ca-certificates/mozilla/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H6.crt
+lrwxrwxrwx 1 root root     58 Nov 29 01:34 TWCA_Global_Root_CA.pem -> /usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt
+lrwxrwxrwx 1 root root     72 Nov 29 01:34 TWCA_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt
+lrwxrwxrwx 1 root root     76 Nov 29 01:34 USERTrust_ECC_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt
+lrwxrwxrwx 1 root root     76 Nov 29 01:34 USERTrust_RSA_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt
+lrwxrwxrwx 1 root root     66 Nov 29 01:34 UTN_USERFirst_Email_Root_CA.pem -> /usr/share/ca-certificates/mozilla/UTN_USERFirst_Email_Root_CA.crt
+lrwxrwxrwx 1 root root     69 Nov 29 01:34 UTN_USERFirst_Hardware_Root_CA.pem -> /usr/share/ca-certificates/mozilla/UTN_USERFirst_Hardware_Root_CA.crt
+lrwxrwxrwx 1 root root     99 Nov 29 01:34 Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.pem -> /usr/share/ca-certificates/mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt
+lrwxrwxrwx 1 root root     94 Nov 29 01:34 Verisign_Class_1_Public_Primary_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt
+lrwxrwxrwx 1 root root     99 Nov 29 01:34 Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.pem -> /usr/share/ca-certificates/mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt
+lrwxrwxrwx 1 root root     99 Nov 29 01:34 Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.pem -> /usr/share/ca-certificates/mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt
+lrwxrwxrwx 1 root root     99 Nov 29 01:34 Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem -> /usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt
+lrwxrwxrwx 1 root root     99 Nov 29 01:34 VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem -> /usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt
+lrwxrwxrwx 1 root root     99 Nov 29 01:34 VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem -> /usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt
+lrwxrwxrwx 1 root root     94 Nov 29 01:34 Verisign_Class_3_Public_Primary_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt
+lrwxrwxrwx 1 root root     86 Nov 29 01:34 VeriSign_Universal_Root_Certification_Authority.pem -> /usr/share/ca-certificates/mozilla/VeriSign_Universal_Root_Certification_Authority.crt
+lrwxrwxrwx 1 root root     58 Nov 29 01:34 Visa_eCommerce_Root.pem -> /usr/share/ca-certificates/mozilla/Visa_eCommerce_Root.crt
+lrwxrwxrwx 1 root root     84 Nov 29 01:34 WellsSecure_Public_Root_Certificate_Authority.pem -> /usr/share/ca-certificates/mozilla/WellsSecure_Public_Root_Certificate_Authority.crt
+lrwxrwxrwx 1 root root     59 Nov 29 01:34 XRamp_Global_CA_Root.pem -> /usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 02:17 .
+drwxr-xr-x 3 root root 4096 Nov 29 02:07 ..
+-rw-r--r-- 1 root root  127 Jul 29  2013 javascript-common.conf
+total 28
+drwxr-xr-x 2 root root  4096 Nov 29 01:49 .
+drwxr-xr-x 3 root root  4096 Nov 29 02:17 ..
+-rw-r--r-- 1 root root 19335 Jun 19  2017 mime-types-permissions.xml
+total 8
+drwxr-xr-x 2 root root 4096 Sep 12 16:37 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:30 ..
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:30 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:30 ..
+-rw-r--r-- 1 root root  611 Sep 12 16:37 libnet.cfg
+total 16
+drwxrwxr-x 4 root root 4096 Nov 29 01:50 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:54 ..
+drwxrwxr-x 2 root root 4096 Aug 13  2016 managed
+drwxrwxr-x 2 root root 4096 Aug 13  2016 recommended
+total 12
+drwxrwxr-x 2 root root 4096 Nov 29 01:54 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:54 ..
+-rw-r--r-- 1 root root  136 Nov 13 14:51 00-rpi-vars
+total 8
+drwxrwxr-x 2 root root 4096 Aug 13  2016 .
+drwxrwxr-x 4 root root 4096 Nov 29 01:50 ..
+total 8
+drwxrwxr-x 2 root root 4096 Aug 13  2016 .
+drwxrwxr-x 4 root root 4096 Nov 29 01:50 ..
+total 8
+drwxr-xr-x 2 root root 4096 Nov 29 02:14 .
+drwxr-xr-x 3 root root 4096 Nov 29 02:14 ..
+-rw-r--r-- 1 root root    0 Nov 29 02:14 .system.lock
+-rw-r--r-- 1 root root    0 Nov 29 02:14 .systemRootModFile
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:36 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:36 ..
+-rw-r--r-- 1 root root  204 May  7  2016 pkg-config-hook-config
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:08 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:36 ..
+-rw-r--r-- 1 root root   82 Jul 27  2017 debian
+lrwxrwxrwx 1 root root    8 Nov 29 01:08 default -> raspbian
+-rw-r--r-- 1 root root  120 Jul 27  2017 raspbian
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:39 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:38 ..
+-rwxr-xr-x 1 root root  190 Jul 25  2011 000resolvconf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:39 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:38 ..
+-rwxr-xr-x 1 root root  399 Jul 25  2011 000resolvconf
+total 8
+drwxr-xr-x 2 root root 4096 May 27  2017 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:18 ..
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 02:19 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:18 ..
+-rw-r--r-- 1 root root  262 Nov 29 02:19 audio.conf
+-rw-r--r-- 1 root root   52 Oct  7  2016 squeak.conf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:39 .
+drwxr-xr-x 7 root root 4096 Nov 29 02:58 ..
+lrwxrwxrwx 1 root root   23 Jan 23  2017 avahi-daemon -> ../if-up.d/avahi-daemon
+-rwxr-xr-x 1 root root 1409 Mar 24  2016 wireless-tools
+lrwxrwxrwx 1 root root   32 Oct 14 12:18 wpasupplicant -> ../../wpa_supplicant/ifupdown.sh
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:39 .
+drwxr-xr-x 7 root root 4096 Nov 29 02:58 ..
+-rwxr-xr-x 1 root root 4178 Mar 24  2016 wireless-tools
+lrwxrwxrwx 1 root root   32 Oct 14 12:18 wpasupplicant -> ../../wpa_supplicant/ifupdown.sh
+total 24
+drwxr-xr-x 2 root root 4096 Nov 29 01:39 .
+drwxr-xr-x 7 root root 4096 Nov 29 02:58 ..
+-rwxr-xr-x 1 root root  703 Jul 25  2011 000resolvconf
+-rwxr-xr-x 1 root root  484 Jan 23  2017 avahi-daemon
+-rwxr-xr-x 1 root root  972 Jun 18  2017 openssh-server
+-rwxr-xr-x 1 root root 1483 Jun  2  2015 upstart
+lrwxrwxrwx 1 root root   32 Oct 14 12:18 wpasupplicant -> ../../wpa_supplicant/ifupdown.sh
+total 8
+drwxr-xr-x 2 root root 4096 Jan 30  2017 .
+drwxr-xr-x 7 root root 4096 Nov 29 02:58 ..
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:39 .
+drwxr-xr-x 7 root root 4096 Nov 29 02:58 ..
+-rwxr-xr-x 1 root root  301 Jul 25  2011 resolvconf
+-rwxr-xr-x 1 root root  332 Jun  2  2015 upstart
+lrwxrwxrwx 1 root root   32 Oct 14 12:18 wpasupplicant -> ../../wpa_supplicant/ifupdown.sh
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:33 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:15 ..
+-rw-r--r-- 1 root root   79 Mar 19  2017 libsasl2-modules
+-rw-r--r-- 1 root root  653 Jan 18  2017 rsyslog
+total 28
+drwxr-xr-x 2 root root 4096 Nov 29 01:53 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:51 ..
+-rw-r--r-- 1 root root  475 May 25  2012 90gs-cjk-resource-cns1.conf
+-rw-r--r-- 1 root root  504 May 25  2012 90gs-cjk-resource-gb1.conf
+-rw-r--r-- 1 root root  546 May 25  2012 90gs-cjk-resource-japan1.conf
+-rw-r--r-- 1 root root  387 May 25  2012 90gs-cjk-resource-japan2.conf
+-rw-r--r-- 1 root root  786 Feb 23  2014 90gs-cjk-resource-korea1.conf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:53 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:51 ..
+-rw-r--r-- 1 root root 3996 Aug 22  2016 10gsfonts.conf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:36 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:26 ..
+-rwxr-xr-x 1 root root  249 Jan 23  2017 avahi-daemon
+total 8
+drwxr-xr-x 2 root root 4096 May 19  2017 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:27 ..
+total 8
+drwxr-xr-x 2 root root 4096 Aug 30  2016 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:22 ..
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:16 ..
+-rw-r--r-- 1 root root  145 Dec 12  2016 README
+total 8
+drwxr-xr-x 2 root root 4096 Nov 29 01:22 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:10 ..
+lrwxrwxrwx 1 root root    9 Nov 29 01:22 99-default.link -> /dev/null
+total 72
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 .
+drwxr-xr-x  5 root root 4096 Nov 29 01:10 ..
+-rw-r--r--  1 root root 1551 Jul  4  2017 autologin@.service
+drwxr-xr-x  2 root root 4096 Nov 29 01:35 bluetooth.target.wants
+lrwxrwxrwx  1 root root   37 Nov 29 01:35 dbus-org.bluez.service -> /lib/systemd/system/bluetooth.service
+lrwxrwxrwx  1 root root   40 Nov 29 01:36 dbus-org.freedesktop.Avahi.service -> /lib/systemd/system/avahi-daemon.service
+lrwxrwxrwx  1 root root   34 Nov 29 01:38 dhcpcd5.service -> /lib/systemd/system/dhcpcd.service
+drwxr-xr-x  2 root root 4096 Nov 29 01:54 dhcpcd.service.d
+lrwxrwxrwx  1 root root   35 Nov 29 01:50 display-manager.service -> /lib/systemd/system/lightdm.service
+drwxr-xr-x  2 root root 4096 Nov 29 02:22 getty.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 01:22 getty@tty1.service.d
+drwxr-xr-x  2 root root 4096 Nov 29 02:17 graphical.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 01:29 halt.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 03:33 multi-user.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 01:17 network-online.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 01:29 poweroff.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 01:37 rc-local.service.d
+drwxr-xr-x  2 root root 4096 Nov 29 01:29 reboot.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 01:35 remote-fs.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 01:38 sockets.target.wants
+drwxr-xr-x  2 root root 4096 Nov 29 01:33 sysinit.target.wants
+lrwxrwxrwx  1 root root   35 Nov 29 01:16 syslog.service -> /lib/systemd/system/rsyslog.service
+drwxr-xr-x  2 root root 4096 Nov 29 01:17 timers.target.wants
+total 8
+drwxr-xr-x 2 root root 4096 Jul  5  2017 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:10 ..
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 03:33 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   40 Nov 29 01:36 avahi-daemon.service -> /lib/systemd/system/avahi-daemon.service
+lrwxrwxrwx  1 root root   41 Nov 29 01:33 console-setup.service -> /lib/systemd/system/console-setup.service
+lrwxrwxrwx  1 root root   32 Nov 29 01:16 cron.service -> /lib/systemd/system/cron.service
+lrwxrwxrwx  1 root root   34 Nov 29 01:38 dhcpcd.service -> /lib/systemd/system/dhcpcd.service
+lrwxrwxrwx  1 root root   41 Nov 29 01:54 gldriver-test.service -> /lib/systemd/system/gldriver-test.service
+lrwxrwxrwx  1 root root   35 Nov 29 01:35 hciuart.service -> /lib/systemd/system/hciuart.service
+lrwxrwxrwx  1 root root   38 Nov 29 01:17 networking.service -> /lib/systemd/system/networking.service
+lrwxrwxrwx  1 root root   37 Nov 29 01:35 nfs-client.target -> /lib/systemd/system/nfs-client.target
+lrwxrwxrwx  1 root root   48 Nov 29 01:39 raspberrypi-net-mods.service -> /lib/systemd/system/raspberrypi-net-mods.service
+lrwxrwxrwx  1 root root   36 Nov 29 01:10 remote-fs.target -> /lib/systemd/system/remote-fs.target
+lrwxrwxrwx  1 root root   33 Nov 29 01:30 rsync.service -> /lib/systemd/system/rsync.service
+lrwxrwxrwx  1 root root   35 Nov 29 01:16 rsyslog.service -> /lib/systemd/system/rsyslog.service
+lrwxrwxrwx  1 root root   31 Nov 29 03:33 ssh.service -> /lib/systemd/system/ssh.service
+lrwxrwxrwx  1 root root   37 Nov 29 01:29 sshswitch.service -> /lib/systemd/system/sshswitch.service
+lrwxrwxrwx  1 root root   40 Nov 29 01:22 triggerhappy.service -> /lib/systemd/system/triggerhappy.service
+total 12
+drwxr-xr-x  2 root root 4096 Nov 29 01:37 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+-rw-r--r--  1 root root   29 Nov 29 01:37 ttyoutput.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:29 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   49 Nov 29 01:29 rpi-display-backlight.service -> /lib/systemd/system/rpi-display-backlight.service
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:29 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   49 Nov 29 01:29 rpi-display-backlight.service -> /lib/systemd/system/rpi-display-backlight.service
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:17 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   35 Nov 29 01:17 apt-daily.timer -> /lib/systemd/system/apt-daily.timer
+lrwxrwxrwx  1 root root   43 Nov 29 01:17 apt-daily-upgrade.timer -> /lib/systemd/system/apt-daily-upgrade.timer
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:54 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:35 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   37 Nov 29 01:35 bluetooth.service -> /lib/systemd/system/bluetooth.service
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:33 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   40 Nov 29 01:29 fake-hwclock.service -> /lib/systemd/system/fake-hwclock.service
+lrwxrwxrwx  1 root root   42 Nov 29 01:33 keyboard-setup.service -> /lib/systemd/system/keyboard-setup.service
+lrwxrwxrwx  1 root root   45 Nov 29 01:10 systemd-timesyncd.service -> /lib/systemd/system/systemd-timesyncd.service
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:38 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   39 Nov 29 01:36 avahi-daemon.socket -> /lib/systemd/system/avahi-daemon.socket
+lrwxrwxrwx  1 root root   39 Nov 29 01:22 triggerhappy.socket -> /lib/systemd/system/triggerhappy.socket
+total 12
+drwxr-xr-x  2 root root 4096 Nov 29 01:22 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+-rw-r--r--  1 root root   30 Nov 29 01:22 noclear.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:17 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   36 Nov 29 02:17 bluealsa.service -> /lib/systemd/system/bluealsa.service
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:29 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   49 Nov 29 01:29 rpi-display-backlight.service -> /lib/systemd/system/rpi-display-backlight.service
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:17 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   38 Nov 29 01:17 networking.service -> /lib/systemd/system/networking.service
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:22 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   38 Nov 29 02:22 getty@tty1.service -> /etc/systemd/system/autologin@.service
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:35 .
+drwxr-xr-x 17 root root 4096 Nov 29 02:17 ..
+lrwxrwxrwx  1 root root   37 Nov 29 01:35 nfs-client.target -> /lib/systemd/system/nfs-client.target
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:47 ..
+-rw-r--r-- 1 root root 3587 Dec 19  2016 lightdm
+-rw-r--r-- 1 root root 3408 Dec 19  2016 lightdm_chromium-browser
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:16 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:16 ..
+lrwxrwxrwx 1 root root    8 Jan  9  2017 debug -> ../debug
+-rw-r--r-- 1 root root 1756 Jan  9  2017 rfc3442-classless-routes
+-rw-r--r-- 1 root root 1117 Jul  5  2017 timesyncd
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:39 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:16 ..
+lrwxrwxrwx 1 root root    8 Jan  9  2017 debug -> ../debug
+-rw-r--r-- 1 root root 1296 Jul 27  2011 resolvconf
+-rwxr-xr-x 1 root root 1734 Nov 20 22:24 samba
+lrwxrwxrwx 1 root root 14 Oct 23 10:13 /etc/X11/openbox -> ../xdg/openbox
+total 16
+drwxr-xr-x  2 root root 4096 Nov 29 01:54 .
+drwxr-xr-x 11 root root 4096 Nov 29 02:04 ..
+-rw-r--r--  1 root root  319 Nov 23  2016 x11-common
+-rw-r--r--  1 root root   43 Jan  5  2017 xpdf
+total 12
+drwxr-xr-x  2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 11 root root 4096 Nov 29 02:04 ..
+-rw-r--r--  1 root root  205 Nov 23  2016 README
+total 12
+drwxr-xr-x  3 root root 4096 Nov 29 02:04 .
+drwxr-xr-x 11 root root 4096 Nov 29 02:04 ..
+drwxr-xr-x  2 root root 4096 Nov 29 02:05 app-defaults
+total 12
+drwxr-xr-x  3 root root 4096 Nov 29 02:04 .
+drwxr-xr-x 11 root root 4096 Nov 29 02:04 ..
+drwxr-xr-x  2 root root 4096 Nov 29 02:05 app-defaults
+total 68
+drwxr-xr-x  2 root root 4096 Nov 29 02:19 .
+drwxr-xr-x 11 root root 4096 Nov 29 02:04 ..
+-rw-r--r--  1 root root 1062 Jul 30  2017 20dbus_xdg-runtime
+-rw-r--r--  1 root root  298 Oct  7  2016 20vdpau-va-gl
+-rw-r--r--  1 root root 2024 Nov 23  2016 20x11-common_process-args
+-rw-r--r--  1 root root  878 Nov 23  2016 30x11-common_xresources
+-rw-r--r--  1 root root  389 Nov 23  2016 35x11-common_xhost-local
+-rw-r--r--  1 root root  187 Nov 23  2016 40x11-common_xsessionrc
+-rw-r--r--  1 root root 1568 Nov 23  2016 50x11-common_determine-startup
+-rw-r--r--  1 root root   80 Sep 25  2014 60xdg-user-dirs-update
+-rw-r--r--  1 root root  752 Jul 30  2017 75dbus_dbus-launch
+-rw-r--r--  1 root root   84 Nov 15 07:53 75source-profile
+-rw-r--r--  1 root root  880 Sep 18 20:41 90gpg-agent
+-rw-r--r--  1 root root  966 Jan 22  2017 90qt5-opengl
+-rw-r--r--  1 root root  629 Nov 23  2016 90x11-common_ssh-agent
+-rw-r--r--  1 root root  513 Jul 30  2017 95dbus_update-activation-env
+-rw-r--r--  1 root root  166 Nov 23  2016 99x11-common_start
+total 16
+drwxr-xr-x  2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 11 root root 4096 Nov 29 02:04 ..
+-rwxr-xr-x  1 root root  164 Oct 24  2015 xinitrc
+-rwxr-xr-x  1 root root   46 Oct 24  2015 xserverrc
+total 76
+drwxr-xr-x  2 root root  4096 Nov 29 02:05 .
+drwxr-xr-x 11 root root  4096 Nov 29 02:04 ..
+-rw-r--r--  1 root root  9877 May  8  2015 Editres
+-rw-r--r--  1 root root  2751 May  8  2015 Editres-color
+-rw-r--r--  1 root root 13523 Aug  2  2016 TiMidity
+-rw-r--r--  1 root root  3184 May  8  2015 Viewres
+-rw-r--r--  1 root root   973 May  8  2015 Viewres-color
+-rw-r--r--  1 root root   754 May  8  2015 Xfd
+-rw-r--r--  1 root root  4774 May  8  2015 XFontSel
+-rw-r--r--  1 root root   248 May  8  2015 Xmessage
+-rw-r--r--  1 root root   920 May  8  2015 Xmessage-color
+-rw-r--r--  1 root root  6628 Mar  3  2016 Xvidtune
+total 16
+drwxr-xr-x  4 root root 4096 Nov 29 02:12 .
+drwxr-xr-x 11 root root 4096 Nov 29 02:04 ..
+drwxr-xr-x  2 root root 4096 Nov 29 02:17 100dpi
+drwxr-xr-x  2 root root 4096 Nov 29 01:54 Type1
+total 8
+drwxr-xr-x  2 root root 4096 Jul 18  2017 .
+drwxr-xr-x 11 root root 4096 Nov 29 02:04 ..
+total 24
+drwxr-xr-x 2 root root  4096 Nov 29 02:05 .
+drwxr-xr-x 3 root root  4096 Nov 29 02:04 ..
+-rw-r--r-- 1 root root 14561 Aug  2  2016 TiMidity
+total 24
+drwxr-xr-x 2 root root  4096 Nov 29 02:05 .
+drwxr-xr-x 3 root root  4096 Nov 29 02:04 ..
+-rw-r--r-- 1 root root 14358 Aug  2  2016 TiMidity
+total 44
+drwxr-xr-x 2 root root  4096 Nov 29 01:54 .
+drwxr-xr-x 4 root root  4096 Nov 29 02:12 ..
+-rw-r--r-- 1 root root 28252 Dec 30  2015 gsfonts-x11.alias
+-rw-r--r-- 1 root root  7439 Dec 30  2015 gsfonts-x11.scale
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 02:17 .
+drwxr-xr-x 4 root root 4096 Nov 29 02:12 ..
+-rw-r--r-- 1 root root 3154 Jul  8  2015 xfonts-100dpi.alias
+total 8
+drwxr-xr-x 2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:10 ..
+total 48
+drwxr-xr-x 12 root root 4096 Apr 26  2017 .
+drwxr-xr-x  5 root root 4096 Nov 29 01:10 ..
+drwxr-xr-x  2 root root 4096 Apr 26  2017 init-bottom
+drwxr-xr-x  2 root root 4096 Apr 26  2017 init-premount
+drwxr-xr-x  2 root root 4096 Apr 26  2017 init-top
+drwxr-xr-x  2 root root 4096 Apr 26  2017 local-bottom
+drwxr-xr-x  2 root root 4096 Apr 26  2017 local-premount
+drwxr-xr-x  2 root root 4096 Apr 26  2017 local-top
+drwxr-xr-x  2 root root 4096 Apr 26  2017 nfs-bottom
+drwxr-xr-x  2 root root 4096 Apr 26  2017 nfs-premount
+drwxr-xr-x  2 root root 4096 Apr 26  2017 nfs-top
+drwxr-xr-x  2 root root 4096 Apr 26  2017 panic
+total 8
+drwxr-xr-x 2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:10 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 8
+drwxr-xr-x  2 root root 4096 Apr 26  2017 .
+drwxr-xr-x 12 root root 4096 Apr 26  2017 ..
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:47 ..
+-rw-r--r-- 1 root root  455 May 24  2017 50-nullbackend.conf
+total 28
+drwx------ 7 root root 4096 Nov 29 01:47 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:47 ..
+drwxr-xr-x 2 root root 4096 May 24  2017 10-vendor.d
+drwxr-xr-x 2 root root 4096 May 24  2017 20-org.d
+drwxr-xr-x 2 root root 4096 May 24  2017 30-site.d
+drwxr-xr-x 2 root root 4096 May 24  2017 50-local.d
+drwxr-xr-x 2 root root 4096 May 24  2017 90-mandatory.d
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 02:14 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:47 ..
+-rw-r--r-- 1 root root  267 May 24  2017 50-localauthority.conf
+-rw-r--r-- 1 root root   57 Nov 15 07:53 60-desktop-policy.conf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:29 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:09 ..
+-rw-r--r-- 1 root root 1028 Nov 27 13:53 99-com.rules
+total 8
+drwxr-xr-x 2 root root 4096 Jul  5  2017 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:09 ..
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 02:04 .
+drwxr-xr-x 3 root root 4096 Nov 29 02:56 ..
+-rw-r--r-- 1 root root  183 Nov 29 02:04 common
+total 88
+drwxr-xr-x 2 root root  4096 Nov 29 02:05 .
+drwxr-xr-x 4 root root  4096 Nov 29 01:26 ..
+-rw-r--r-- 1 root root  1144 Jan 23  2017 avahi-dbus.conf
+-rw-r--r-- 1 root root  1630 Oct 20 09:38 bluetooth.conf
+-rw-r--r-- 1 root root  1375 May 21  2014 Mountall.Server.conf
+-rw-r--r-- 1 root root  1180 Dec 19  2016 org.freedesktop.DisplayManager.conf
+-rw-r--r-- 1 root root   947 Jul  5  2017 org.freedesktop.hostname1.conf
+-rw-r--r-- 1 root root   937 Jul  5  2017 org.freedesktop.locale1.conf
+-rw-r--r-- 1 root root 12499 Jul  5  2017 org.freedesktop.login1.conf
+-rw-r--r-- 1 root root  1604 Jul  5  2017 org.freedesktop.network1.conf
+-rw-r--r-- 1 root root  1331 Mar  8  2017 org.freedesktop.PackageKit.conf
+-rw-r--r-- 1 root root   632 May 24  2017 org.freedesktop.PolicyKit1.conf
+-rw-r--r-- 1 root root   953 Jul  5  2017 org.freedesktop.resolve1.conf
+-rw-r--r-- 1 root root 11898 Jul  5  2017 org.freedesktop.systemd1.conf
+-rw-r--r-- 1 root root   947 Jul  5  2017 org.freedesktop.timedate1.conf
+-rw-r--r-- 1 root root   525 Nov 25  2016 org.freedesktop.UDisks2.conf
+-rw-r--r-- 1 root root  1649 Oct 14 12:18 wpa_supplicant.conf
+total 8
+drwxr-xr-x 2 root root 4096 Jul 30  2017 .
+drwxr-xr-x 4 root root 4096 Nov 29 01:26 ..
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:30 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:25 ..
+-rw-r--r-- 1 root root  177 Aug  9 16:19 README
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:48 ..
+-rw-r--r-- 1 root root 1824 May 21  2014 00debian-vars.el
+-rw-r--r-- 1 root root 1799 Oct 10  2016 50dictionaries-common.el
+total 8
+drwxr-xr-x 2 root root 4096 Jul  5  2017 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:06 ..
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:10 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:06 ..
+-rwxr-xr-x 1 root root  821 Mar  1  2015 initramfs-tools
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:17 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:06 ..
+-rwxr-xr-x 1 root root 2903 Sep 13 16:47 apt-auto-removal
+-rwxr-xr-x 1 root root  868 Mar  6  2017 initramfs-tools
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 02:04 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:45 ..
+-rw-r--r-- 1 root root 1532 Nov 29 02:04 %gconf-tree.xml
+total 8
+drwxr-xr-x 2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:45 ..
+-rw-r--r-- 1 root root    0 Nov 29 01:49 %gconf-tree.xml
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:48 .
+drwxr-xr-x 5 root root 4096 Nov 29 01:45 ..
+-rw-r--r-- 1 root root 3397 Oct 11  2016 evoldap.conf
+-rw-r--r-- 1 root root 1421 Oct 11  2016 path
+total 76
+drwxr-xr-x  3 root root  4096 Nov 29 02:14 .
+drwxr-xr-x 10 root root  4096 Nov 29 01:54 ..
+-rwxr-xr-x  1 root root   498 Oct 23 10:13 autostart
+-rwxr-xr-x  1 root root   379 Oct 23 10:13 environment
+drwxr-xr-x  2 root root  4096 Nov 29 01:49 LXDE
+-rw-r--r--  1 root root 25231 Nov 15 07:53 lxde-pi-rc.xml
+-rw-r--r--  1 root root  1005 Oct 15  2016 menu.xml
+-rw-r--r--  1 root root 24189 Oct 23 10:13 rc.xml
+total 28
+drwxr-xr-x  6 root root 4096 Nov 29 02:14 .
+drwxr-xr-x 10 root root 4096 Nov 29 01:54 ..
+drwxr-xr-x  3 root root 4096 Nov 29 01:50 default
+-rw-r--r--  1 root root   96 Nov 15 07:53 launchtaskbar.cfg
+drwxr-xr-x  3 root root 4096 Nov 29 01:48 LXDE
+drwxr-xr-x  3 root root 4096 Nov 29 02:12 profile
+drwxr-xr-x  3 root root 4096 Nov 29 01:50 two_panels
+total 12
+drwxr-xr-x  2 root root 4096 Nov 29 01:48 .
+drwxr-xr-x 10 root root 4096 Nov 29 01:54 ..
+-rw-r--r--  1 root root  231 Nov 14 14:11 libfm.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 01:06 .
+drwxr-xr-x 10 root root 4096 Nov 29 01:54 ..
+lrwxrwxrwx  1 root root   18 Jul  5  2017 user -> ../../systemd/user
+total 44
+drwxr-xr-x  2 root root  4096 Nov 29 02:17 .
+drwxr-xr-x 10 root root  4096 Nov 29 01:54 ..
+lrwxrwxrwx  1 root root    40 Jan 17  2010 debian-menu.menu -> /var/lib/menu-xdg/menus/debian-menu.menu
+-rw-r--r--  1 root root 19124 Mar  4  2017 gnome-applications.menu
+-rw-r--r--  1 root root  4135 Jan 25  2017 lxde-applications.menu
+-rw-r--r--  1 root root  4416 Nov 15 07:53 lxde-pi-applications.menu
+total 16
+drwxr-xr-x  4 root root 4096 Nov 29 02:09 .
+drwxr-xr-x 10 root root 4096 Nov 29 01:54 ..
+drwxr-xr-x  2 root root 4096 Nov 29 01:49 LXDE
+drwxr-xr-x  2 root root 4096 Nov 29 02:16 LXDE-pi
+total 20
+drwxr-xr-x  5 root root 4096 Nov 29 02:12 .
+drwxr-xr-x 10 root root 4096 Nov 29 01:54 ..
+drwxr-xr-x  2 root root 4096 Nov 29 01:49 default
+drwxr-xr-x  2 root root 4096 Nov 29 01:48 LXDE
+drwxr-xr-x  2 root root 4096 Nov 29 02:14 LXDE-pi
+total 28
+drwxr-xr-x  2 root root 4096 Nov 29 02:16 .
+drwxr-xr-x 10 root root 4096 Nov 29 01:54 ..
+-rw-r--r--  1 root root 7741 Oct 11  2016 gsettings-data-convert.desktop
+-rw-r--r--  1 root root  179 Nov 15 07:53 lxkeymap.desktop
+-rw-r--r--  1 root root 1659 Dec 25  2016 lxpolkit.desktop
+-rwxr-xr-x  1 root root  189 Jan 13  2017 pprompt.desktop
+total 36
+drwxr-xr-x 2 root root  4096 Nov 29 01:49 .
+drwxr-xr-x 3 root root  4096 Nov 29 02:14 ..
+-rw-r--r-- 1 root root  1295 Jan 20  2017 menu.xml
+-rw-r--r-- 1 root root 22401 Jan 20  2017 rc.xml
+total 12
+drwxr-xr-x 3 root root 4096 Nov 29 01:50 .
+drwxr-xr-x 6 root root 4096 Nov 29 02:14 ..
+-rw-r--r-- 1 root root    0 Oct 23 10:27 config
+drwxr-xr-x 2 root root 4096 Nov 29 01:50 panels
+total 12
+drwxr-xr-x 3 root root 4096 Nov 29 02:12 .
+drwxr-xr-x 6 root root 4096 Nov 29 02:14 ..
+drwxr-xr-x 3 root root 4096 Nov 29 02:14 LXDE-pi
+total 16
+drwxr-xr-x 3 root root 4096 Nov 29 01:48 .
+drwxr-xr-x 6 root root 4096 Nov 29 02:14 ..
+-rw-r--r-- 1 root root   29 Jan 20  2017 config
+drwxr-xr-x 2 root root 4096 Nov 29 01:48 panels
+total 12
+drwxr-xr-x 3 root root 4096 Nov 29 01:50 .
+drwxr-xr-x 6 root root 4096 Nov 29 02:14 ..
+-rw-r--r-- 1 root root    0 Oct 23 10:27 config
+drwxr-xr-x 2 root root 4096 Nov 29 01:50 panels
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:50 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:50 ..
+-rw-r--r-- 1 root root 1072 Oct 23 10:27 bottom
+-rw-r--r-- 1 root root 1538 Oct 23 10:27 top
+total 16
+drwxr-xr-x 3 root root 4096 Nov 29 02:14 .
+drwxr-xr-x 3 root root 4096 Nov 29 02:12 ..
+-rw-r--r-- 1 root root   93 Nov 15 07:53 config
+drwxr-xr-x 2 root root 4096 Nov 29 02:14 panels
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 02:14 .
+drwxr-xr-x 3 root root 4096 Nov 29 02:14 ..
+-rw-r--r-- 1 root root 2215 Nov 15 07:53 panel
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:48 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:48 ..
+-rw-r--r-- 1 root root 2195 Jan 20  2017 panel
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:50 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:50 ..
+-rw-r--r-- 1 root root 1921 Oct 23 10:27 panel
+lrwxrwxrwx 1 root root 18 Jul  5  2017 /etc/xdg/systemd/user -> ../../systemd/user
+total 24
+drwxr-xr-x 2 root root 4096 Nov 29 02:16 .
+drwxr-xr-x 4 root root 4096 Nov 29 02:09 ..
+-rwxr-xr-x 1 root root  546 Nov 15 07:53 autokey.sh
+-rw-r--r-- 1 root root  100 Nov 15 07:53 autostart
+-rw-r--r-- 1 root root 1125 Nov 15 07:53 desktop.conf
+-rwxr-xr-x 1 root root  332 Jun 19  2017 sshpwd.sh
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 4 root root 4096 Nov 29 02:09 ..
+-rw-r--r-- 1 root root   83 Jan 20  2017 autostart
+-rw-r--r-- 1 root root  305 Jan 20  2017 desktop.conf
+total 16
+drwxr-xr-x 2 root root 4096 Nov 29 02:14 .
+drwxr-xr-x 5 root root 4096 Nov 29 02:12 ..
+-rw-r--r-- 1 root root  326 Nov 15 07:53 desktop-items-0.conf
+-rw-r--r-- 1 root root  356 Nov 15 08:56 pcmanfm.conf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:48 .
+drwxr-xr-x 5 root root 4096 Nov 29 02:12 ..
+-rw-r--r-- 1 root root  308 Jan 20  2017 pcmanfm.conf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:49 .
+drwxr-xr-x 5 root root 4096 Nov 29 02:12 ..
+-rw-r--r-- 1 root root  321 Nov 14 11:03 pcmanfm.conf
+total 8
+drwxr-xr-x 2 root root 4096 Nov 29 01:38 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:38 ..
+lrwxrwxrwx 1 root root   34 Oct 14 12:18 action_wpa -> ../../wpa_supplicant/action_wpa.sh
+total 48
+drwxr-xr-x  4 root root 4096 Nov 29 02:16 .
+drwxr-xr-x  5 root root 4096 Nov 29 02:07 ..
+-rw-r--r--  1 root root 7342 Jan  5  2013 CHANGELOG
+-rw-r--r--  1 root root 5071 Jan  5  2013 CHANGELOG.pre_git
+lrwxrwxrwx  1 root root   22 Nov  3 15:21 conf.d -> styles.conf.avail/win7
+drwxr-xr-x  3 root root 4096 Nov 29 02:16 conf.src
+-rwxr-xr-x  1 root root 1464 Jan  5  2013 infctl.sh
+-rw-r--r--  1 root root 3837 Jan  5  2013 infinality.conf
+-rw-r--r--  1 root root 1054 Jan  5  2013 LICENSE
+-rw-r--r--  1 root root 3148 Jan  5  2013 README
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 styles.conf.avail
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 5 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx 1 root root   59 Aug 24  2016 10-scale-bitmap-fonts.conf -> /usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
+lrwxrwxrwx 1 root root   58 Aug 24  2016 11-lcdfilter-default.conf -> /usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf
+lrwxrwxrwx 1 root root   50 Aug 16  2016 20-unhint-small-dejavu-lgc-sans.conf -> ../conf.avail/20-unhint-small-dejavu-lgc-sans.conf
+lrwxrwxrwx 1 root root   55 Aug 16  2016 20-unhint-small-dejavu-lgc-sans-mono.conf -> ../conf.avail/20-unhint-small-dejavu-lgc-sans-mono.conf
+lrwxrwxrwx 1 root root   51 Aug 16  2016 20-unhint-small-dejavu-lgc-serif.conf -> ../conf.avail/20-unhint-small-dejavu-lgc-serif.conf
+lrwxrwxrwx 1 root root   46 Aug 16  2016 20-unhint-small-dejavu-sans.conf -> ../conf.avail/20-unhint-small-dejavu-sans.conf
+lrwxrwxrwx 1 root root   51 Aug 16  2016 20-unhint-small-dejavu-sans-mono.conf -> ../conf.avail/20-unhint-small-dejavu-sans-mono.conf
+lrwxrwxrwx 1 root root   47 Aug 16  2016 20-unhint-small-dejavu-serif.conf -> ../conf.avail/20-unhint-small-dejavu-serif.conf
+lrwxrwxrwx 1 root root   58 Aug 24  2016 20-unhint-small-vera.conf -> /usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf
+lrwxrwxrwx 1 root root   55 Aug 24  2016 30-metric-aliases.conf -> /usr/share/fontconfig/conf.avail/30-metric-aliases.conf
+lrwxrwxrwx 1 root root   52 Aug 24  2016 30-urw-aliases.conf -> /usr/share/fontconfig/conf.avail/30-urw-aliases.conf
+lrwxrwxrwx 1 root root   49 Aug 24  2016 40-nonlatin.conf -> /usr/share/fontconfig/conf.avail/40-nonlatin.conf
+lrwxrwxrwx 1 root root   46 Aug 24  2016 45-latin.conf -> /usr/share/fontconfig/conf.avail/45-latin.conf
+lrwxrwxrwx 1 root root   50 Aug 24  2016 49-sansserif.conf -> /usr/share/fontconfig/conf.avail/49-sansserif.conf
+lrwxrwxrwx 1 root root   45 Aug 24  2016 50-user.conf -> /usr/share/fontconfig/conf.avail/50-user.conf
+lrwxrwxrwx 1 root root   46 Aug 24  2016 51-local.conf -> /usr/share/fontconfig/conf.avail/51-local.conf
+lrwxrwxrwx 1 root root   32 Nov  3 15:21 52-infinality.conf -> ../conf.avail/52-infinality.conf
+lrwxrwxrwx 1 root root   33 Aug 16  2016 57-dejavu-sans.conf -> ../conf.avail/57-dejavu-sans.conf
+lrwxrwxrwx 1 root root   38 Aug 16  2016 57-dejavu-sans-mono.conf -> ../conf.avail/57-dejavu-sans-mono.conf
+lrwxrwxrwx 1 root root   34 Aug 16  2016 57-dejavu-serif.conf -> ../conf.avail/57-dejavu-serif.conf
+lrwxrwxrwx 1 root root   37 Aug 16  2016 58-dejavu-lgc-sans.conf -> ../conf.avail/58-dejavu-lgc-sans.conf
+lrwxrwxrwx 1 root root   42 Aug 16  2016 58-dejavu-lgc-sans-mono.conf -> ../conf.avail/58-dejavu-lgc-sans-mono.conf
+lrwxrwxrwx 1 root root   38 Aug 16  2016 58-dejavu-lgc-serif.conf -> ../conf.avail/58-dejavu-lgc-serif.conf
+lrwxrwxrwx 1 root root   46 Aug 24  2016 60-latin.conf -> /usr/share/fontconfig/conf.avail/60-latin.conf
+lrwxrwxrwx 1 root root   54 Aug 24  2016 65-fonts-persian.conf -> /usr/share/fontconfig/conf.avail/65-fonts-persian.conf
+lrwxrwxrwx 1 root root   49 Aug 24  2016 65-nonlatin.conf -> /usr/share/fontconfig/conf.avail/65-nonlatin.conf
+lrwxrwxrwx 1 root root   48 Aug 24  2016 69-unifont.conf -> /usr/share/fontconfig/conf.avail/69-unifont.conf
+lrwxrwxrwx 1 root root   51 Nov 29 01:49 70-no-bitmaps.conf -> /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf
+lrwxrwxrwx 1 root root   50 Aug 24  2016 80-delicious.conf -> /usr/share/fontconfig/conf.avail/80-delicious.conf
+lrwxrwxrwx 1 root root   50 Aug 24  2016 90-synthetic.conf -> /usr/share/fontconfig/conf.avail/90-synthetic.conf
+-rw-r--r-- 1 root root  978 Aug 24  2016 README
+total 68
+drwxr-xr-x 2 root root 4096 Nov 29 02:16 .
+drwxr-xr-x 5 root root 4096 Nov 29 02:07 ..
+-rw-r--r-- 1 root root  864 Jul 30  2016 20-unhint-small-dejavu-lgc-sans.conf
+-rw-r--r-- 1 root root  874 Jul 30  2016 20-unhint-small-dejavu-lgc-sans-mono.conf
+-rw-r--r-- 1 root root  866 Jul 30  2016 20-unhint-small-dejavu-lgc-serif.conf
+-rw-r--r-- 1 root root  856 Jul 30  2016 20-unhint-small-dejavu-sans.conf
+-rw-r--r-- 1 root root  866 Jul 30  2016 20-unhint-small-dejavu-sans-mono.conf
+-rw-r--r-- 1 root root  858 Jul 30  2016 20-unhint-small-dejavu-serif.conf
+-rw-r--r-- 1 root root  218 Jul 31  2016 30-droid-noto-mono.conf
+-rw-r--r-- 1 root root  158 Jan  5  2013 52-infinality.conf
+-rw-r--r-- 1 root root 2011 Jul 30  2016 57-dejavu-sans.conf
+-rw-r--r-- 1 root root 1509 Jul 30  2016 57-dejavu-sans-mono.conf
+-rw-r--r-- 1 root root 1649 Jul 30  2016 57-dejavu-serif.conf
+-rw-r--r-- 1 root root 2063 Jul 30  2016 58-dejavu-lgc-sans.conf
+-rw-r--r-- 1 root root 1545 Jul 30  2016 58-dejavu-lgc-sans-mono.conf
+-rw-r--r-- 1 root root 1689 Jul 30  2016 58-dejavu-lgc-serif.conf
+-rw-r--r-- 1 root root  202 Feb 14  2016 65-droid-sans-fallback.conf
+total 40
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 .
+drwxr-xr-x  4 root root 4096 Nov 29 02:16 ..
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 debug
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 infinality
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 linux
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 osx
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 osx2
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 win7
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 win98
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 winxp
+lrwxrwxrwx 1 root root 22 Nov  3 15:21 /etc/fonts/infinality/conf.d -> styles.conf.avail/win7
+total 380
+drwxr-xr-x 3 root root  4096 Nov 29 02:16 .
+drwxr-xr-x 4 root root  4096 Nov 29 02:16 ..
+-rw-r--r-- 1 root root   686 Jan  5  2013 20-aliases-default-inf.conf
+-rw-r--r-- 1 root root   711 Jan  5  2013 20-aliases-default-linux.conf
+-rw-r--r-- 1 root root   696 Jan  5  2013 20-aliases-default-osx.conf
+-rw-r--r-- 1 root root   717 Jan  5  2013 20-aliases-default-win.conf
+-rw-r--r-- 1 root root   374 Jan  5  2013 20-fix-cantarell.conf
+-rw-r--r-- 1 root root   753 Jan  5  2013 21-aliases-wine-linux.conf
+-rw-r--r-- 1 root root   761 Jan  5  2013 21-aliases-wine-osx.conf
+-rw-r--r-- 1 root root   916 Jan  5  2013 21-aliases-wine-win7-inf.conf
+-rw-r--r-- 1 root root   947 Jan  5  2013 21-aliases-wine-win98.conf
+-rw-r--r-- 1 root root   755 Jan  5  2013 21-aliases-wine-winxp.conf
+-rw-r--r-- 1 root root  3510 Nov  3 15:21 30-non-latin-inf-win.conf
+-rw-r--r-- 1 root root  3383 Jan  5  2013 30-non-latin-osx-lin.conf
+-rw-r--r-- 1 root root  1386 Jan  5  2013 40-repl-generic.conf
+-rw-r--r-- 1 root root  4344 Jan  5  2013 41-repl-os-inf.conf
+-rw-r--r-- 1 root root  7813 Jan  5  2013 41-repl-os-linux.conf
+-rw-r--r-- 1 root root  8214 Jan  5  2013 41-repl-os-osx.conf
+-rw-r--r-- 1 root root  9251 Aug  9  2016 41-repl-os-win.conf
+-rw-r--r-- 1 root root  1082 Jan  5  2013 42-repl-global.conf
+-rw-r--r-- 1 root root  2463 Jan  5  2013 43-repl-tt-traced-bitmap.conf
+-rw-r--r-- 1 root root  1173 Jan  5  2013 44-repl-corrective.conf
+-rw-r--r-- 1 root root   944 Jan  5  2013 50-base-rendering-inf-osx-lin.conf
+-rw-r--r-- 1 root root   926 Jan  5  2013 50-base-rendering-osx2.conf
+-rw-r--r-- 1 root root   932 Jan  5  2013 50-base-rendering-win7-winxp.conf
+-rw-r--r-- 1 root root   927 Jan  5  2013 50-base-rendering-win98.conf
+-rw-r--r-- 1 root root 90663 Jan  5  2013 60-group-non-tt-fonts.conf
+-rw-r--r-- 1 root root 63597 Jan  5  2013 60-group-tt-fonts.conf
+-rw-r--r-- 1 root root   647 Jan  5  2013 61-group-non-tt-rendering-default.conf
+-rw-r--r-- 1 root root  1095 Jan  5  2013 61-group-non-tt-rendering-inf-7-xp-lin.conf
+-rw-r--r-- 1 root root   508 Jan  5  2013 61-group-non-tt-rendering-win98.conf
+-rw-r--r-- 1 root root   463 Jan  5  2013 61-group-tt-rendering-inf-7-xp.conf
+-rw-r--r-- 1 root root   446 Jan  5  2013 61-group-tt-rendering-linux.conf
+-rw-r--r-- 1 root root   443 Jan  5  2013 61-group-tt-rendering-osx2.conf
+-rw-r--r-- 1 root root   444 Jan  5  2013 61-group-tt-rendering-osx.conf
+-rw-r--r-- 1 root root   457 Jan  5  2013 61-group-tt-rendering-win98.conf
+-rw-r--r-- 1 root root  3758 Jan  5  2013 62-tt-monospace-rendering.conf
+-rw-r--r-- 1 root root  7344 Jan  5  2013 62-tt-traced-bitmap-rendering.conf
+-rw-r--r-- 1 root root   467 Jan  5  2013 64-override-inf.conf
+-rw-r--r-- 1 root root  1104 Jan  5  2013 64-override-win98.conf
+-rw-r--r-- 1 root root  1349 Jan  5  2013 65-override.conf
+-rw-r--r-- 1 root root  2903 Jan  5  2013 70-forced-synthetic.conf
+-rw-r--r-- 1 root root  1210 Jan  5  2013 71-forced-synthetic-win98.conf
+-rw-r--r-- 1 root root  1079 Jan  5  2013 80-selective-rendering-inf-7-xp.conf
+-rw-r--r-- 1 root root  5488 Jan  5  2013 80-selective-rendering-inf-win-lin.conf
+-rw-r--r-- 1 root root  1066 Jan  5  2013 81-final-rendering-inf-7-xp.conf
+-rw-r--r-- 1 root root  2170 Jan  5  2013 90-no-synthetic.conf
+-rw-r--r-- 1 root root   662 Jan  5  2013 90-reject.conf
+-rw-r--r-- 1 root root   863 Jan  5  2013 99-debug.conf
+drwxr-xr-x 2 root root  4096 Nov 29 02:16 generate60
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 20-aliases-default-linux.conf -> ../../conf.src/20-aliases-default-linux.conf
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 20-fix-cantarell.conf -> ../../conf.src/20-fix-cantarell.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 21-aliases-wine-linux.conf -> ../../conf.src/21-aliases-wine-linux.conf
+lrwxrwxrwx  1 root root   40 Nov  3 15:21 30-non-latin-osx-lin.conf -> ../../conf.src/30-non-latin-osx-lin.conf
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 41-repl-os-linux.conf -> ../../conf.src/41-repl-os-linux.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 42-repl-global.conf -> ../../conf.src/42-repl-global.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 43-repl-tt-traced-bitmap.conf -> ../../conf.src/43-repl-tt-traced-bitmap.conf
+lrwxrwxrwx  1 root root   38 Nov  3 15:21 44-repl-corrective.conf -> ../../conf.src/44-repl-corrective.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 50-base-rendering-inf-osx-lin.conf -> ../../conf.src/50-base-rendering-inf-osx-lin.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 60-group-non-tt-fonts.conf -> ../../conf.src/60-group-non-tt-fonts.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 60-group-tt-fonts.conf -> ../../conf.src/60-group-tt-fonts.conf
+lrwxrwxrwx  1 root root   58 Nov  3 15:21 61-group-non-tt-rendering-inf-7-xp-lin.conf -> ../../conf.src/61-group-non-tt-rendering-inf-7-xp-lin.conf
+lrwxrwxrwx  1 root root   47 Nov  3 15:21 61-group-tt-rendering-linux.conf -> ../../conf.src/61-group-tt-rendering-linux.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 62-tt-monospace-rendering.conf -> ../../conf.src/62-tt-monospace-rendering.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 62-tt-traced-bitmap-rendering.conf -> ../../conf.src/62-tt-traced-bitmap-rendering.conf
+lrwxrwxrwx  1 root root   31 Nov  3 15:21 65-override.conf -> ../../conf.src/65-override.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 70-forced-synthetic.conf -> ../../conf.src/70-forced-synthetic.conf
+lrwxrwxrwx  1 root root   54 Nov  3 15:21 80-selective-rendering-inf-win-lin.conf -> ../../conf.src/80-selective-rendering-inf-win-lin.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 90-no-synthetic.conf -> ../../conf.src/90-no-synthetic.conf
+lrwxrwxrwx  1 root root   29 Nov  3 15:21 90-reject.conf -> ../../conf.src/90-reject.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx  1 root root   42 Nov  3 15:21 20-aliases-default-inf.conf -> ../../conf.src/20-aliases-default-inf.conf
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 20-fix-cantarell.conf -> ../../conf.src/20-fix-cantarell.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 21-aliases-wine-win7-inf.conf -> ../../conf.src/21-aliases-wine-win7-inf.conf
+lrwxrwxrwx  1 root root   40 Nov  3 15:21 30-non-latin-inf-win.conf -> ../../conf.src/30-non-latin-inf-win.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 41-repl-os-inf.conf -> ../../conf.src/41-repl-os-inf.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 42-repl-global.conf -> ../../conf.src/42-repl-global.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 43-repl-tt-traced-bitmap.conf -> ../../conf.src/43-repl-tt-traced-bitmap.conf
+lrwxrwxrwx  1 root root   38 Nov  3 15:21 44-repl-corrective.conf -> ../../conf.src/44-repl-corrective.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 50-base-rendering-inf-osx-lin.conf -> ../../conf.src/50-base-rendering-inf-osx-lin.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 60-group-non-tt-fonts.conf -> ../../conf.src/60-group-non-tt-fonts.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 60-group-tt-fonts.conf -> ../../conf.src/60-group-tt-fonts.conf
+lrwxrwxrwx  1 root root   58 Nov  3 15:21 61-group-non-tt-rendering-inf-7-xp-lin.conf -> ../../conf.src/61-group-non-tt-rendering-inf-7-xp-lin.conf
+lrwxrwxrwx  1 root root   50 Nov  3 15:21 61-group-tt-rendering-inf-7-xp.conf -> ../../conf.src/61-group-tt-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 62-tt-monospace-rendering.conf -> ../../conf.src/62-tt-monospace-rendering.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 62-tt-traced-bitmap-rendering.conf -> ../../conf.src/62-tt-traced-bitmap-rendering.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 64-override-inf.conf -> ../../conf.src/64-override-inf.conf
+lrwxrwxrwx  1 root root   31 Nov  3 15:21 65-override.conf -> ../../conf.src/65-override.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 70-forced-synthetic.conf -> ../../conf.src/70-forced-synthetic.conf
+lrwxrwxrwx  1 root root   51 Nov  3 15:21 80-selective-rendering-inf-7-xp.conf -> ../../conf.src/80-selective-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   54 Nov  3 15:21 80-selective-rendering-inf-win-lin.conf -> ../../conf.src/80-selective-rendering-inf-win-lin.conf
+lrwxrwxrwx  1 root root   47 Nov  3 15:21 81-final-rendering-inf-7-xp.conf -> ../../conf.src/81-final-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 90-no-synthetic.conf -> ../../conf.src/90-no-synthetic.conf
+lrwxrwxrwx  1 root root   29 Nov  3 15:21 90-reject.conf -> ../../conf.src/90-reject.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 20-fix-cantarell.conf -> ../../conf.src/20-fix-cantarell.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 42-repl-global.conf -> ../../conf.src/42-repl-global.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 43-repl-tt-traced-bitmap.conf -> ../../conf.src/43-repl-tt-traced-bitmap.conf
+lrwxrwxrwx  1 root root   38 Nov  3 15:21 44-repl-corrective.conf -> ../../conf.src/44-repl-corrective.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 60-group-non-tt-fonts.conf -> ../../conf.src/60-group-non-tt-fonts.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 60-group-tt-fonts.conf -> ../../conf.src/60-group-tt-fonts.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 62-tt-monospace-rendering.conf -> ../../conf.src/62-tt-monospace-rendering.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 62-tt-traced-bitmap-rendering.conf -> ../../conf.src/62-tt-traced-bitmap-rendering.conf
+lrwxrwxrwx  1 root root   31 Nov  3 15:21 65-override.conf -> ../../conf.src/65-override.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 70-forced-synthetic.conf -> ../../conf.src/70-forced-synthetic.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 90-no-synthetic.conf -> ../../conf.src/90-no-synthetic.conf
+lrwxrwxrwx  1 root root   28 Nov  3 15:21 99-debug.conf -> ../../conf.src/99-debug.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx  1 root root   42 Nov  3 15:21 20-aliases-default-osx.conf -> ../../conf.src/20-aliases-default-osx.conf
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 20-fix-cantarell.conf -> ../../conf.src/20-fix-cantarell.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 21-aliases-wine-osx.conf -> ../../conf.src/21-aliases-wine-osx.conf
+lrwxrwxrwx  1 root root   40 Nov  3 15:21 30-non-latin-osx-lin.conf -> ../../conf.src/30-non-latin-osx-lin.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 41-repl-os-osx.conf -> ../../conf.src/41-repl-os-osx.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 42-repl-global.conf -> ../../conf.src/42-repl-global.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 43-repl-tt-traced-bitmap.conf -> ../../conf.src/43-repl-tt-traced-bitmap.conf
+lrwxrwxrwx  1 root root   38 Nov  3 15:21 44-repl-corrective.conf -> ../../conf.src/44-repl-corrective.conf
+lrwxrwxrwx  1 root root   42 Nov  3 15:21 50-base-rendering-osx2.conf -> ../../conf.src/50-base-rendering-osx2.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 60-group-non-tt-fonts.conf -> ../../conf.src/60-group-non-tt-fonts.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 60-group-tt-fonts.conf -> ../../conf.src/60-group-tt-fonts.conf
+lrwxrwxrwx  1 root root   46 Nov  3 15:21 61-group-tt-rendering-osx2.conf -> ../../conf.src/61-group-tt-rendering-osx2.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 62-tt-monospace-rendering.conf -> ../../conf.src/62-tt-monospace-rendering.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 62-tt-traced-bitmap-rendering.conf -> ../../conf.src/62-tt-traced-bitmap-rendering.conf
+lrwxrwxrwx  1 root root   31 Nov  3 15:21 65-override.conf -> ../../conf.src/65-override.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 70-forced-synthetic.conf -> ../../conf.src/70-forced-synthetic.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 90-no-synthetic.conf -> ../../conf.src/90-no-synthetic.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx  1 root root   42 Nov  3 15:21 20-aliases-default-win.conf -> ../../conf.src/20-aliases-default-win.conf
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 20-fix-cantarell.conf -> ../../conf.src/20-fix-cantarell.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 21-aliases-wine-win7-inf.conf -> ../../conf.src/21-aliases-wine-win7-inf.conf
+lrwxrwxrwx  1 root root   40 Nov  3 15:21 30-non-latin-inf-win.conf -> ../../conf.src/30-non-latin-inf-win.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 41-repl-os-win.conf -> ../../conf.src/41-repl-os-win.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 42-repl-global.conf -> ../../conf.src/42-repl-global.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 43-repl-tt-traced-bitmap.conf -> ../../conf.src/43-repl-tt-traced-bitmap.conf
+lrwxrwxrwx  1 root root   38 Nov  3 15:21 44-repl-corrective.conf -> ../../conf.src/44-repl-corrective.conf
+lrwxrwxrwx  1 root root   48 Nov  3 15:21 50-base-rendering-win7-winxp.conf -> ../../conf.src/50-base-rendering-win7-winxp.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 60-group-non-tt-fonts.conf -> ../../conf.src/60-group-non-tt-fonts.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 60-group-tt-fonts.conf -> ../../conf.src/60-group-tt-fonts.conf
+lrwxrwxrwx  1 root root   58 Nov  3 15:21 61-group-non-tt-rendering-inf-7-xp-lin.conf -> ../../conf.src/61-group-non-tt-rendering-inf-7-xp-lin.conf
+lrwxrwxrwx  1 root root   50 Nov  3 15:21 61-group-tt-rendering-inf-7-xp.conf -> ../../conf.src/61-group-tt-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 62-tt-monospace-rendering.conf -> ../../conf.src/62-tt-monospace-rendering.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 62-tt-traced-bitmap-rendering.conf -> ../../conf.src/62-tt-traced-bitmap-rendering.conf
+lrwxrwxrwx  1 root root   31 Nov  3 15:21 65-override.conf -> ../../conf.src/65-override.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 70-forced-synthetic.conf -> ../../conf.src/70-forced-synthetic.conf
+lrwxrwxrwx  1 root root   51 Nov  3 15:21 80-selective-rendering-inf-7-xp.conf -> ../../conf.src/80-selective-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   54 Nov  3 15:21 80-selective-rendering-inf-win-lin.conf -> ../../conf.src/80-selective-rendering-inf-win-lin.conf
+lrwxrwxrwx  1 root root   47 Nov  3 15:21 81-final-rendering-inf-7-xp.conf -> ../../conf.src/81-final-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 90-no-synthetic.conf -> ../../conf.src/90-no-synthetic.conf
+lrwxrwxrwx  1 root root   29 Nov  3 15:21 90-reject.conf -> ../../conf.src/90-reject.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx  1 root root   42 Nov  3 15:21 20-aliases-default-win.conf -> ../../conf.src/20-aliases-default-win.conf
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 20-fix-cantarell.conf -> ../../conf.src/20-fix-cantarell.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 21-aliases-wine-win98.conf -> ../../conf.src/21-aliases-wine-win98.conf
+lrwxrwxrwx  1 root root   40 Nov  3 15:21 30-non-latin-inf-win.conf -> ../../conf.src/30-non-latin-inf-win.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 41-repl-os-win.conf -> ../../conf.src/41-repl-os-win.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 42-repl-global.conf -> ../../conf.src/42-repl-global.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 43-repl-tt-traced-bitmap.conf -> ../../conf.src/43-repl-tt-traced-bitmap.conf
+lrwxrwxrwx  1 root root   38 Nov  3 15:21 44-repl-corrective.conf -> ../../conf.src/44-repl-corrective.conf
+lrwxrwxrwx  1 root root   43 Nov  3 15:21 50-base-rendering-win98.conf -> ../../conf.src/50-base-rendering-win98.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 60-group-non-tt-fonts.conf -> ../../conf.src/60-group-non-tt-fonts.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 60-group-tt-fonts.conf -> ../../conf.src/60-group-tt-fonts.conf
+lrwxrwxrwx  1 root root   51 Nov  3 15:21 61-group-non-tt-rendering-win98.conf -> ../../conf.src/61-group-non-tt-rendering-win98.conf
+lrwxrwxrwx  1 root root   47 Nov  3 15:21 61-group-tt-rendering-win98.conf -> ../../conf.src/61-group-tt-rendering-win98.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 62-tt-monospace-rendering.conf -> ../../conf.src/62-tt-monospace-rendering.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 62-tt-traced-bitmap-rendering.conf -> ../../conf.src/62-tt-traced-bitmap-rendering.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 64-override-win98.conf -> ../../conf.src/64-override-win98.conf
+lrwxrwxrwx  1 root root   31 Nov  3 15:21 65-override.conf -> ../../conf.src/65-override.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 70-forced-synthetic.conf -> ../../conf.src/70-forced-synthetic.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 71-forced-synthetic-win98.conf -> ../../conf.src/71-forced-synthetic-win98.conf
+lrwxrwxrwx  1 root root   54 Nov  3 15:21 80-selective-rendering-inf-win-lin.conf -> ../../conf.src/80-selective-rendering-inf-win-lin.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 90-no-synthetic.conf -> ../../conf.src/90-no-synthetic.conf
+lrwxrwxrwx  1 root root   29 Nov  3 15:21 90-reject.conf -> ../../conf.src/90-reject.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx  1 root root   42 Nov  3 15:21 20-aliases-default-osx.conf -> ../../conf.src/20-aliases-default-osx.conf
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 20-fix-cantarell.conf -> ../../conf.src/20-fix-cantarell.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 21-aliases-wine-osx.conf -> ../../conf.src/21-aliases-wine-osx.conf
+lrwxrwxrwx  1 root root   40 Nov  3 15:21 30-non-latin-osx-lin.conf -> ../../conf.src/30-non-latin-osx-lin.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 41-repl-os-osx.conf -> ../../conf.src/41-repl-os-osx.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 42-repl-global.conf -> ../../conf.src/42-repl-global.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 43-repl-tt-traced-bitmap.conf -> ../../conf.src/43-repl-tt-traced-bitmap.conf
+lrwxrwxrwx  1 root root   38 Nov  3 15:21 44-repl-corrective.conf -> ../../conf.src/44-repl-corrective.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 50-base-rendering-inf-osx-lin.conf -> ../../conf.src/50-base-rendering-inf-osx-lin.conf
+lrwxrwxrwx  1 root root   42 Nov  3 15:21 50-base-rendering-osx2.conf -> ../../conf.src/50-base-rendering-osx2.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 60-group-non-tt-fonts.conf -> ../../conf.src/60-group-non-tt-fonts.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 60-group-tt-fonts.conf -> ../../conf.src/60-group-tt-fonts.conf
+lrwxrwxrwx  1 root root   46 Nov  3 15:21 61-group-tt-rendering-osx2.conf -> ../../conf.src/61-group-tt-rendering-osx2.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 61-group-tt-rendering-osx.conf -> ../../conf.src/61-group-tt-rendering-osx.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 62-tt-monospace-rendering.conf -> ../../conf.src/62-tt-monospace-rendering.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 62-tt-traced-bitmap-rendering.conf -> ../../conf.src/62-tt-traced-bitmap-rendering.conf
+lrwxrwxrwx  1 root root   31 Nov  3 15:21 65-override.conf -> ../../conf.src/65-override.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 70-forced-synthetic.conf -> ../../conf.src/70-forced-synthetic.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 90-no-synthetic.conf -> ../../conf.src/90-no-synthetic.conf
+total 8
+drwxr-xr-x  2 root root 4096 Nov 29 02:07 .
+drwxr-xr-x 10 root root 4096 Nov 29 02:07 ..
+lrwxrwxrwx  1 root root   42 Nov  3 15:21 20-aliases-default-win.conf -> ../../conf.src/20-aliases-default-win.conf
+lrwxrwxrwx  1 root root   36 Nov  3 15:21 20-fix-cantarell.conf -> ../../conf.src/20-fix-cantarell.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 21-aliases-wine-winxp.conf -> ../../conf.src/21-aliases-wine-winxp.conf
+lrwxrwxrwx  1 root root   40 Nov  3 15:21 30-non-latin-inf-win.conf -> ../../conf.src/30-non-latin-inf-win.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 41-repl-os-win.conf -> ../../conf.src/41-repl-os-win.conf
+lrwxrwxrwx  1 root root   34 Nov  3 15:21 42-repl-global.conf -> ../../conf.src/42-repl-global.conf
+lrwxrwxrwx  1 root root   44 Nov  3 15:21 43-repl-tt-traced-bitmap.conf -> ../../conf.src/43-repl-tt-traced-bitmap.conf
+lrwxrwxrwx  1 root root   38 Nov  3 15:21 44-repl-corrective.conf -> ../../conf.src/44-repl-corrective.conf
+lrwxrwxrwx  1 root root   48 Nov  3 15:21 50-base-rendering-win7-winxp.conf -> ../../conf.src/50-base-rendering-win7-winxp.conf
+lrwxrwxrwx  1 root root   41 Nov  3 15:21 60-group-non-tt-fonts.conf -> ../../conf.src/60-group-non-tt-fonts.conf
+lrwxrwxrwx  1 root root   37 Nov  3 15:21 60-group-tt-fonts.conf -> ../../conf.src/60-group-tt-fonts.conf
+lrwxrwxrwx  1 root root   58 Nov  3 15:21 61-group-non-tt-rendering-inf-7-xp-lin.conf -> ../../conf.src/61-group-non-tt-rendering-inf-7-xp-lin.conf
+lrwxrwxrwx  1 root root   50 Nov  3 15:21 61-group-tt-rendering-inf-7-xp.conf -> ../../conf.src/61-group-tt-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   45 Nov  3 15:21 62-tt-monospace-rendering.conf -> ../../conf.src/62-tt-monospace-rendering.conf
+lrwxrwxrwx  1 root root   49 Nov  3 15:21 62-tt-traced-bitmap-rendering.conf -> ../../conf.src/62-tt-traced-bitmap-rendering.conf
+lrwxrwxrwx  1 root root   31 Nov  3 15:21 65-override.conf -> ../../conf.src/65-override.conf
+lrwxrwxrwx  1 root root   39 Nov  3 15:21 70-forced-synthetic.conf -> ../../conf.src/70-forced-synthetic.conf
+lrwxrwxrwx  1 root root   51 Nov  3 15:21 80-selective-rendering-inf-7-xp.conf -> ../../conf.src/80-selective-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   54 Nov  3 15:21 80-selective-rendering-inf-win-lin.conf -> ../../conf.src/80-selective-rendering-inf-win-lin.conf
+lrwxrwxrwx  1 root root   47 Nov  3 15:21 81-final-rendering-inf-7-xp.conf -> ../../conf.src/81-final-rendering-inf-7-xp.conf
+lrwxrwxrwx  1 root root   35 Nov  3 15:21 90-no-synthetic.conf -> ../../conf.src/90-no-synthetic.conf
+lrwxrwxrwx  1 root root   29 Nov  3 15:21 90-reject.conf -> ../../conf.src/90-reject.conf
+total 32
+drwxr-xr-x 2 root root 4096 Nov 29 02:16 .
+drwxr-xr-x 3 root root 4096 Nov 29 02:16 ..
+-rw-r--r-- 1 root root 1408 Jan  5  2013 60-group-non-tt-fonts.conf.awk
+-rw-r--r-- 1 root root 5371 Jan  5  2013 60-group-non-tt-fonts.list
+-rw-r--r-- 1 root root  761 Jan  5  2013 60-group-tt-fonts.conf.awk
+-rw-r--r-- 1 root root 2914 Jan  5  2013 60-group-tt-fonts.list
+-rwxr-xr-x 1 root root  189 Jan  5  2013 generate60.sh
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 02:56 .
+drwxr-xr-x 6 root root 4096 Nov 29 02:56 ..
+-rw-r--r-- 1 root root  195 Nov 29 02:56 raspi.list
+total 8
+drwxr-xr-x 2 root root 4096 Sep 13 16:47 .
+drwxr-xr-x 6 root root 4096 Nov 29 02:56 ..
+total 8
+drwxr-xr-x 2 root root 4096 Sep 13 16:47 .
+drwxr-xr-x 6 root root 4096 Nov 29 02:56 ..
+total 32
+drwxr-xr-x 2 root root 4096 Nov 29 02:56 .
+drwxr-xr-x 6 root root 4096 Nov 29 02:56 ..
+-rw-r--r-- 1 root root  769 Sep 13 16:47 01autoremove
+-r--r--r-- 1 root root 1283 Nov 29 01:21 01autoremove-kernels
+-rw-r--r-- 1 root root  202 Apr 10  2017 20listchanges
+-rw-r--r-- 1 root root 1040 Mar  8  2017 20packagekit
+-rw-r--r-- 1 root root  161 Nov 29 01:37 50raspi
+-rw-r--r-- 1 root root  182 May 21  2017 70debconf
+total 12
+drwxr-xr-x 2 root root 4096 Nov 29 01:36 .
+drwxr-xr-x 3 root root 4096 Nov 29 01:26 ..
+-rw-r--r-- 1 root root  145 Jun 18  2017 openssh-server
+lrwxrwxrwx 1 root root 39 Nov 29 01:53 /etc/alternatives/desktop-theme -> /usr/share/desktop-base/softwaves-theme
+lrwxrwxrwx 1 root root 46 Nov 29 01:53 /etc/alternatives/desktop-plasma5-wallpaper -> /usr/share/desktop-base/active-theme/wallpaper

@@ -1,0 +1,16 @@
+total 8
+drwxr-x--- 2 root adm  4096 Nov 20 22:24 .
+drwxr-xr-x 5 root root 4096 Feb  5 04:18 ..
+total 24
+drwx--x--x 2 root root 4096 Feb  5 04:18 .
+drwxr-xr-x 5 root root 4096 Feb  5 04:18 ..
+-rw------- 1 root root 2978 Feb  5 04:18 lightdm.log
+-rw------- 1 root root 3408 Feb  5 04:18 lightdm.log.old
+-rw------- 1 root root 1214 Feb  5 04:18 x-0.log
+-rw------- 1 root root 1273 Feb  5 04:18 x-0.log.old
+total 8
+drwxr-xr-x 2 root root 4096 Nov 29 02:32 .
+drwxr-xr-x 5 root root 4096 Feb  5 04:18 ..
+-rw-r--r-- 1 root root    0 Nov 29 02:56 eipp.log.xz
+-rw-r--r-- 1 root root    0 Nov 29 02:56 history.log
+-rw-r----- 1 root adm     0 Nov 29 02:56 term.log
