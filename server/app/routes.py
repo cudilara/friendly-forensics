@@ -3,7 +3,7 @@ from flask import render_template, Flask, request, redirect, url_for
 from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = '/Volumes/XTRADISK/friendly-forensics/server/uploaded'
-ALLOWED_EXTENSIONS = set(['txt', 'pdf'])
+ALLOWED_EXTENSIONS = set(['txt'])
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 def allowed_file(filename):
@@ -34,4 +34,4 @@ def upload_file1():
    if request.method == 'POST':
       f = request.files['file']
       f.save(secure_filename(f.filename))
-      return 'file uploaded successfully'
+      return render_template('index.html', title='Home')
