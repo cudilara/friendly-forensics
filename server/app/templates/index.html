@@ -1,0 +1,15 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - Backend</title>
+        {% else %}
+        <title>Alternate title.</title>
+        {% endif %}
+    </head>
+    <body>
+        <h1>Received data:</h1>
+	{% for post in posts %}
+        <div><p>{{ post.file }}: <b>{{ post.body }}</b></p></div>
+        {% endfor %}
+    </body>
+</html>
