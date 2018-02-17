@@ -1,37 +1,29 @@
 from app import app
-from flask import render_template, Flask, request, redirect, url_for
-from werkzeug.utils import secure_filename
-
-UPLOAD_FOLDER = '/Volumes/XTRADISK/friendly-forensics/server/uploaded'
-ALLOWED_EXTENSIONS = set(['txt'])
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
-def allowed_file(filename):
-    return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+from flask import render_template, request
 
 @app.route('/')
-@app.route('/index')
+@app.route('/index', methods = ['POST', 'GET'])
 def index():
-    posts = [
-        {
-            'file': 'file1',
-            'body': 'test data for file 1'
-        },
-        {
-	    'file': 'file2',
-            'body': 'test data for file 2'
-        }
-    ]
-    return render_template('index.html', title='Home')
+    if request.method == 'POST' or request.method == 'GET':
+        data = request.args.get('name')
+        # if data == None:
+        #     data = "Did not receive data."
+    return render_template('index.html', title='Home', post=data)
 
-@app.route('/upload')
-def upload_file():
-   return render_template('upload.html')
-	
-@app.route('/uploader', methods = ['GET', 'POST'])
-def upload_file1():
-   if request.method == 'POST':
-      f = request.files['file']
-      f.save(secure_filename(f.filename))
-      return render_template('index.html', title='Home')
+def import_data():
+    r = None
+    try:
+        if request.files:
+            r = request.files
+    except:
+        print("Failed to receive file.")
+    return r
+
+# @app.route('/upload/', methods=['GET', 'POST'])
+# def upload():
+#    if request.method == 'POST':
+#       file = request.files['file']
+#       if file:
+#         file.read()
+#         a = 'file uploaded'
+#    return render_template("index.html", post = a)
