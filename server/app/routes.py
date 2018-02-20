@@ -1,29 +1,26 @@
 from app import app
-from flask import render_template, request
+from flask import render_template, request, Markup
+
+upload_location = '.'
+
 
 @app.route('/')
-@app.route('/index', methods = ['POST', 'GET'])
+@app.route('/index', methods=['POST', 'GET'])
 def index():
-    if request.method == 'POST' or request.method == 'GET':
-        data = request.args.get('name')
-        # if data == None:
-        #     data = "Did not receive data."
-    return render_template('index.html', title='Home', post=data)
+    bodyText = import_data()
+    # bodyText = Markup("<b> my text </b>")
+    return render_template('basic.html', bodyText=bodyText)
+
 
 def import_data():
     r = None
     try:
+        # request.files returns ImmutableMultiDict([])
         if request.files:
             r = request.files
+        else:
+            r = "Did not get any files from clients."
+            r = str(request.files)
     except:
-        print("Failed to receive file.")
+        r = "Failed to receive file."
     return r
-
-# @app.route('/upload/', methods=['GET', 'POST'])
-# def upload():
-#    if request.method == 'POST':
-#       file = request.files['file']
-#       if file:
-#         file.read()
-#         a = 'file uploaded'
-#    return render_template("index.html", post = a)
