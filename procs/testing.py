@@ -15,8 +15,11 @@ def read_file():
         print("Failed to open the file.")
 
 def send_data(mydata):
+    url = "http://127.0.0.1:5000/insert/here"
     try:
-        res = requests.post(url, data=mydata)
+        # res = requests.post(url, data=mydata)
+        requests.post(url=url, data=mydata)
+        print("Sent data.")
     except:
         print("Failed to post to the server.")
 
