@@ -1,5 +1,15 @@
 import os, subprocess, time
 
+# Output meaning:
+#
+# file permissions,
+# number of links,
+# owner name,
+# owner group,
+# file size,
+# time of last modification, and
+# file/directory name
+
 path = '/var/log'
 writeFile = open('varlog.txt', 'wb')
 for root, dirs, files in os.walk(path):
@@ -17,12 +27,3 @@ for root, dirs, files in os.walk(path):
 writeFile.close()
 
 
-# Output meaning:
-#
-# file permissions,
-# number of links,
-# owner name,
-# owner group,
-# file size,
-# time of last modification, and
-# file/directory name

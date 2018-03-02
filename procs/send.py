@@ -3,12 +3,12 @@
 import requests, sys
 
 url = "http://127.0.0.1:4000/varlog/"
-txtpath = "../raw_files/varlog.txt"
+varlogPath = "../raw_files/varlog.txt"
 
 varlogDict = {}
 
 
-def read_file():
+def read_file(txtpath):
     try:
         parsedDict = None
         f = open(txtpath, 'r')
@@ -55,7 +55,7 @@ def parse_line(line):
 
 
 def main():
-    parsedDict = read_file()
+    parsedDict = read_file(varlogPath)
     if parsedDict != None:
         send_data(parsedDict, url)
 
