@@ -1,6 +1,8 @@
+#!/usr/bin/env python
+
 import requests, sys
 
-url = "http://127.0.0.1:5000/index"
+url = "http://127.0.0.1:4000/varlog/"
 txtpath = "../raw_files/varlog.txt"
 
 varlogDict = {}
@@ -8,11 +10,14 @@ varlogDict = {}
 
 def read_file():
     try:
+        parsedDict = None
         f = open(txtpath, 'r')
         for line in f:
             parsedDict = parse_line(line)
-            if parsedDict == None:
+            if not parsedDict:
                 continue
+            print("Dictionary is ", parsedDict)
+            send_data(line, url)
         f.close()
         return parsedDict
     except:
@@ -22,8 +27,9 @@ def read_file():
 
 def send_data(mydata, url):
     try:
-        # res = requests.post(url, data=mydata)
-        requests.post(url=url, data=mydata)
+        url = url + mydata
+        print("HERE ", url)
+        requests.post(url=url + mydata)
         print("Sent file line.")
     except:
         print("Failed to post to the server.")
