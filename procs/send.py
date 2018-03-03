@@ -1,63 +1,53 @@
 #!/usr/bin/env python
-
 import requests, sys
 
-url = "http://127.0.0.1:4000/varlog/"
-varlogPath = "../raw_files/varlog.txt"
+# This program reads raw_files directory,
+# parses the results,
+# and sends them to the server.
 
-varlogDict = {}
+url = "http://127.0.0.1:4000/"
+parentFolder = "../raw_files/"
+ext = ".txt"
+txtPaths = ["varlog", "ls_filesys_dev", "ls_filesys_etc", "ls_filesys_home"]
+parsedDict = None
 
-
-def read_file(txtpath):
+def send_data(mydata, filename):
     try:
-        parsedDict = None
-        f = open(txtpath, 'r')
-        for line in f:
-            parsedDict = parse_line(line)
-            if not parsedDict:
-                continue
-            print("Dictionary is ", parsedDict)
-            send_data(line, url)
-        f.close()
-        return parsedDict
-    except:
-        print("Failed to process the file.")
-        return None
-
-
-def send_data(mydata, url):
-    try:
-        url = url + mydata
-        print("HERE ", url)
-        requests.post(url=url + mydata)
+        print(url, filename, mydata)
+        myurl = url + filename + mydata
+        requests.post(url=myurl + mydata)
         print("Sent file line.")
     except:
-        print("Failed to post to the server.")
+        print("Failed to send to the server.")
 
+def send_ls_filesys(file):
+    for line in file:
+        line_arr = line.split()
+        if len(line_arr) < 9:
+            continue
+        else:
+            send_data(line, "ls_filesys/")
 
-def parse_line(line):
-    line_arr = line.split()
-    if len(line_arr) < 9:
-        return None
-    else:
-        varlogDict = {
-            'filePerms': line_arr[0],
-            'linkNum': line_arr[1],
-            'ownerName': line_arr[2],
-            'ownerGroup': line_arr[3],
-            'filesize': line_arr[4],
-            'monthModified': line_arr[5],
-            'dayModified': line_arr[6],
-            'timeModified': line_arr[7],
-            'dirName': line_arr[8]
-        }
-        return varlogDict
-
+def send_varlog(file):
+    for line in file:
+        line_arr = line.split()
+        if len(line_arr) < 9:
+            continue
+        else:
+            send_data(line, "varlog/")
 
 def main():
-    parsedDict = read_file(varlogPath)
-    if parsedDict != None:
-        send_data(parsedDict, url)
+    for filename in txtPaths:
+        try:
+            mypath = parentFolder + filename + ext
+            f = open(mypath, 'r')
+            if filename == "varlog":
+                send_varlog(f)
+            elif filename == "ls_filesys_dev" or filename == "ls_filesys_etc" or filename == "ls_filesys_home":
+                send_ls_filesys(f)
+            f.close()
+        except:
+            print("Failed to process the file ", filename)
 
 
 if __name__ == "__main__":
