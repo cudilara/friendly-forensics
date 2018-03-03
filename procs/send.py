@@ -1,12 +1,13 @@
 #!/usr/bin/env python
-import requests, sys
+import requests, sys, os
 
 # This program reads raw_files directory,
 # parses the results,
 # and sends them to the server.
 
 url = "http://127.0.0.1:4000/"
-parentFolder = "../raw_files/"
+procFolder = "../procs/"
+outputFolder = "../raw_files/"
 ext = ".txt"
 txtPaths = ["varlog", "ls_filesys_dev", "ls_filesys_etc", "ls_filesys_home"]
 parsedDict = None
@@ -36,18 +37,22 @@ def send_varlog(file):
         else:
             send_data(line, "varlog/")
 
+def run_procs():
+    os.startfile('varlog.py')
+
 def main():
-    for filename in txtPaths:
-        try:
-            mypath = parentFolder + filename + ext
-            f = open(mypath, 'r')
-            if filename == "varlog":
-                send_varlog(f)
-            elif filename == "ls_filesys_dev" or filename == "ls_filesys_etc" or filename == "ls_filesys_home":
-                send_ls_filesys(f)
-            f.close()
-        except:
-            print("Failed to process the file ", filename)
+    run_procs()
+    # for filename in txtPaths:
+    #     try:
+    #         mypath = outputFolder + filename + ext
+    #         f = open(mypath, 'r')
+    #         if filename == "varlog":
+    #             send_varlog(f)
+    #         elif filename == "ls_filesys_dev" or filename == "ls_filesys_etc" or filename == "ls_filesys_home":
+    #             send_ls_filesys(f)
+    #         f.close()
+    #     except:
+    #         print("Failed to process the file ", filename)
 
 
 if __name__ == "__main__":
