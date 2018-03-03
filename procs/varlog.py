@@ -1,4 +1,4 @@
-import os, subprocess, time
+import os, subprocess
 
 # Output meaning:
 #
@@ -11,7 +11,7 @@ import os, subprocess, time
 # file/directory name
 
 path = '/var/log'
-writeFile = open('varlog.txt', 'wb')
+writeFile = open('../raw_files/varlog.txt', 'wb')
 for root, dirs, files in os.walk(path):
     for subdir in dirs:
         dirpath = os.path.join(root, subdir)

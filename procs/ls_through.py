@@ -1,13 +1,10 @@
-import os, subprocess, time
-import requests
-
-url = 'http://127.0.0.1:5000/thisistest'
+import os, subprocess
 
 paths = ['/home', '/etc', '/dev']
 
 for directory in paths:
     dirName = directory[1:]
-    writeFile = open('ls_through_%s.txt' % dirName, 'wb')
+    writeFile = open('../raw_files/ls_through_%s.txt' % dirName, 'wb')
     for root, dirs, files in os.walk(directory):
         for subdir in dirs:
             dirpath = os.path.join(root, subdir)
