@@ -9,7 +9,8 @@ url = "http://127.0.0.1:4000/"
 procFolder = "../procs/"
 outputFolder = "../raw_files/"
 ext = ".txt"
-txtPaths = ["varlog", "ls_filesys_dev", "ls_filesys_etc", "ls_filesys_home"]
+txtPaths = ["varlog", "ls_filesys_dev", "ls_filesys_etc", "ls_filesys_home", "dns_servers", "hosts", "number_of_users",
+            "installed", "programs", "starting_programs", "last_logins", "logins", "os_type", "kernel_level", "varlog_ls"]
 parsedDict = None
 
 def send_data(mydata, filename):
