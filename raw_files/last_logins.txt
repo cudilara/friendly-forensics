@@ -1,0 +1,41 @@
+pi       pts/5        :0.0             Sat Mar  3 16:42   still logged in
+pi       pts/5        :0.0             Sat Mar  3 16:08 - 16:41  (00:33)
+pi       pts/4        :0.0             Sat Mar  3 15:59   still logged in
+pi       tty1                          Sat Mar  3 10:52    gone - no logout
+pi       tty7         :0               Sat Mar  3 10:52    gone - no logout
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00   still running
+pi       tty1                          Fri Mar  2 19:17 - crash (-17593+-2:-17)
+pi       tty7         :0               Fri Mar  2 19:17 - crash (-17593+-2:-17)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00   still running
+pi       tty1                          Fri Mar  2 16:03 - crash (-17592+-23:-3)
+pi       tty7         :0               Fri Mar  2 16:03 - crash (-17592+-23:-3)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00   still running
+pi       pts/1        :0.0             Fri Mar  2 15:43 - 16:03  (00:19)
+pi       pts/1        :0.0             Fri Mar  2 15:33 - 15:43  (00:09)
+pi       tty1                          Fri Mar  2 15:07 - down   (00:55)
+pi       tty7         :0               Fri Mar  2 15:07 - down   (00:55)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 16:03 (17592+23:03)
+pi       tty1                          Mon Feb  5 23:16 - down  (24+15:50)
+pi       tty7         :0               Mon Feb  5 23:16 - down  (24+15:50)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 15:07 (17592+22:07)
+pi       tty1                          Mon Feb  5 22:42 - down   (00:33)
+pi       tty7         :0               Mon Feb  5 22:42 - down   (00:33)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 23:16 (17568+06:16)
+pi       pts/2        :0.0             Mon Feb  5 20:30 - 22:41  (02:11)
+pi       tty1                          Sun Feb  4 21:18 - down  (1+01:24)
+pi       tty7         :0               Sun Feb  4 21:18 - 22:42 (1+01:24)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 22:42 (17568+05:42)
+pi       tty1                          Tue Nov 28 20:17 - down  (68+01:00)
+pi       tty7         :0               Tue Nov 28 20:17 - down  (68+01:00)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 21:18 (17567+04:18)
+pi       tty1                          Tue Nov 28 19:56 - crash (-17499+-2:-56)
+pi       tty7         :0               Tue Nov 28 19:56 - crash (-17499+-2:-56)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 21:18 (17567+04:18)
+pi       tty1                          Tue Nov 28 19:56 - crash (-17499+-2:-56)
+pi       tty7         :0               Tue Nov 28 19:56 - crash (-17499+-2:-56)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 21:18 (17567+04:18)
+pi       tty7         :0               Tue Nov 28 19:56 - crash (-17499+-2:-56)
+pi       tty1                          Tue Nov 28 19:56 - crash (-17499+-2:-56)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 21:18 (17567+04:18)
+
+wtmp begins Wed Dec 31 17:00:01 1969
