@@ -37,22 +37,19 @@ def send_varlog(file):
         else:
             send_data(line, "varlog/")
 
-def run_procs():
-    os.startfile('varlog.py')
 
 def main():
-    run_procs()
-    # for filename in txtPaths:
-    #     try:
-    #         mypath = outputFolder + filename + ext
-    #         f = open(mypath, 'r')
-    #         if filename == "varlog":
-    #             send_varlog(f)
-    #         elif filename == "ls_filesys_dev" or filename == "ls_filesys_etc" or filename == "ls_filesys_home":
-    #             send_ls_filesys(f)
-    #         f.close()
-    #     except:
-    #         print("Failed to process the file ", filename)
+    for filename in txtPaths:
+        try:
+            mypath = outputFolder + filename + ext
+            f = open(mypath, 'r')
+            if filename == "varlog":
+                send_varlog(f)
+            elif filename == "ls_filesys_dev" or filename == "ls_filesys_etc" or filename == "ls_filesys_home":
+                send_ls_filesys(f)
+            f.close()
+        except:
+            print("Failed to process the file ", filename)
 
 
 if __name__ == "__main__":
