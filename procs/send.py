@@ -9,34 +9,20 @@ url = "http://127.0.0.1:4000/"
 procFolder = "../procs/"
 outputFolder = "../raw_files/"
 ext = ".txt"
-txtPaths = ["varlog", "ls_filesys_dev", "ls_filesys_etc", "ls_filesys_home", "dns_servers", "hosts", "number_of_users",
-            "installed", "programs", "starting_programs", "last_logins", "logins", "os_type", "kernel_level", "varlog_ls"]
+# txtPaths = ["varlog", "ls_filesys_home", "dns_servers", "hosts", "number_of_users",
+#             "installed", "programs", "starting_programs", "last_logins", "os_type", "kernel_level", "varlog_ls"]
+txtPaths = ["dns_servers"]
+#have404=["logins", "ls_filesys_dev", "ls_filesys_etc"]
 parsedDict = None
 
+
 def send_data(mydata, filename):
+    myurl = ""
     try:
-        print(url, filename, mydata)
-        myurl = url + filename + mydata
+        myurl = url + filename + "/" + mydata
         requests.post(url=myurl + mydata)
-        print("Sent file line.")
     except:
-        print("Failed to send to the server.")
-
-def send_ls_filesys(file):
-    for line in file:
-        line_arr = line.split()
-        if len(line_arr) < 9:
-            continue
-        else:
-            send_data(line, "ls_filesys/")
-
-def send_varlog(file):
-    for line in file:
-        line_arr = line.split()
-        if len(line_arr) < 9:
-            continue
-        else:
-            send_data(line, "varlog/")
+        print("Failed to send to the server. ", myurl, " with data: ", mydata)
 
 
 def main():
@@ -44,10 +30,9 @@ def main():
         try:
             mypath = outputFolder + filename + ext
             f = open(mypath, 'r')
-            if filename == "varlog":
-                send_varlog(f)
-            elif filename == "ls_filesys_dev" or filename == "ls_filesys_etc" or filename == "ls_filesys_home":
-                send_ls_filesys(f)
+            for line in f:
+                if line != "":
+                    send_data(line, filename)
             f.close()
         except:
             print("Failed to process the file ", filename)

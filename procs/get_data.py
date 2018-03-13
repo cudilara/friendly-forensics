@@ -1,10 +1,12 @@
 import os
 
+userInput = input("Name of case: ")
+
 # DNS servers
 os.system('cat /etc/resolv.conf > ../raw_files/dns_servers.txt')
 
 # Host names
-os.system('cat /etc/hosts > > ../raw_files/hosts.txt')
+os.system('cat /etc/hosts > ../raw_files/hosts.txt')
 
 # Number of users
 os.system('users | wc -w > ../raw_files/number_of_users.txt')
@@ -32,10 +34,4 @@ os.system('uname -r > ../raw_files/kernel_level.txt')
 
 # Available logs
 os.system('ls /var/log > ../raw_files/varlog_ls.txt')
-
-
-
-
-
-
 

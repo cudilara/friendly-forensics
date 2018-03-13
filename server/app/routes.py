@@ -1,40 +1,190 @@
 #!/usr/bin/env python
 from flask import render_template, request, Markup, Flask, redirect, url_for, json
-import pymysql
-pymysql.install_as_MySQLdb()
+# import pymysql
+# pymysql.install_as_MySQLdb()
 
 upload_location = '.'
 app = Flask(__name__)
 myhost = '0.0.0.0'
 myport = 4000
-
-
+Root, Passwd, DBname = 'root', 'password', 'forensic_data'
 # TODO: create user in db, password
 
 @app.route('/')
+def my_form():
+    return render_template('basic.html')
+
+@app.route('/', methods=['POST'])
 def index():
     bodyText = "Welcome to Madinger's thesis project!"
+    if request.method == 'POST':
+        print("HERE")
+        investigationName = request.form['investigation_name']
+        print(investigationName)
     return render_template('basic.html', bodyText=bodyText)
+
+
+@app.route('/dns_servers/<msg>', methods=['POST', 'GET'])
+def dns_servers(msg):
+    domain, nameserver = "", ""
+    arr = msg.split('20%')
+    myarr = arr[0].split(' ')
+    db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
+    if myarr[0] == "domain":
+        domain = myarr[1]
+        domain = domain.split('\n')[0]
+        ins = "insert into dns_servers value ?", domain
+        db_cursor.execute(ins)
+
+        print("#########################################")
+    if myarr[0] == "nameserver":
+        nameserver = myarr[1]
+        ins = "insert into dns_servers value ?", nameserver
+        db_cursor.execute(ins)
+    db_connection.commit()
+    db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/hosts/<msg>', methods=['POST', 'GET'])
+def hosts(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/installed/<msg>', methods=['POST', 'GET'])
+def installed(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/kernel_level/<msg>', methods=['POST', 'GET'])
+def kernel_level(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/last_logins/<msg>', methods=['POST', 'GET'])
+def last_logins(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/logins/<msg>', methods=['POST', 'GET'])
+def logins(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/ls_filesys_etc/<msg>', methods=['POST', 'GET'])
+def ls_filesys_etc(msg):
+    # db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    # ls_filesys_parse(msg)
+    # insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/ls_filesys_dev/<msg>', methods=['POST', 'GET'])
+def ls_filesys_dev(msg):
+    # db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    # ls_filesys_parse(msg)
+    # insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/ls_filesys_home/<msg>', methods=['POST', 'GET'])
+def ls_filesys_home(msg):
+    # db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    # ls_filesys_parse(msg)
+    # insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/number_of_users/<msg>', methods=['POST', 'GET'])
+def number_of_users(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/os_type/<msg>', methods=['POST', 'GET'])
+def os_type(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/programs/<msg>', methods=['POST', 'GET'])
+def programs(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/starting_programs/<msg>', methods=['POST', 'GET'])
+def starting_programs(msg):
+    #db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    #filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
 
 
 @app.route('/varlog/<msg>', methods=['POST', 'GET'])
 def varlog(msg):
-    db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
-    filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
-    #insert(db_cursor)
-    db_connection.commit()
-    db_connection.close()
-    return render_template('basic.html', bodyText=bodyText)
+    # db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    # filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    # #insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
 
-@app.route('/ls_filesys/<msg>', methods=['POST', 'GET'])
-def ls_filesys(msg):
-    db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
-    ls_filesys_parse(msg)
-    bodyText = "Hi"
-    #insert(db_cursor)
-    db_connection.commit()
-    db_connection.close()
-    return render_template('basic.html', bodyText=bodyText)
+
+@app.route('/varlog_ls/<msg>', methods=['POST', 'GET'])
+def varlog_ls(msg):
+    # db_cursor, db_connection = connect_to_db('root', 'password', 'forensic_data')
+    # filePerm, linkNum, ownerName, ownerGroup, filesize, modifTime, fileName = varlog_parse(msg)
+    # insert(db_cursor)
+    # db_connection.commit()
+    # db_connection.close()
+    return render_template('basic.html', bodyText="")
+
 
 def varlog_parse(msg):
     no20 = msg.split('20%')

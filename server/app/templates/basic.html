@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Server</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Thesis</title>
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
 </head>
+
 <body>
-{% if bodyText%}
-    {{ bodyText }}
-{% endif %}
+    <div class="jumbotron jumbotron-fluid text-center">
+		<div class="container">
+    <!--First sentence on screen.-->
+          <h2>{% if bodyText%}
+            {{ bodyText }}
+            {% endif %}
+          </h2>
+        </div>
+  </div>
+
+
+    <b>
+    <div class="text-center">
+      <label for="investigation_name_in" class="col-2 col-form-label">Investigation Name</label>
+
+        <input class="form-control" type="text" name="investigation_name" placeholder="give name to your case" id="investigation_name_in">
+
+    </div>
+    </b>
+
+    <div class="text-center">
+		<br>
+			DNS Output
+		</br>
+        <figure class="figure">
+          <div class="text-center">
+              <img src="" class="" alt="DNS Output Image" width="600" height="400">
+          </div>
+        </figure>
+    </div>
+    <div class="text-center">
+		<br>
+			Password Output
+		</br>
+        <figure class="figure">
+          <div class="text-center">
+              <img src="" class="" alt="Password Output Image" width="600" height="400">
+          </div>
+        </figure>
+    </div>
+
 </body>
+<hr>
+    <div class="footer" >
+    <p>Madinger Thesis Project</p>
+    </div>
 </html>
