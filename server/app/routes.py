@@ -6,8 +6,17 @@ from flask import render_template, request, Markup, Flask, redirect, url_for, js
 upload_location = '.'
 app = Flask(__name__)
 myhost = '0.0.0.0'
-myport = 4000
+myport = 4001
 Root, Passwd, DBname = 'root', 'pass', 'forensic_data'
+
+class DNS:
+    domain = ''
+    nameserver = ''
+    insData = None
+
+dns = DNS()
+dns.insData = []
+
 # TODO: create user in db, password
 
 @app.route('/')
@@ -17,21 +26,25 @@ def my_form():
 
 @app.route('/dns_servers/<msg>', methods=['POST', 'GET'])
 def dns_servers(msg):
+    if msg is None:
+        return render_template('basic.html')
+    # db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
     arr = msg.split('20%')
     myarr = arr[0].split(' ')
-    db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
     if myarr[0] == "domain":
-        domain = myarr[1]
-        domain = domain.split('\n')[0]
-
+        dns.domain = myarr[1]
+        dns.domain = dns.domain.split('\n')[0]
+        dns.insData.append(dns.domain)
     if myarr[0] == "nameserver":
-        nameserver = myarr[1]
-        if "nameserver" in nameserver:
-            nameserver = nameserver.replace('nameserver', '')
-    ins = "INSERT INTO DNS() VALUES ?, ?", domain, nameserver
-    db_cursor.execute(ins)
-    db_connection.commit()
-    db_connection.close()
+        dns.nameserver = myarr[2]
+        dns.insData.append(dns.nameserver)
+    print("HERE: ", dns.insData)
+    ins = ("INSERT INTO DNS (domain, nameserver) VALUES (%s, %s)")
+    # insData = domain, nameserver
+    # print(insData)
+    # db_cursor.execute(ins, insData)
+    # db_connection.commit()
+    # db_connection.close()
     return render_template('basic.html', bodyText="")
 
 
