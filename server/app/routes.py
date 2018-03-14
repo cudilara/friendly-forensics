@@ -7,40 +7,29 @@ upload_location = '.'
 app = Flask(__name__)
 myhost = '0.0.0.0'
 myport = 4000
-Root, Passwd, DBname = 'root', 'password', 'forensic_data'
+Root, Passwd, DBname = 'root', 'pass', 'forensic_data'
 # TODO: create user in db, password
 
 @app.route('/')
 def my_form():
     return render_template('basic.html')
 
-@app.route('/', methods=['POST'])
-def index():
-    bodyText = "Welcome to Madinger's thesis project!"
-    if request.method == 'POST':
-        print("HERE")
-        investigationName = request.form['investigation_name']
-        print(investigationName)
-    return render_template('basic.html', bodyText=bodyText)
-
 
 @app.route('/dns_servers/<msg>', methods=['POST', 'GET'])
 def dns_servers(msg):
-    domain, nameserver = "", ""
     arr = msg.split('20%')
     myarr = arr[0].split(' ')
     db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
     if myarr[0] == "domain":
         domain = myarr[1]
         domain = domain.split('\n')[0]
-        ins = "insert into dns_servers value ?", domain
-        db_cursor.execute(ins)
 
-        print("#########################################")
     if myarr[0] == "nameserver":
         nameserver = myarr[1]
-        ins = "insert into dns_servers value ?", nameserver
-        db_cursor.execute(ins)
+        if "nameserver" in nameserver:
+            nameserver = nameserver.replace('nameserver', '')
+    ins = "INSERT INTO DNS() VALUES ?, ?", domain, nameserver
+    db_cursor.execute(ins)
     db_connection.commit()
     db_connection.close()
     return render_template('basic.html', bodyText="")

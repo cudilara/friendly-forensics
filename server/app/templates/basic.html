@@ -23,14 +23,22 @@
   </div>
 
 
-    <b>
+
     <div class="text-center">
+        <form action = "http://localhost:4000/" method = "POST">
+            <b>
       <label for="investigation_name_in" class="col-2 col-form-label">Investigation Name</label>
-
+        </b>
         <input class="form-control" type="text" name="investigation_name" placeholder="give name to your case" id="investigation_name_in">
-
+        </form>
     </div>
-    </b>
+
+
+    <div class="text-center">
+        {% if acceptedName%}
+            {{ acceptedName }}
+            {% endif %}
+    </div>
 
     <div class="text-center">
 		<br>
