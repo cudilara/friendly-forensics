@@ -1,13 +1,14 @@
 #!/usr/bin/env python
-from flask import render_template, request, Markup, Flask, redirect, url_for, json
-# import pymysql
-# pymysql.install_as_MySQLdb()
+
+
+from flask import render_template, Flask
+import pymysql
 
 upload_location = '.'
 app = Flask(__name__)
 myhost = '0.0.0.0'
 myport = 4001
-Root, Passwd, DBname = 'root', 'pass', 'forensic_data'
+Root, Passwd, DBname = 'root', 'password', 'forensic_data'
 
 class DNS:
     domain = ''
@@ -17,7 +18,7 @@ class DNS:
 dns = DNS()
 dns.insData = []
 
-# TODO: create user in db, password
+
 
 @app.route('/')
 def my_form():
@@ -27,8 +28,12 @@ def my_form():
 @app.route('/dns_servers/<msg>', methods=['POST', 'GET'])
 def dns_servers(msg):
     if msg is None:
+        print("Did not receive any message.")
         return render_template('basic.html')
-    # db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
+    db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
+    if db_cursor is None or db_connection is None:
+        print("Failed to connect to the database.")
+        return render_template('basic.html')
     arr = msg.split('20%')
     myarr = arr[0].split(' ')
     if myarr[0] == "domain":
@@ -38,15 +43,14 @@ def dns_servers(msg):
     if myarr[0] == "nameserver":
         dns.nameserver = myarr[2]
         dns.insData.append(dns.nameserver)
-    print("HERE: ", dns.insData)
-    ins = ("INSERT INTO DNS (domain, nameserver) VALUES (%s, %s)")
-    # insData = domain, nameserver
-    # print(insData)
-    # db_cursor.execute(ins, insData)
-    # db_connection.commit()
-    # db_connection.close()
+    if len(dns.insData) == 2:
+        sql = "select * from Investigations"
+        db_cursor.execute(sql)
+        results = db_cursor.fetchall()
+        print("Investigations: ", results)
+        db_connection.commit()
+        db_connection.close()
     return render_template('basic.html', bodyText="")
-
 
 @app.route('/hosts/<msg>', methods=['POST', 'GET'])
 def hosts(msg):
