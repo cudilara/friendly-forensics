@@ -42,25 +42,62 @@
 
     <div class="text-center">
 		<br>
-			DNS Output
+			DNS
 		</br>
-        <figure class="figure">
-          <div class="text-center">
-              <img src="" class="" alt="DNS Output Image" width="600" height="400">
-          </div>
-        </figure>
+         <div class="text-center">
+            {% if DNSoutput%}
+            {{ DNSoutput }}
+            {% endif %}
+        </div>
     </div>
     <div class="text-center">
 		<br>
-			Password Output
+			Hosts
 		</br>
-        <figure class="figure">
-          <div class="text-center">
-              <img src="" class="" alt="Password Output Image" width="600" height="400">
-          </div>
-        </figure>
-    </div>
+        <!--<div class="text-center">-->
+            <!--{% if hostsOutput%}-->
+            <!--{{ hostsOutput }}-->
+            <!--{% endif %}-->
+        <!--</div>-->
+        <div class="table-responsive">
+          <table class="table">
+              <tr>
+                  <th>Address</th>
+                  <th>Host Name</th>
+              </tr>
+              <tr>
+                  <td>
+                      {% if hostsAddress %}
+                    <br><ul><li>{{ hostsAddress }}</li></ul></br>
+                  </td>
 
+
+                <td>{{ hostsName }}</td>
+                  {% endif %}
+              </tr>
+          </table>
+        </div>
+    </div>
+    <div class="text-center">
+		<br>
+			Installed Programs
+		</br>
+        <div class="text-center">
+            {% if installedPrograms%}
+            {{ installedPrograms }}
+            {% endif %}
+        </div>
+    </div>
+    <!--<div class="text-center">-->
+		<!--<br>-->
+			<!--Password Output-->
+		<!--</br>-->
+        <!--<div class="text-center">-->
+            <!--{% if passwordOutput%}-->
+            <!--{{ passwordOutput }}-->
+            <!--{% endif %}-->
+        <!--</div>-->
+    <!--</div>-->
 </body>
 <hr>
     <div class="footer" >

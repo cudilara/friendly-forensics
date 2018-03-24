@@ -15,7 +15,7 @@ def my_form():
 
 @app.route('/', methods=['POST'])
 def index():
-    bodyText = "Welcome to Madinger's thesis project!"
+    bodyText = "Easy Forensics"
     db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
     if db_cursor is None or db_connection is None:
         print("Failed to connect to the database.")
@@ -30,12 +30,73 @@ def index():
             db_connection.commit()
         except:
             #TODO find investigation with that name
-            print("Need to pull data for name ", investigationName)
+            print("Could not insert into Investigations name ", investigationName)
+        investNameLine = get_investigation_name(db_cursor)
+        investName = investNameLine[0][1]
+        investId = investNameLine[0][0]
+        dnsResults = get_dns_data(db_cursor, investId)
+        addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
+        programsResults = get_installed_programs(db_cursor)
         db_connection.close()
-        investigationTitle = "Data for investigation: " + investigationName
-        return render_template('basic.html', bodyText=bodyText, acceptedName=investigationTitle)
+        investigationTitle = "Data for investigation: " + investName
+        return render_template('basic.html', bodyText=bodyText, acceptedName=investigationTitle, DNSoutput=dnsResults, hostsAddress=addrRes, hostsName=nameRes, hostLength=hostL, installedPrograms=programsResults)
     else:
         return render_template('basic.html', bodyText=bodyText)
+
+def get_investigation_name(db_cursor):
+    sql = "select id_investigation, name_investigation from Investigations where id_investigation=1"
+    try:
+        db_cursor.execute(sql)
+        investigation = db_cursor.fetchall()
+    except:
+        investigation = "Failed to get investigations names from database."
+    return investigation
+
+def get_dns_data(db_cursor, investId):
+    sql = "select domain, nameserver from DNS where Investigations_id_investigation = %s"
+    try:
+        retVal = ""
+        db_cursor.execute(sql, investId)
+        dnsResults = db_cursor.fetchall()
+        if len(dnsResults) > 1:
+            retVal = dnsResults[0]
+            retValSet = set(retVal)
+            for res in dnsResults:
+                setRes = set(res)
+                if setRes != retValSet:
+                    retVal.append(res)
+                    print("##########################")
+                    print(res)
+                    print("##########################")
+    except:
+        retVal = ""
+    return retVal
+
+def get_hosts_data(db_cursor, investId):
+    sql = "select hostAddress, hostName from Hosts where Investigations_id_investigation = %s"
+    try:
+        db_cursor.execute(sql, investId)
+        hostResults = db_cursor.fetchall()
+    except:
+        hostResults = "Failed to get hosts data."
+    addresses, names = [],[]
+    hostLength = 0
+    for tuple in hostResults:
+        addr = tuple[0]
+        name = tuple[1]
+        addresses.append(addr)
+        names.append(name)
+        hostLength += 1
+    return addresses, names, hostLength
+
+def get_installed_programs(db_cursor):
+    sql = "select * from InstalledPrograms"
+    try:
+        db_cursor.execute(sql)
+        installedPrograms = db_cursor.fetchall()
+    except:
+        installedPrograms = "Failed to retrieve installed programs."
+    return installedPrograms
 
 def connect_to_db(username, pswd, db):
     cursor = None
