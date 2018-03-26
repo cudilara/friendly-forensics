@@ -5,13 +5,13 @@ import requests, sys, os
 # parses the results,
 # and sends them to the server.
 
-url = "http://127.0.0.1:4000/"
+url = "http://127.0.0.1:4001/"
 procFolder = "../procs/"
 outputFolder = "../raw_files/"
 ext = ".txt"
-# txtPaths = ["varlog", "ls_filesys_home", "dns_servers", "hosts", "number_of_users",
+# txtPaths = ["dns_servers", "hosts", "varlog", "ls_filesys_home", "number_of_users",
 #             "installed", "programs", "starting_programs", "last_logins", "os_type", "kernel_level", "varlog_ls"]
-txtPaths = ["dns_servers"]
+txtPaths = ["dns_servers", "hosts", "installed"]
 #have404=["logins", "ls_filesys_dev", "ls_filesys_etc"]
 parsedDict = None
 
