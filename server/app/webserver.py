@@ -27,13 +27,9 @@ def index():
     investigationTitle = "Data for investigation: " + investName
     dnsResults = get_dns_data(db_cursor, investId)
     addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
-    hostData = ("")
-    for addr in addrRes:
-        hostData = hostData + '\n' + addr
-    programsResults = get_installed_programs(db_cursor)
+    programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
     db_connection.close()
-    return render_template('basic.html', bodyText=bodyText, acceptedName=investigationTitle, DNSoutput=dnsResults, hostsAddress=hostData, hostsName=nameRes)
-    # return render_template('basic.html', bodyText=bodyText, acceptedName=investigationTitle, DNSoutput=dnsResults, hostsAddress=addrRes, hostsName=nameRes, hostLength=hostL, installedPrograms=programsResults)
+    return render_template('basic.html', bodyText=bodyText, acceptedName=investigationTitle, DNSoutput=dnsResults, hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
 
 
 def insert_user_investigation_name(db_cursor, db_connection):
@@ -92,19 +88,34 @@ def get_hosts_data(db_cursor, investId):
     for tuple in hostResults:
         addr = tuple[0]
         name = tuple[1]
-        addresses.append(addr)
-        names.append(name)
-        hostLength += 1
+        if addr not in addresses and name not in names:
+            addresses.append(addr)
+            names.append(name)
+            hostLength += 1
     return addresses, names, hostLength
 
 def get_installed_programs(db_cursor):
-    sql = "select * from InstalledPrograms"
+    sql = "select programName from InstalledPrograms"
     try:
         db_cursor.execute(sql)
         installedPrograms = db_cursor.fetchall()
     except:
         installedPrograms = "Failed to retrieve installed programs."
-    return installedPrograms
+    programName = []
+    for pr in installedPrograms:
+        st = pr[0]
+        if st not in programName:
+            programName.append(st)
+    length = len(programName) / 5
+    doubleL = length * 2
+    tripleL = length * 3
+    quadrupleL = length * 4
+    programs1 = programName[0:length]
+    programs2 = programName[length:doubleL]
+    programs3 = programName[doubleL:tripleL]
+    programs4 = programName[tripleL:quadrupleL]
+    programs5 = programName[quadrupleL:]
+    return programs1, programs2, programs3, programs4, programs5
 
 def connect_to_db(username, pswd, db):
     cursor = None

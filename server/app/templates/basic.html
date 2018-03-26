@@ -41,49 +41,84 @@
     </div>
 
     <div class="text-center">
-		<br>
-			DNS
-		</br>
+		<h3>
+            <br>
+                DNS
+            </br>
+        </h3>
          <div class="text-center">
             {% if DNSoutput%}
             {{ DNSoutput }}
             {% endif %}
         </div>
     </div>
-    <div class="text-center">
-		<br>
-			Hosts
-		</br>
-        <!--<div class="text-center">-->
-            <!--{% if hostsOutput%}-->
-            <!--{{ hostsOutput }}-->
-            <!--{% endif %}-->
-        <!--</div>-->
-        <div class="table-responsive">
-          <table class="table">
-              <tr>
-                  <th>Address</th>
-                  <th>Host Name</th>
-              </tr>
-              <tr>
+    <div class="table-responsive text-center">
+        <h3>
+            <br>
+                Contents of /etc/hosts
+            </br>
+        </h3>
+
+        <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col"><center>Address</center></th>
+                  <th scope="col"><center>Host Name</center></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
                   <td>
-                      <br>{{ hostsAddress }}</br>
+                      {% for item in hostsAddress %}
+                            <center><p>{{item}}</p></center>
+                      {% endfor %}
                   </td>
-                <td>{{ hostsName }}</td>
-              </tr>
+                  <td>
+                      {% for item in hostsName %}
+                            <center><p>{{item}}</p></center>
+                        {% endfor %}
+                  </td>
+                </tr>
+              </tbody>
           </table>
-        </div>
     </div>
     <div class="text-center">
-		<br>
-			Installed Programs
-		</br>
-        <div class="text-center">
-            {% if installedPrograms%}
-            {{ installedPrograms }}
-            {% endif %}
-        </div>
+		<h3>
+            <br>
+                All Programs
+            </br>
+        </h3>
+
     </div>
+    <table class="table table-bordered">
+        <tr>
+            <td>
+                {% for item in allPrograms1 %}
+                    <p>{{item}}</p>
+                {% endfor %}
+            </td>
+            <td>
+                {% for item in allPrograms2 %}
+                    <p>{{item}}</p>
+                {% endfor %}
+            </td>
+            <td>
+                {% for item in allPrograms3 %}
+                    <p>{{item}}</p>
+                {% endfor %}
+            </td>
+            <td>
+                {% for item in allPrograms4 %}
+                    <p>{{item}}</p>
+                {% endfor %}
+            </td>
+            <td>
+                {% for item in allPrograms5 %}
+                    <p>{{item}}</p>
+                {% endfor %}
+            </td>
+        </tr>
+    </table>
     <!--<div class="text-center">-->
 		<!--<br>-->
 			<!--Password Output-->
