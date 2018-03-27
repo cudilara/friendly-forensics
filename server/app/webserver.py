@@ -32,7 +32,7 @@ def index():
     programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
     kernelName, machineName, kernelVersion, kVersionBuild, processor, os = get_system_info(db_cursor, investId)
     db_connection.close()
-    return render_template('basic.html', bodyText=bodyText, acceptedName=investigationTitle, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os, DNSoutput=dnsResults, hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+    return render_template('basic.html', bodyText=bodyText, DNSoutput=dnsResults, acceptedName=investigationTitle, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
 
 
 def get_system_info(db_cursor, investId):
@@ -95,6 +95,7 @@ def get_dns_data(db_cursor, investId):
         retVal = ""
     if retVal != "":
         retVal = "DNS name: " + retVal[0] + "; IP address:" + retVal[1]
+    print("HERE ", retVal)
     return retVal
 
 def get_hosts_data(db_cursor, investId):
