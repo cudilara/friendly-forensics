@@ -39,7 +39,11 @@ e4defrag
 fdformat
 filefrag
 gconf-schemas
+genccode
+gencmn
 genl
+gennorm2
+gensprep
 gnome-menus-blacklist
 groupadd
 groupdel
@@ -54,6 +58,7 @@ i2cget
 i2cset
 i2c-stub-from-dump
 iconvconfig
+icupkg
 in.identtestd
 install-sgmlcatalog
 invoke-rc.d

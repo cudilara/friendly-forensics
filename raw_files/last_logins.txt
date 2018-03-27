@@ -1,15 +1,22 @@
-pi       pts/5        :0.0             Sat Mar  3 16:42   still logged in
-pi       pts/5        :0.0             Sat Mar  3 16:08 - 16:41  (00:33)
-pi       pts/4        :0.0             Sat Mar  3 15:59   still logged in
-pi       tty1                          Sat Mar  3 10:52    gone - no logout
-pi       tty7         :0               Sat Mar  3 10:52    gone - no logout
+pi       pts/2        :0.0             Tue Mar 27 14:46   still logged in
+pi       tty1                          Sat Mar  3 17:49    gone - no logout
+pi       tty7         :0               Sat Mar  3 17:49    gone - no logout
 reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00   still running
+pi       tty1                          Sat Mar  3 17:49 - down   (00:00)
+pi       tty7         :0               Sat Mar  3 17:49 - down   (00:00)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 17:49 (17594+00:49)
+pi       pts/5        :0.0             Sat Mar  3 16:42 - 17:48  (01:05)
+pi       pts/5        :0.0             Sat Mar  3 16:08 - 16:41  (00:33)
+pi       pts/4        :0.0             Sat Mar  3 15:59 - 17:48  (01:49)
+pi       tty1                          Sat Mar  3 10:52 - down   (06:56)
+pi       tty7         :0               Sat Mar  3 10:52 - down   (06:56)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 17:48 (17594+00:48)
 pi       tty1                          Fri Mar  2 19:17 - crash (-17593+-2:-17)
 pi       tty7         :0               Fri Mar  2 19:17 - crash (-17593+-2:-17)
-reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00   still running
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 17:48 (17594+00:48)
 pi       tty1                          Fri Mar  2 16:03 - crash (-17592+-23:-3)
 pi       tty7         :0               Fri Mar  2 16:03 - crash (-17592+-23:-3)
-reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00   still running
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 17:48 (17594+00:48)
 pi       pts/1        :0.0             Fri Mar  2 15:43 - 16:03  (00:19)
 pi       pts/1        :0.0             Fri Mar  2 15:33 - 15:43  (00:09)
 pi       tty1                          Fri Mar  2 15:07 - down   (00:55)

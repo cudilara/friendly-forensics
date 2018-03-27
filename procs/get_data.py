@@ -1,7 +1,5 @@
 import os
 
-userInput = input("Name of case: ")
-
 # DNS servers
 os.system('cat /etc/resolv.conf > ../raw_files/dns_servers.txt')
 
@@ -35,3 +33,8 @@ os.system('uname -r > ../raw_files/kernel_level.txt')
 # Available logs
 os.system('ls /var/log > ../raw_files/varlog_ls.txt')
 
+# IP addresses
+os.system('netstat -vatn | awk \'{print $5}\' > ../raw_files/ip_addresses.txt')
+
+# Passwords
+os.system('cat /etc/passwd > ../raw_files/passwords')

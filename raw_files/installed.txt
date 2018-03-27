@@ -133,6 +133,7 @@ gconf2-common
 gdb
 geany
 geany-common
+geoip-bin
 geoip-database
 gettext-base
 giblib1:armhf
@@ -192,6 +193,7 @@ hicolor-icon-theme
 hostname
 htop
 i2c-tools
+icu-devtools
 idle
 idle-python2.7
 idle-python3.5
@@ -368,6 +370,7 @@ libfaad2:armhf
 libfakeroot:armhf
 libfastjson4:armhf
 libfdisk1:armhf
+libffi-dev:armhf
 libffi6:armhf
 libfftw3-double3:armhf
 libfftw3-single3:armhf
@@ -458,6 +461,7 @@ libhsqldb1.8.0-java
 libhunspell-1.4-0:armhf
 libhyphen0:armhf
 libice6:armhf
+libicu-dev
 libicu57:armhf
 libid3tag0:armhf
 libident
@@ -747,6 +751,8 @@ libsrtp0
 libss2:armhf
 libssh-gcrypt-4:armhf
 libssh2-1:armhf
+libssl-dev:armhf
+libssl-doc
 libssl1.0.2:armhf
 libssl1.1:armhf
 libstartup-notification0:armhf
@@ -877,6 +883,7 @@ libxkbfile1:armhf
 libxklavier16:armhf
 libxm4:armhf
 libxml2:armhf
+libxml2-dev:armhf
 libxmu6:armhf
 libxmuu1:armhf
 libxpm4:armhf
@@ -884,6 +891,7 @@ libxrandr2:armhf
 libxrender1:armhf
 libxres1:armhf
 libxshmfence1:armhf
+libxslt1-dev:armhf
 libxslt1.1:armhf
 libxss1:armhf
 libxt6:armhf

@@ -16808,3 +16808,113 @@ Mar  3 17:17:01 raspberrypi CRON[18031]: pam_unix(cron:session): session opened 
 Mar  3 17:17:01 raspberrypi CRON[18031]: pam_unix(cron:session): session closed for user root
 Mar  3 17:44:32 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
 Mar  3 17:44:32 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  3 17:44:32 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  3 17:47:41 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/ls -al /var/log/samba
+Mar  3 17:47:41 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  3 17:47:41 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  3 17:47:41 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/ls -al /var/log/lightdm
+Mar  3 17:47:42 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  3 17:47:42 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  3 17:47:42 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/ls -al /var/log/apt
+Mar  3 17:47:42 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  3 17:47:42 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar  3 17:48:52 raspberrypi systemd-logind[312]: System is powering down.
+Mar  3 17:48:52 raspberrypi polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.10, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8) (disconnected from bus)
+Mar  3 17:48:58 raspberrypi systemd-logind[296]: New seat seat0.
+Mar  3 17:49:00 raspberrypi sshd[364]: Server listening on 0.0.0.0 port 22.
+Mar  3 17:49:00 raspberrypi sshd[364]: Server listening on :: port 22.
+Mar  3 17:49:03 raspberrypi lightdm: pam_unix(lightdm-autologin:session): session opened for user pi by (uid=0)
+Mar  3 17:49:03 raspberrypi systemd-logind[296]: New session c1 of user pi.
+Mar  3 17:49:03 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Mar  3 17:49:05 raspberrypi login[383]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  3 17:49:05 raspberrypi systemd-logind[296]: New session c2 of user pi.
+Mar  3 17:49:06 raspberrypi polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.9 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+Mar  3 17:49:29 raspberrypi systemd-logind[296]: System is rebooting.
+Mar  3 17:49:29 raspberrypi sshd[364]: Received signal 15; terminating.
+Mar  3 17:49:34 raspberrypi systemd-logind[292]: New seat seat0.
+Mar  3 17:49:36 raspberrypi sshd[370]: Server listening on 0.0.0.0 port 22.
+Mar  3 17:49:36 raspberrypi sshd[370]: Server listening on :: port 22.
+Mar  3 17:49:39 raspberrypi lightdm: pam_unix(lightdm-autologin:session): session opened for user pi by (uid=0)
+Mar  3 17:49:39 raspberrypi systemd-logind[292]: New session c1 of user pi.
+Mar  3 17:49:39 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Mar  3 17:49:41 raspberrypi login[395]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar  3 17:49:41 raspberrypi systemd-logind[292]: New session c2 of user pi.
+Mar  3 17:49:43 raspberrypi polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.10 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+Mar 27 13:17:01 raspberrypi CRON[1410]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 13:17:01 raspberrypi CRON[1410]: pam_unix(cron:session): session closed for user root
+Mar 27 13:20:18 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/wget -N http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz
+Mar 27 13:20:18 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 13:20:21 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 13:20:43 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/gunzip GeoIP.dat.gz
+Mar 27 13:20:43 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 13:20:43 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 13:21:56 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/var/log ; USER=root ; COMMAND=/bin/mv GeoIP.dat /usr/local/share/
+Mar 27 13:21:56 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 13:21:56 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:03:27 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/usr/local/share ; USER=root ; COMMAND=/bin/mkdir GeoIP
+Mar 27 14:03:27 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:03:27 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:03:42 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/usr/local/share ; USER=root ; COMMAND=/bin/mv GeoIP.dat GeoIP
+Mar 27 14:03:42 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:03:42 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:07:11 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/pip install GeoIP
+Mar 27 14:07:11 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:07:46 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:10:57 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install python-dev
+Mar 27 14:10:57 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:11:01 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:11:15 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install python3-dev
+Mar 27 14:11:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:11:19 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:11:36 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/pip install GeoIP
+Mar 27 14:11:36 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:12:09 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:17:01 raspberrypi CRON[2288]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 14:17:01 raspberrypi CRON[2288]: pam_unix(cron:session): session closed for user root
+Mar 27 14:19:11 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install python-dev
+Mar 27 14:19:11 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:19:14 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:19:37 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install gcc
+Mar 27 14:19:37 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:19:41 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:20:07 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install gcc libffi-dev libssl-dev python3-dev
+Mar 27 14:20:07 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:22:25 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:29:30 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libxml2-dev libxslt1-dev python-dev
+Mar 27 14:29:31 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:29:39 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:30:04 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get update
+Mar 27 14:30:04 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:30:32 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:31:12 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libxml2-dev libxslt-dev python-dev lib32z1-dev
+Mar 27 14:31:12 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:31:14 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:31:30 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libxml2-dev libxslt1-dev python-dev lib32z1-dev
+Mar 27 14:31:30 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:31:32 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:32:24 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install python-dev libxml2-dev
+Mar 27 14:32:24 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:33:37 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:33:43 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install libxml2-dev libxslt1-dev python-dev
+Mar 27 14:33:43 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:34:11 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:34:15 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/python setup.py install
+Mar 27 14:34:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:34:15 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:37:06 raspberrypi sudo:       pi : TTY=pts/1 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install geoip-bin geoip-database
+Mar 27 14:37:06 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:37:24 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:51:27 raspberrypi sudo:       pi : TTY=pts/3 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 27 14:51:27 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:51:27 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:51:52 raspberrypi sudo:       pi : TTY=pts/3 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 27 14:51:52 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:51:52 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:54:02 raspberrypi sudo:       pi : TTY=pts/3 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 27 14:54:02 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:54:02 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:55:35 raspberrypi sudo:       pi : TTY=pts/3 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 27 14:55:35 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 14:55:35 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 14:58:22 raspberrypi sudo:       pi : TTY=pts/3 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 27 14:58:22 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
