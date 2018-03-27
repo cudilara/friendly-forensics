@@ -2,6 +2,8 @@
 from flask import render_template, request, Flask
 import pymysql
 import datetime
+from signal import signal, SIGPIPE, SIG_DFL
+signal(SIGPIPE, SIG_DFL)
 
 upload_location = '.'
 myhost = '0.0.0.0'
@@ -28,8 +30,27 @@ def index():
     dnsResults = get_dns_data(db_cursor, investId)
     addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
     programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
+    kernelName, machineName, kernelVersion, kVersionBuild, processor, os = get_system_info(db_cursor, investId)
     db_connection.close()
-    return render_template('basic.html', bodyText=bodyText, acceptedName=investigationTitle, DNSoutput=dnsResults, hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+    return render_template('basic.html', bodyText=bodyText, acceptedName=investigationTitle, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os, DNSoutput=dnsResults, hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+
+
+def get_system_info(db_cursor, investId):
+    sql = "select kernelName, machineName, kernelVersion, kVersionBuild, processor, os from systemInfo where Investigations_id_investigation = %s"
+    try:
+        retVal = ""
+        db_cursor.execute(sql, investId)
+        results = db_cursor.fetchall()
+        if len(results) > 1:
+            retVal = results[0]
+            retValSet = set(retVal)
+            for res in results:
+                setRes = set(res)
+                if setRes != retValSet:
+                    retVal.append(res)
+    except:
+        retVal = ""
+    return retVal[0], retVal[1], retVal[2], retVal[3], retVal[4], retVal[5]
 
 
 def insert_user_investigation_name(db_cursor, db_connection):

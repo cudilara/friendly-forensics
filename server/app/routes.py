@@ -36,6 +36,11 @@ class InstalledPrograms:
 progr = InstalledPrograms()
 progr.installed = []
 
+class SystemInfo:
+    info = None
+
+sysinfo = SystemInfo()
+sysinfo.info = []
 
 @app.route('/')
 def my_form():
@@ -68,7 +73,7 @@ def dns_servers(msg):
             db_connection.commit()
         except:
             logger.debug('Failed to send DNS data to database.')
-        db_connection.close()
+    db_connection.close()
     return render_template('basic.html', bodyText="")
 
 @app.route('/hosts/<msg>', methods=['POST', 'GET'])
@@ -129,11 +134,6 @@ def installed(msg):
     return render_template('basic.html', bodyText="")
 
 
-@app.route('/kernel_level/<msg>', methods=['POST', 'GET'])
-def kernel_level(msg):
-    return render_template('basic.html', bodyText="")
-
-
 @app.route('/last_logins/<msg>', methods=['POST', 'GET'])
 def last_logins(msg):
     return render_template('basic.html', bodyText="")
@@ -166,6 +166,37 @@ def number_of_users(msg):
 
 @app.route('/os_type/<msg>', methods=['POST', 'GET'])
 def os_type(msg):
+    if msg is None:
+        logger.debug('Did not receive os data.')
+        return render_template('basic.html')
+    db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
+    if db_cursor is None or db_connection is None:
+        logger.debug('Failed to connect to the database.')
+        return render_template('basic.html')
+    arr = msg.split('\n')
+    myarr = arr[0].split('\t')
+    myarr = myarr[0].split(' ')
+    kernelName = myarr[0]
+    machineName = myarr[1]
+    kernelVersion = myarr[2]
+    kVersionBuild = myarr[3] + " " + myarr[4] + " " + myarr[5] + " " + myarr[6] + " " + myarr[7] + " " + myarr[8] + " " + " " + myarr[9] + " " + myarr[10]
+    processor = myarr[11]
+    os = myarr[12] + " " + myarr[13]
+    infosql = "INSERT INTO systeminfo(kernelName,machineName,kernelVersion,kVersionBuild,processor,os,Investigations_id_investigation) Values(%s, %s, %s, %s, %s, %s, %s)"
+    sysinfo.info.append(kernelName)
+    sysinfo.info.append(machineName)
+    sysinfo.info.append(kernelVersion)
+    sysinfo.info.append(kVersionBuild)
+    sysinfo.info.append(processor)
+    sysinfo.info.append(os)
+    sysinfo.info.append(investigationID)
+    try:
+        db_cursor.execute(infosql, sysinfo.info)
+        db_connection.commit()
+    except:
+        print("Did not insert system info into database.")
+    sysinfo.info = []
+    db_connection.close()
     return render_template('basic.html', bodyText="")
 
 
