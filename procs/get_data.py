@@ -37,4 +37,10 @@ os.system('ls /var/log > ../raw_files/varlog_ls.txt')
 os.system('netstat -vatn | awk \'{print $5}\' > ../raw_files/ip_addresses.txt')
 
 # Passwords
-os.system('cat /etc/passwd > ../raw_files/passwords')
+os.system('cat /etc/passwd > ../raw_files/passwords.txt')
+
+# Shadow
+#try:
+#	os.system('cat /etc/shadow > ../raw_files/shadow.txt')
+#except:
+#	print("Did not get /etc/shadow")
