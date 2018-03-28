@@ -12,7 +12,7 @@ app = Flask(__name__)
 myhost = '0.0.0.0'
 myport = 4001
 Root, Passwd, DBname = 'root', 'password', 'forensic_data'
-investigationID = 1
+investigationID = 2
 
 class DNS:
     domain = ''
@@ -68,8 +68,8 @@ def dns_servers(msg):
     if db_cursor is None or db_connection is None:
         logger.debug('Failed to connect to the database.')
         return render_template('basic.html')
-    arr = msg.split('20%')
-    myarr = arr[0].split(' ')
+    # arr = msg.split('20%')
+    myarr = msg.split(' ')
     if myarr[0] == "domain":
         dns.domain = myarr[1]
         dns.domain = dns.domain.split('\n')[0]
@@ -80,11 +80,8 @@ def dns_servers(msg):
     if len(dns.insData) == 2:
         dnssql = "INSERT INTO DNS(domain,nameserver,Investigations_id_investigation) VALUES(%s, %s, %s)"
         dns.insData.append(investigationID)
-        try:
-            db_cursor.execute(dnssql, dns.insData)
-            db_connection.commit()
-        except:
-            logger.debug('Failed to send DNS data to database.')
+        db_cursor.execute(dnssql, dns.insData)
+        db_connection.commit()
     db_connection.close()
     return render_template('basic.html', bodyText="")
 

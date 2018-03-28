@@ -11,8 +11,8 @@ outputFolder = "../raw_files/"
 ext = ".txt"
 # txtPaths = ["dns_servers", "hosts", "varlog", "ls_filesys_home", "number_of_users",
 #             "installed", "programs", "starting_programs", "last_logins", "os_type", "kernel_level", "varlog_ls"]
-txtPaths = ["ip_addresses_geo"]
-# done: "dns_servers", "hosts", "installed", "os_type", "passwords", "shadow"
+txtPaths = ["dns_servers", "os_type"]
+# done: "dns_servers", "hosts", "installed", "os_type", "passwords", "shadow", "ip_addresses_geo"
 #have404=["logins", "ls_filesys_dev", "ls_filesys_etc"]
 parsedDict = None
 

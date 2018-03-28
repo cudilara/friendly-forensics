@@ -1,6 +1,7 @@
 #!/usr/bin/env python
+import os
 from flask import render_template, request, Flask
-import pymysql
+import pymysql, sys
 import datetime
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE, SIG_DFL)
@@ -17,22 +18,21 @@ def my_form():
 
 @app.route('/', methods=['POST'])
 def index():
-    bodyText = "Easy Forensics"
     db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
     if db_cursor is None or db_connection is None:
         print("Failed to connect to the database.")
-        return render_template('basic.html', bodyText=bodyText)
+        return render_template('basic.html')
     if request.form['investigation_name'] == "":
-        return render_template('basic.html', bodyText=bodyText)
+        return render_template('basic.html')
     investName, investId = insert_user_investigation_name(db_cursor, db_connection)
-    dnsResults = get_dns_data(db_cursor, investId)
+    dnsName, dnsAddr = get_dns_data(db_cursor, investId)
     addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
     programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
-    kernelName, machineName, kernelVersion, kVersionBuild, processor, os = get_system_info(db_cursor, investId)
+    kernelName, machineName, kernelVersion, kVersionBuild, processor, myos = get_system_info(db_cursor, investId)
     hostsName, hostsPassword = get_shadow_data(db_cursor, investId)
     IP, country = get_geo_ip(db_cursor, investId)
     db_connection.close()
-    return render_template('basic.html', bodyText=bodyText, DNSoutput=dnsResults, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+    return render_template('basic.html', dnsName=dnsName, dnsAddr=dnsAddr, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, nameID=investId, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=myos,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
 
 
 def get_geo_ip(db_cursor, investId):
@@ -110,22 +110,20 @@ def insert_user_investigation_name(db_cursor, db_connection):
 
 def get_dns_data(db_cursor, investId):
     sql = "select domain, nameserver from DNS where Investigations_id_investigation = %s"
-    try:
-        retVal = ""
-        db_cursor.execute(sql, investId)
-        dnsResults = db_cursor.fetchall()
-        if len(dnsResults) > 1:
-            retVal = dnsResults[0]
-            retValSet = set(retVal)
-            for res in dnsResults:
-                setRes = set(res)
-                if setRes != retValSet:
-                    retVal.append(res)
-    except:
-        retVal = ""
-    if retVal != "":
-        retVal = "DNS name: " + retVal[0] + "; IP address:" + retVal[1]
-    return retVal
+    retVal = ""
+    db_cursor.execute(sql, investId)
+    dnsResults = db_cursor.fetchall()
+    if len(dnsResults[0]) > 1:
+        print("RETVAL: ", dnsResults[0])
+        retVal = dnsResults[0]
+        retValSet = set(retVal)
+        print("SET: ", retVal)
+        for res in dnsResults:
+            setRes = set(res)
+            if setRes != retValSet:
+                retVal.append(res)
+                print("VERY BOTTOM ", retVal)
+    return retVal[0], retVal[1]
 
 def get_hosts_data(db_cursor, investId):
     sql = "select hostAddress, hostName from Hosts where Investigations_id_investigation = %s"

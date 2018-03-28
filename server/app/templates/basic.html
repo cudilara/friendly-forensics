@@ -15,9 +15,8 @@
     <div class="jumbotron jumbotron-fluid text-center">
 		<div class="container">
     <!--First sentence on screen.-->
-          <h2>{% if bodyText%}
-            {{ bodyText }}
-            {% endif %}
+          <h2>
+              Easy Forensics
           </h2>
         </div>
   </div>
@@ -27,7 +26,7 @@
     <div class="text-center">
         <form action = "http://localhost:4000/" method = "POST">
             <b>
-      <label for="investigation_name_in" class="col-2 col-form-label">Investigation Name</label>
+      <label for="investigation_name_in" class="text-center">Investigation Name</label>
         </b>
         <input class="form-control" type="text" name="investigation_name" placeholder="give name to your case" id="investigation_name_in">
         </form>
@@ -35,12 +34,19 @@
     <div class="text-center">
         <h4>
             <br>
-                Investigation Name
+                Information for:
             </br>
         </h4>
+        Name:
         {% if acceptedName%}
             {{ acceptedName }}
             {% endif %}
+        <br>
+        ID:
+        {% if nameID%}
+            {{ nameID }}
+            {% endif %}
+        </br>
     </div>
 
     <div class="text-center">
@@ -85,12 +91,18 @@
                 DNS
             </br>
         </h3>
-         <div class="text-center">
-            {% if DNSoutput%}
-            {{ DNSoutput }}
+         DNS Name:
+        {% if dnsName%}
+            {{ dnsName }}
             {% endif %}
-        </div>
+        <br>
+        IP address:
+        {% if dnsAddr%}
+            {{ dnsAddr }}
+            {% endif %}
+        </br>
     </div>
+
 
 
     <div class="text-center">
