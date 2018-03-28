@@ -32,9 +32,12 @@
         <input class="form-control" type="text" name="investigation_name" placeholder="give name to your case" id="investigation_name_in">
         </form>
     </div>
-
-
     <div class="text-center">
+        <h4>
+            <br>
+                Investigation Name
+            </br>
+        </h4>
         {% if acceptedName%}
             {{ acceptedName }}
             {% endif %}
@@ -76,10 +79,6 @@
       </tbody>
     </table>
 
-
-
-
-
     <div class="text-center">
 		<h3>
             <br>
@@ -89,6 +88,25 @@
          <div class="text-center">
             {% if DNSoutput%}
             {{ DNSoutput }}
+            {% endif %}
+        </div>
+    </div>
+
+
+    <div class="text-center">
+		<h3>
+            <br>
+                IP Origins
+            </br>
+        </h3>
+         <div class="text-center">
+            {% if IP%}
+            {{ IP }}
+            {% endif %}
+        </div>
+        <div class="text-center">
+            {% if country%}
+            {{ country }}
             {% endif %}
         </div>
     </div>

@@ -26,7 +26,7 @@ os.system('sudo cp /var/log/auth.log ../raw_files/logins.txt')
 
 # Type of OS
 os.system('uname -a > ../raw_files/os_type.txt')
-#TODO: remove hashtag in output, replace slash at the end with space
+# TODO: remove hashtag in output, replace slash at the end with space
 
 # Available logs
 os.system('ls /var/log > ../raw_files/varlog_ls.txt')
@@ -37,25 +37,25 @@ rfile = open("../raw_files/ip_addresses.txt", "r")
 wfile = open("../raw_files/ip_addresses_geo.txt", "w")
 toWrite = ""
 for line in rfile:
-	hasDigit = any(i.isdigit() for i in line)
-	if hasDigit and "0.0.0.0" not in line:
-		ip = line.split(':')[0]
-		geoRes = os.popen('geoiplookup ' + ip).read()
-		res = line + str(geoRes)
-		toWrite = toWrite + res
+    hasDigit = any(i.isdigit() for i in line)
+    if hasDigit and "0.0.0.0" not in line:
+        ip = line.split(':')[0]
+        geoRes = os.popen('geoiplookup ' + ip).read()
+        res = line + str(geoRes)
+        toWrite = toWrite + res
 wfile.write(toWrite)
 rfile.close()
 wfile.close()
 
 # Passwords
 os.system('cat /etc/passwd > ../raw_files/passwords.txt')
-#TODO: replace slashes with _RRR_
+# TODO: replace slashes with _RRR_
 
 # Shadow
-#TODO: replace . with _RRRR_
-#TODO: replace $ with _RRR_
-#TODO: replace / with _RR_
-#try:
+# TODO: replace . with _RRRR_
+# TODO: replace $ with _RRR_
+# TODO: replace / with _RR_
+# try:
 #	os.system('cat /etc/shadow > ../raw_files/shadow.txt')
-#except:
+# except:
 #	print("Did not get /etc/shadow")

@@ -24,16 +24,26 @@ def index():
         return render_template('basic.html', bodyText=bodyText)
     if request.form['investigation_name'] == "":
         return render_template('basic.html', bodyText=bodyText)
-    insert_user_investigation_name(db_cursor, db_connection)
-    investName, investId = get_investigation_name(db_cursor)
-    investigationTitle = "Data for investigation: " + investName
+    investName, investId = insert_user_investigation_name(db_cursor, db_connection)
     dnsResults = get_dns_data(db_cursor, investId)
     addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
     programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
     kernelName, machineName, kernelVersion, kVersionBuild, processor, os = get_system_info(db_cursor, investId)
     hostsName, hostsPassword = get_shadow_data(db_cursor, investId)
+    IP, country = get_geo_ip(db_cursor, investId)
     db_connection.close()
-    return render_template('basic.html', bodyText=bodyText, DNSoutput=dnsResults, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investigationTitle, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+    return render_template('basic.html', bodyText=bodyText, DNSoutput=dnsResults, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+
+
+def get_geo_ip(db_cursor, investId):
+    sql = "select ip, country from GeoIP"
+    db_cursor.execute(sql)
+    results = db_cursor.fetchall()
+    IP, country = [], []
+    for tuple in results:
+        IP.append(str(tuple[0]))
+        country.append(str(tuple[1]))
+    return IP, country
 
 
 def get_shadow_data(db_cursor, investId):
@@ -77,26 +87,25 @@ def get_system_info(db_cursor, investId):
 def insert_user_investigation_name(db_cursor, db_connection):
         investigationName = request.form['investigation_name']
         now = datetime.datetime.now()
+        checkSQL = "select id_investigation, name_investigation from Investigations"
+        db_cursor.execute(checkSQL)
+        names = db_cursor.fetchall()
+        for n in names:
+            investName = n[1]
+            investId = n[0]
+            if investigationName == investName:
+                return investigationName, investId
         ins = "INSERT INTO Investigations(name_investigation,date_investigation) VALUES(%s, %s)"
         values = investigationName, now
         try:
             db_cursor.execute(ins, values)
             db_connection.commit()
         except:
-            #TODO find investigation with that name
-            print("Could not insert into Investigations name ", investigationName)
-
-
-def get_investigation_name(db_cursor):
-    sql = "select id_investigation, name_investigation from Investigations where id_investigation=1"
-    try:
-        db_cursor.execute(sql)
-        investigation = db_cursor.fetchall()
-    except:
-        investigation = "Failed to get investigations names from database."
-    investName = investigation[0][1]
-    investId = investigation[0][0]
-    return investName, investId
+            print("Did not insert investigation name.")
+        getSQL = "select id_investigation from Investigations where name_investigation = %s"
+        db_cursor.execute(getSQL, investigationName)
+        id = db_cursor.fetchall()
+        return investigationName, id[0][0]
 
 
 def get_dns_data(db_cursor, investId):
@@ -116,7 +125,6 @@ def get_dns_data(db_cursor, investId):
         retVal = ""
     if retVal != "":
         retVal = "DNS name: " + retVal[0] + "; IP address:" + retVal[1]
-    print("HERE ", retVal)
     return retVal
 
 def get_hosts_data(db_cursor, investId):

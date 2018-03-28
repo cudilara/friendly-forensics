@@ -36,6 +36,12 @@ class InstalledPrograms:
 progr = InstalledPrograms()
 progr.installed = []
 
+class IP:
+    info = None
+
+geoIP = IP()
+geoIP.info = []
+
 class Shadow:
     pinfo = None
 
@@ -137,6 +143,31 @@ def installed(msg):
         # TODO handle this case
         print('Failed to send Installed Programs data to database.')
     db_connection.close()
+    return render_template('basic.html', bodyText="")
+
+
+@app.route('/ip_addresses_geo/<msg>', methods=['POST', 'GET'])
+def ip_addresses_geo(msg):
+    if msg is None:
+        logger.debug('Did not receive geo ip data.')
+        return render_template('basic.html')
+    db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
+    if db_cursor is None or db_connection is None:
+        logger.debug('Failed to connect to the database.')
+        return render_template('basic.html')
+    arr = msg.split('\n')
+    hasDigit = any(i.isdigit() for i in arr[0])
+    if hasDigit:
+        geoIP.info.append(str(arr[0]))
+    else:
+        countryArr = (str(arr[0])).split(',')
+        geoIP.info.append(str(countryArr[1]))
+    if len(geoIP.info) == 2:
+        geoIP.info.append(investigationID)
+        sql = "INSERT INTO GeoIP(ip,country,Investigations_id_investigation) Values(%s, %s, %s)"
+        db_cursor.execute(sql, geoIP.info)
+        db_connection.commit()
+        geoIP.info = []
     return render_template('basic.html', bodyText="")
 
 
