@@ -31,9 +31,9 @@ def index():
     addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
     programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
     kernelName, machineName, kernelVersion, kVersionBuild, processor, os = get_system_info(db_cursor, investId)
-    passwordOutput = get_shadow_data(db_cursor, investId)
+    hostsName, hostsPassword = get_shadow_data(db_cursor, investId)
     db_connection.close()
-    return render_template('basic.html', bodyText=bodyText, DNSoutput=dnsResults, passwordOutput=passwordOutput, acceptedName=investigationTitle, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+    return render_template('basic.html', bodyText=bodyText, DNSoutput=dnsResults, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investigationTitle, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
 
 
 def get_shadow_data(db_cursor, investId):
@@ -44,15 +44,15 @@ def get_shadow_data(db_cursor, investId):
     except:
         results = "Did not get data for passwords."
     username, password = [], []
-    hostLength = 0
-    for tuple in hostResults:
-        addr = tuple[0]
-        name = tuple[1]
-        if addr not in addresses and name not in names:
-            addresses.append(addr)
-            names.append(name)
-            hostLength += 1
-    return results
+    for tuple in results:
+        name = tuple[0]
+        pswd = tuple[1]
+        if pswd == "*":
+            pswd = "no password"
+        if name not in username:
+            username.append(name)
+            password.append(pswd)
+    return username, password
 
 
 def get_system_info(db_cursor, investId):

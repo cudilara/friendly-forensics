@@ -104,6 +104,29 @@
             {{ passwordOutput }}
             {% endif %}
         </div>
+
+        <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col"><center>Host Name</center></th>
+                  <th scope="col"><center>Password</center></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                      {% for item in NameInPswd %}
+                            <center><p>{{item}}</p></center>
+                      {% endfor %}
+                  </td>
+                  <td>
+                      {% for item in hostsPassword %}
+                            <p>{{item}}</p>
+                        {% endfor %}
+                  </td>
+                </tr>
+              </tbody>
+          </table>
     </div>
 
     <div class="table-responsive text-center">
