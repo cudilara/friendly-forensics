@@ -26,9 +26,7 @@ os.system('sudo cp /var/log/auth.log ../raw_files/logins.txt')
 
 # Type of OS
 os.system('uname -a > ../raw_files/os_type.txt')
-
-# Kernel level
-os.system('uname -r > ../raw_files/kernel_level.txt')
+#TODO: remove hashtag in output, replace slash at the end with space
 
 # Available logs
 os.system('ls /var/log > ../raw_files/varlog_ls.txt')
@@ -38,8 +36,12 @@ os.system('netstat -vatn | awk \'{print $5}\' > ../raw_files/ip_addresses.txt')
 
 # Passwords
 os.system('cat /etc/passwd > ../raw_files/passwords.txt')
+#TODO: replace slashes with _RRR_
 
 # Shadow
+#TODO: replace . with _RRRR_
+#TODO: replace $ with _RRR_
+#TODO: replace / with _RR_
 #try:
 #	os.system('cat /etc/shadow > ../raw_files/shadow.txt')
 #except:
