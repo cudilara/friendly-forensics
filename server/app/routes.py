@@ -36,10 +36,10 @@ class InstalledPrograms:
 progr = InstalledPrograms()
 progr.installed = []
 
-class Passwords:
+class Shadow:
     pinfo = None
 
-pswd = Passwords()
+pswd = Shadow()
 pswd.pinfo = []
 
 class SystemInfo:
@@ -214,7 +214,6 @@ def passwords(msg):
     normalStr = msg.replace("_RRR_", "/")
     print(normalStr)
     myarr = normalStr.split(':')
-    sysinfo.info.append(myarr[0])
     #TODO: figure out if we need this at all.
     return render_template('basic.html', bodyText="")
 
@@ -222,9 +221,28 @@ def passwords(msg):
 @app.route('/shadow/<msg>', methods=['POST', 'GET'])
 def shadow(msg):
     if msg is None:
-        logger.debug('Did not receive passwords data.')
+        logger.debug('Did not receive shadow data.')
         return render_template('basic.html')
-    print("HERE ", msg)
+    db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
+    if db_cursor is None or db_connection is None:
+        logger.debug('Failed to connect to the database.')
+        return render_template('basic.html')
+    normalStr = msg.replace("_RRRR_", ".")
+    normalStr = normalStr.replace("_RRR_", "$")
+    normalStr = normalStr.replace("_RR_", "/")
+    myarr = normalStr.split(':')
+    pswd.pinfo.append(myarr[0])
+    pswd.pinfo.append(myarr[1])
+    pswd.pinfo.append(investigationID)
+    #TODO: make a dictionary that stores decrypted hashes for easy lookup.
+    sql = "INSERT INTO Password(username,hash,Investigations_id_investigation) Values(%s, %s, %s)"
+    try:
+        db_cursor.execute(sql, pswd.pinfo)
+        db_connection.commit()
+    except:
+        print("Did not insert shadow into database.")
+    pswd.pinfo = []
+    db_connection.close()
     return render_template('basic.html', bodyText="")
 
 

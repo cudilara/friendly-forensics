@@ -31,8 +31,28 @@ def index():
     addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
     programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
     kernelName, machineName, kernelVersion, kVersionBuild, processor, os = get_system_info(db_cursor, investId)
+    passwordOutput = get_shadow_data(db_cursor, investId)
     db_connection.close()
-    return render_template('basic.html', bodyText=bodyText, DNSoutput=dnsResults, acceptedName=investigationTitle, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+    return render_template('basic.html', bodyText=bodyText, DNSoutput=dnsResults, passwordOutput=passwordOutput, acceptedName=investigationTitle, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=os,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+
+
+def get_shadow_data(db_cursor, investId):
+    sql = "select username, hash from Password"
+    try:
+        db_cursor.execute(sql)
+        results = db_cursor.fetchall()
+    except:
+        results = "Did not get data for passwords."
+    username, password = [], []
+    hostLength = 0
+    for tuple in hostResults:
+        addr = tuple[0]
+        name = tuple[1]
+        if addr not in addresses and name not in names:
+            addresses.append(addr)
+            names.append(name)
+            hostLength += 1
+    return results
 
 
 def get_system_info(db_cursor, investId):
@@ -48,9 +68,10 @@ def get_system_info(db_cursor, investId):
                 setRes = set(res)
                 if setRes != retValSet:
                     retVal.append(res)
+        return retVal[0], retVal[1], retVal[2], retVal[3], retVal[4], retVal[5]
     except:
-        retVal = ""
-    return retVal[0], retVal[1], retVal[2], retVal[3], retVal[4], retVal[5]
+        retVal = "No System data."
+        return retVal, retVal, retVal, retVal, retVal, retVal
 
 
 def insert_user_investigation_name(db_cursor, db_connection):
