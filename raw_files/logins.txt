@@ -16952,3 +16952,99 @@ Mar 27 15:25:49 raspberrypi sudo: pam_unix(sudo:session): session opened for use
 Mar 27 15:25:49 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
 Mar 27 15:26:47 raspberrypi sudo:       pi : TTY=pts/4 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
 Mar 27 15:26:47 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 27 15:26:47 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 16:17:01 raspberrypi CRON[22376]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 16:17:01 raspberrypi CRON[22376]: pam_unix(cron:session): session closed for user root
+Mar 27 17:17:01 raspberrypi CRON[22506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 17:17:01 raspberrypi CRON[22506]: pam_unix(cron:session): session closed for user root
+Mar 27 17:26:09 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 27 18:17:01 raspberrypi CRON[22654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 18:17:01 raspberrypi CRON[22654]: pam_unix(cron:session): session closed for user root
+Mar 27 19:17:01 raspberrypi CRON[22813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 19:17:01 raspberrypi CRON[22813]: pam_unix(cron:session): session closed for user root
+Mar 27 20:17:01 raspberrypi CRON[22972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 27 20:17:01 raspberrypi CRON[22972]: pam_unix(cron:session): session closed for user root
+Mar 27 21:00:03 raspberrypi systemd-logind[292]: System is powering down.
+Mar 27 21:00:03 raspberrypi polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.10, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8) (disconnected from bus)
+Mar 27 21:00:11 raspberrypi systemd-logind[293]: New seat seat0.
+Mar 27 21:00:12 raspberrypi sshd[360]: Server listening on 0.0.0.0 port 22.
+Mar 27 21:00:12 raspberrypi sshd[360]: Server listening on :: port 22.
+Mar 27 21:00:15 raspberrypi lightdm: pam_unix(lightdm-autologin:session): session opened for user pi by (uid=0)
+Mar 27 21:00:15 raspberrypi systemd-logind[293]: New session c1 of user pi.
+Mar 27 21:00:15 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Mar 27 21:00:17 raspberrypi login[386]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar 27 21:00:17 raspberrypi systemd-logind[293]: New session c2 of user pi.
+Mar 27 21:00:19 raspberrypi polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.9 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+Mar 28 06:43:00 raspberrypi systemd-logind[316]: New seat seat0.
+Mar 28 06:43:02 raspberrypi sshd[376]: Server listening on 0.0.0.0 port 22.
+Mar 28 06:43:02 raspberrypi sshd[376]: Server listening on :: port 22.
+Mar 28 06:43:05 raspberrypi lightdm: pam_unix(lightdm-autologin:session): session opened for user pi by (uid=0)
+Mar 28 06:43:06 raspberrypi systemd-logind[316]: New session c1 of user pi.
+Mar 28 06:43:06 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Mar 28 06:43:07 raspberrypi login[395]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Mar 28 06:43:07 raspberrypi systemd-logind[316]: New session c2 of user pi.
+Mar 28 06:43:10 raspberrypi polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.10 [lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_GB.UTF-8)
+Mar 28 07:17:01 raspberrypi CRON[1159]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 28 07:17:01 raspberrypi CRON[1159]: pam_unix(cron:session): session closed for user root
+Mar 28 07:17:04 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:17:04 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:17:05 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:17:50 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:17:50 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:17:50 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:18:50 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:18:50 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:18:50 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:20:15 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:20:16 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:20:16 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:20:44 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:20:44 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:20:44 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:33:14 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:33:14 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:33:14 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:33:47 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:33:47 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:33:47 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:34:05 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:34:05 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:34:05 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:34:43 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:34:43 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:34:43 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:35:24 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:35:24 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:35:24 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:35:35 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:35:35 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:35:35 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:37:14 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:37:15 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:37:15 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:38:35 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:38:35 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:38:35 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:39:40 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:39:40 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:39:40 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:40:49 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:40:49 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:40:49 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:41:20 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:41:20 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:41:20 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:42:48 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:42:48 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:42:48 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:44:05 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:44:05 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:44:05 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:45:17 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:45:17 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:45:17 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:49:56 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:49:56 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar 28 07:49:56 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Mar 28 07:53:16 raspberrypi sudo:       pi : TTY=pts/2 ; PWD=/home/pi/Documents/friendly-forensics/procs ; USER=root ; COMMAND=/bin/cp /var/log/auth.log ../raw_files/logins.txt
+Mar 28 07:53:16 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)

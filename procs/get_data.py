@@ -33,6 +33,19 @@ os.system('ls /var/log > ../raw_files/varlog_ls.txt')
 
 # IP addresses
 os.system('netstat -vatn | awk \'{print $5}\' > ../raw_files/ip_addresses.txt')
+rfile = open("../raw_files/ip_addresses.txt", "r")
+wfile = open("../raw_files/ip_addresses_geo.txt", "w")
+toWrite = ""
+for line in rfile:
+	hasDigit = any(i.isdigit() for i in line)
+	if hasDigit and "0.0.0.0" not in line:
+		ip = line.split(':')[0]
+		geoRes = os.popen('geoiplookup ' + ip).read()
+		res = line + str(geoRes)
+		toWrite = toWrite + res
+wfile.write(toWrite)
+rfile.close()
+wfile.close()
 
 # Passwords
 os.system('cat /etc/passwd > ../raw_files/passwords.txt')

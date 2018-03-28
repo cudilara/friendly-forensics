@@ -1,7 +1,14 @@
-pi       pts/2        :0.0             Tue Mar 27 14:46   still logged in
-pi       tty1                          Sat Mar  3 17:49    gone - no logout
-pi       tty7         :0               Sat Mar  3 17:49    gone - no logout
+pi       pts/1        :0.0             Wed Mar 28 06:56   still logged in
+pi       tty1                          Wed Mar 28 06:43    gone - no logout
+pi       tty7         :0               Wed Mar 28 06:43    gone - no logout
 reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00   still running
+pi       tty1                          Tue Mar 27 21:00 - crash (-17618+-3:00)
+pi       tty7         :0               Tue Mar 27 21:00 - crash (-17618+-3:00)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00   still running
+pi       pts/2        :0.0             Tue Mar 27 14:46 - 21:00  (06:14)
+pi       tty1                          Sat Mar  3 17:49 - down  (24+02:10)
+pi       tty7         :0               Sat Mar  3 17:49 - down  (24+02:10)
+reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 21:00 (17618+03:00)
 pi       tty1                          Sat Mar  3 17:49 - down   (00:00)
 pi       tty7         :0               Sat Mar  3 17:49 - down   (00:00)
 reboot   system boot  4.9.59-v7+       Wed Dec 31 17:00 - 17:49 (17594+00:49)
