@@ -48,6 +48,7 @@ def get_geo_ip(db_cursor, investId):
     for tuple in results:
         IP.append(str(tuple[0]))
         country.append(str(tuple[1]))
+        #TODO: make this part dynamic
     us = country.count(' United States')
     ch = country.count(' China')
     ru = country.count(' Russian Federation')

@@ -13,8 +13,14 @@
 </head>
 <style>
     body {
-        background-color: #f5f5f5;
+        background-color: #fafafa;
     }
+    .chart-legend li span{
+                display: inline-block;
+                width: 40px;
+                height: 12px;
+                margin-right: 5px;
+            }
 </style>
 <body>
     <div class="jumbotron jumbotron-fluid text-center">
@@ -127,20 +133,19 @@
                     color : "{{colors}}"
                 },
                 {% endfor %}
-
-
             ];
 
            // get bar chart canvas
            var mychart = document.getElementById("piechart").getContext("2d");
-
            steps = 10
            max = 10
            // draw pie chart
-           new Chart(document.getElementById("piechart").getContext("2d")).Pie(pieData);
-
-        </script>
-
+           var PChart = new Chart(mychart).Pie(pieData);
+           </script>
+        <div id="js-legend" class="chart-legend">
+            <script>document.getElementById('js-legend').innerHTML = PChart.generateLegend();
+            </script>
+        </div>
     </div>
 
     <div class="text-center">
