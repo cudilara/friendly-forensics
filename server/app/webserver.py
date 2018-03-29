@@ -2,6 +2,7 @@
 import os
 from flask import render_template, request, Flask
 import pymysql, sys
+from flask import Markup
 import datetime
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE, SIG_DFL)
@@ -30,9 +31,13 @@ def index():
     programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
     kernelName, machineName, kernelVersion, kVersionBuild, processor, myos = get_system_info(db_cursor, investId)
     hostsName, hostsPassword = get_shadow_data(db_cursor, investId)
-    IP, country = get_geo_ip(db_cursor, investId)
+    IP, country, count = get_geo_ip(db_cursor, investId)
     db_connection.close()
-    return render_template('basic.html', dnsName=dnsName, dnsAddr=dnsAddr, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, nameID=investId, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=myos,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+
+    purple = ["#E1BEE7", "#BA68C8", "#9C27B0", "#7B1FA2", "#6A1B9A", "#4A148C"]
+    deepPurple = ["#D1C4E9", "#B388FF", "#9575CD", "#673AB7", "#512DA8", "#311B92"]
+
+    return render_template('basic.html', set=zip(count, country, deepPurple), dnsName=dnsName, dnsAddr=dnsAddr, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, nameID=investId, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=myos,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
 
 
 def get_geo_ip(db_cursor, investId):
@@ -43,7 +48,14 @@ def get_geo_ip(db_cursor, investId):
     for tuple in results:
         IP.append(str(tuple[0]))
         country.append(str(tuple[1]))
-    return IP, country
+    us = country.count(' United States')
+    ch = country.count(' China')
+    ru = country.count(' Russian Federation')
+    gb = country.count(' United Kingdom')
+    hk = country.count(' Hong Kong')
+    count = [us, ch, ru, gb, hk]
+    noDuplicatesCntry = list(set(country))
+    return IP, noDuplicatesCntry, count
 
 
 def get_shadow_data(db_cursor, investId):
@@ -113,7 +125,7 @@ def get_dns_data(db_cursor, investId):
     retVal = ""
     db_cursor.execute(sql, investId)
     dnsResults = db_cursor.fetchall()
-    if len(dnsResults[0]) > 1:
+    if len(dnsResults) > 1:
         print("RETVAL: ", dnsResults[0])
         retVal = dnsResults[0]
         retValSet = set(retVal)
@@ -123,7 +135,9 @@ def get_dns_data(db_cursor, investId):
             if setRes != retValSet:
                 retVal.append(res)
                 print("VERY BOTTOM ", retVal)
-    return retVal[0], retVal[1]
+        return retVal[0], retVal[1]
+    else:
+        return "", ""
 
 def get_hosts_data(db_cursor, investId):
     sql = "select hostAddress, hostName from Hosts where Investigations_id_investigation = %s"

@@ -9,8 +9,13 @@
     <title>Thesis</title>
     <!-- Bootstrap -->
     <link href="static/css/bootstrap.css" rel="stylesheet">
+    <script src='static/Chart.min.js'></script>
 </head>
-
+<style>
+    body {
+        background-color: #f5f5f5;
+    }
+</style>
 <body>
     <div class="jumbotron jumbotron-fluid text-center">
 		<div class="container">
@@ -85,6 +90,7 @@
       </tbody>
     </table>
 
+
     <div class="text-center">
 		<h3>
             <br>
@@ -111,16 +117,30 @@
                 IP Origins
             </br>
         </h3>
-         <div class="text-center">
-            {% if IP%}
-            {{ IP }}
-            {% endif %}
-        </div>
-        <div class="text-center">
-            {% if country%}
-            {{ country }}
-            {% endif %}
-        </div>
+        <canvas id="piechart" width="600" height="400"></canvas>
+        <script>
+           var pieData = [
+            {% for item,label,colors in set %}
+                {
+                    value: {{item}},
+                    label: "{{label}}",
+                    color : "{{colors}}"
+                },
+                {% endfor %}
+
+
+            ];
+
+           // get bar chart canvas
+           var mychart = document.getElementById("piechart").getContext("2d");
+
+           steps = 10
+           max = 10
+           // draw pie chart
+           new Chart(document.getElementById("piechart").getContext("2d")).Pie(pieData);
+
+        </script>
+
     </div>
 
     <div class="text-center">

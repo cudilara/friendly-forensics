@@ -68,7 +68,7 @@ def dns_servers(msg):
     if db_cursor is None or db_connection is None:
         logger.debug('Failed to connect to the database.')
         return render_template('basic.html')
-    # arr = msg.split('20%')
+    arr = msg.split('20%')
     myarr = msg.split(' ')
     if myarr[0] == "domain":
         dns.domain = myarr[1]
