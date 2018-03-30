@@ -24,8 +24,7 @@
 </style>
 <body>
     <div class="jumbotron jumbotron-fluid text-center">
-		<div class="container">
-    <!--First sentence on screen.-->
+		<div>
           <h2>
               Easy Forensics
           </h2>
@@ -116,6 +115,46 @@
     </div>
 
 
+    <div class="text-center">
+		<h3>
+            <br>
+                Login Statistics
+            </br>
+        </h3>
+        <canvas id="logchart" width="600" height="400"></canvas>
+        <script>
+           var barData = {
+           labels : [{% for user, start, end, stats in lastLogins %}
+                          "{{user}}",
+                      {% endfor %}],
+           datasets : [
+            {
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+                    data : [{% for user, start, end, stats in lastLogins %}
+                              {{stats}},
+                            {% endfor %}]
+                          }
+                  ]
+               }
+
+           var mychart = document.getElementById("logchart").getContext("2d");
+
+           steps = 10
+           max = 20
+           new Chart(mychart).Bar(barData, {
+                scaleOverride: true,
+                scaleSteps: steps,
+                scaleStepWidth: Math.ceil(max / steps),
+                scaleStartValue: 0,
+                scaleShowVerticalLines: true,
+                scaleShowGridLines : true,
+                barShowStroke : true,
+                scaleShowLabels: true
+           });
+       </script>
+    </div>
 
     <div class="text-center">
 		<h3>
@@ -154,10 +193,6 @@
                 Passwords
             </br>
         </h3>
-         <div class="text-center">
-            {% if passwordOutput%}
-            {{ passwordOutput }}
-            {% endif %}
         </div>
 
         <table class="table table-bordered">

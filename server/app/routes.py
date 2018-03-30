@@ -42,6 +42,12 @@ class IP:
 geoIP = IP()
 geoIP.info = []
 
+class LastLogin:
+    lastLogsData = None
+
+login = LastLogin()
+login.lastLogsData = []
+
 class Shadow:
     pinfo = None
 
@@ -165,11 +171,49 @@ def ip_addresses_geo(msg):
         db_cursor.execute(sql, geoIP.info)
         db_connection.commit()
         geoIP.info = []
+    db_connection.close()
     return render_template('basic.html', bodyText="")
 
 
 @app.route('/last_logins/<msg>', methods=['POST', 'GET'])
 def last_logins(msg):
+    if msg is None:
+        logger.debug('Did not receive last logins data.')
+        return render_template('basic.html')
+    db_cursor, db_connection = connect_to_db(Root, Passwd, DBname)
+    if db_cursor is None or db_connection is None:
+        logger.debug('Failed to connect to the database.')
+        return render_template('basic.html')
+    arr = msg.split('\n')
+    arr = [str(item) for item in arr]
+    if len(arr) < 1:
+        return render_template('basic.html', bodyText="")
+    loginLine = arr[0].split(' ')
+    loginLine = [var for var in loginLine if var]
+    if len(loginLine) < 4:
+        return render_template('basic.html', bodyText="")
+    usr = loginLine[0]
+    if usr == "wtmp":
+        return render_template('basic.html', bodyText="")
+    if loginLine[1] == "system":
+        date = loginLine[6] + loginLine[5] + loginLine[7]
+        endDate = loginLine[9]
+    else:
+        if loginLine[2] == ":0":
+            date = loginLine[5] + loginLine[4] + loginLine[6]
+            endDate = loginLine[8]
+        else:
+            date = loginLine[4] + loginLine[3] + loginLine[5]
+            endDate = loginLine[7]
+    sql = "INSERT INTO LastLogins(user,start,end,Investigations_id_investigation) Values(%s, %s, %s, %s)"
+    login.lastLogsData.append(str(usr))
+    login.lastLogsData.append(str(date))
+    login.lastLogsData.append(str(endDate))
+    login.lastLogsData.append(investigationID)
+    db_cursor.execute(sql, login.lastLogsData)
+    db_connection.commit()
+    db_connection.close()
+    login.lastLogsData = []
     return render_template('basic.html', bodyText="")
 
 
@@ -229,6 +273,7 @@ def os_type(msg):
         db_connection.commit()
     except:
         print("Did not insert system info into database.")
+    print("HERE ", sysinfo.info)
     sysinfo.info = []
     db_connection.close()
     return render_template('basic.html', bodyText="")

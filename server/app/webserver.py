@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 import os
 from flask import render_template, request, Flask
-import pymysql, sys
-from flask import Markup
+import pymysql
 import datetime
 from signal import signal, SIGPIPE, SIG_DFL
 signal(SIGPIPE, SIG_DFL)
@@ -28,27 +27,62 @@ def index():
     investName, investId = insert_user_investigation_name(db_cursor, db_connection)
     dnsName, dnsAddr = get_dns_data(db_cursor, investId)
     addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
-    programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor)
+    programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor, investId)
     kernelName, machineName, kernelVersion, kVersionBuild, processor, myos = get_system_info(db_cursor, investId)
     hostsName, hostsPassword = get_shadow_data(db_cursor, investId)
     IP, country, count = get_geo_ip(db_cursor, investId)
+    user, start, end = get_last_logins(db_cursor, investId)
+    user = ['normal', 'reboot', 'crash', 'down', 'no logout']
+    stats = [7, 15, 12, 15, 2]
     db_connection.close()
 
     purple = ["#E1BEE7", "#BA68C8", "#9C27B0", "#7B1FA2", "#6A1B9A", "#4A148C"]
     deepPurple = ["#D1C4E9", "#B388FF", "#9575CD", "#673AB7", "#512DA8", "#311B92"]
 
-    return render_template('basic.html', set=zip(count, country, deepPurple), dnsName=dnsName, dnsAddr=dnsAddr, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, nameID=investId, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=myos,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+    return render_template('basic.html', lastLogins=zip(user, start, end, stats), set=zip(count, country, deepPurple), dnsName=dnsName, dnsAddr=dnsAddr, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, nameID=investId, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=myos,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+
+
+def get_last_logins(db_cursor, investId):
+    class piStats:
+        crash, down, still, gone, normal = '','','','',''
+    pistat = piStats()
+    pistat.crash = 0
+    pistat.down = 0
+    pistat.still = 0
+    pistat.gone = 0
+    pistat.normal = 0
+
+    sql = "select user, start, end from LastLogins where Investigations_id_investigation = %s"
+    db_cursor.execute(sql, investId)
+    results = db_cursor.fetchall()
+    user, start, end = [], [], []
+    for tuple in results:
+        user.append(str(tuple[0]))
+        start.append(str(tuple[1]))
+        end.append(str(tuple[2]))
+        if tuple[0] == 'pi':
+            if tuple[2] == 'down':
+                pistat.down += 1
+            elif tuple[2] == 'crash':
+                pistat.crash += 1
+            elif tuple[2] == 'still':
+                pistat.still += 1
+            elif tuple[2] == 'gone':
+                pistat.gone += 1
+            else:
+                pistat.normal += 1
+    return user, start, end
 
 
 def get_geo_ip(db_cursor, investId):
-    sql = "select ip, country from GeoIP"
-    db_cursor.execute(sql)
+    sql = "select ip, country from GeoIP where Investigations_id_investigation = %s"
+    db_cursor.execute(sql, investId)
     results = db_cursor.fetchall()
     IP, country = [], []
     for tuple in results:
         IP.append(str(tuple[0]))
         country.append(str(tuple[1]))
-        #TODO: make this part dynamic
+    #TODO: make this part dynamic
     us = country.count(' United States')
     ch = country.count(' China')
     ru = country.count(' Russian Federation')
@@ -60,9 +94,9 @@ def get_geo_ip(db_cursor, investId):
 
 
 def get_shadow_data(db_cursor, investId):
-    sql = "select username, hash from Password"
+    sql = "select username, hash from Password where Investigations_id_investigation = %s"
     try:
-        db_cursor.execute(sql)
+        db_cursor.execute(sql, investId)
         results = db_cursor.fetchall()
     except:
         results = "Did not get data for passwords."
@@ -127,15 +161,12 @@ def get_dns_data(db_cursor, investId):
     db_cursor.execute(sql, investId)
     dnsResults = db_cursor.fetchall()
     if len(dnsResults) > 1:
-        print("RETVAL: ", dnsResults[0])
         retVal = dnsResults[0]
         retValSet = set(retVal)
-        print("SET: ", retVal)
         for res in dnsResults:
             setRes = set(res)
             if setRes != retValSet:
                 retVal.append(res)
-                print("VERY BOTTOM ", retVal)
         return retVal[0], retVal[1]
     else:
         return "", ""
@@ -158,10 +189,10 @@ def get_hosts_data(db_cursor, investId):
             hostLength += 1
     return addresses, names, hostLength
 
-def get_installed_programs(db_cursor):
-    sql = "select programName from InstalledPrograms"
+def get_installed_programs(db_cursor, investId):
+    sql = "select programName from InstalledPrograms where Investigations_id_investigation = %s"
     try:
-        db_cursor.execute(sql)
+        db_cursor.execute(sql, investId)
         installedPrograms = db_cursor.fetchall()
     except:
         installedPrograms = "Failed to retrieve installed programs."
