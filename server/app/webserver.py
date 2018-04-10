@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import os
 from flask import render_template, request, Flask
 import pymysql
 import datetime
@@ -31,6 +30,8 @@ def index():
     kernelName, machineName, kernelVersion, kVersionBuild, processor, myos = get_system_info(db_cursor, investId)
     hostsName, hostsPassword = get_shadow_data(db_cursor, investId)
     IP, country, count = get_geo_ip(db_cursor, investId)
+
+    #TODO: make login stats dynamic
     user, start, end = get_last_logins(db_cursor, investId)
     user = ['normal', 'reboot', 'crash', 'down', 'no logout']
     stats = [7, 15, 12, 15, 2]

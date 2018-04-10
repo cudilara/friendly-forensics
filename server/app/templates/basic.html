@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <nav class="navbar-fixed-top">
+      <ul>
+        <li><a href="#system">System</a></li>
+        <li><a href="#userpass">Users/Passwords</a></li>
+        <li><a href="#logins">Logins</a></li>
+        <li><a href="#network">Network</a></li>
+        <li><a href="#programs">Programs</a></li>
+      </ul>
+    </nav>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,17 +30,47 @@
                 height: 12px;
                 margin-right: 5px;
             }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
 </style>
+
 <body>
+    <div class="jumbotron jumbotron-fluid text-center">
+		<div>
+          <h2>
+            😀
+          </h2>
+        </div>
+    </div>
     <div class="jumbotron jumbotron-fluid text-center">
 		<div>
           <h2>
               Easy Forensics
           </h2>
         </div>
-  </div>
-
-
+    </div>
 
     <div class="text-center">
         <form action = "http://localhost:4000/" method = "POST">
@@ -42,7 +81,7 @@
         </form>
     </div>
     <div class="text-center">
-        <h4>
+        <h4 id="system">
             <br>
                 Information for:
             </br>
@@ -59,6 +98,7 @@
         </br>
     </div>
 
+    <!--System Info-->
     <div class="text-center">
 		<h3>
             <br>
@@ -95,28 +135,75 @@
       </tbody>
     </table>
 
+    <!--Users info-->
+    <div class="table-responsive text-center">
+        <h3 id="userpass">
+            <br>
+                Contents of /etc/hosts
+            </br>
+        </h3>
 
+        <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col"><center>Address</center></th>
+                  <th scope="col"><center>Host Name</center></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                      {% for item in hostsAddress %}
+                            <center><p>{{item}}</p></center>
+                      {% endfor %}
+                  </td>
+                  <td>
+                      {% for item in hostsName %}
+                            <center><p>{{item}}</p></center>
+                        {% endfor %}
+                  </td>
+                </tr>
+              </tbody>
+          </table>
+    </div>
+
+    <!--Passwords info-->
     <div class="text-center">
 		<h3>
             <br>
-                DNS
+                Passwords
             </br>
         </h3>
-         DNS Name:
-        {% if dnsName%}
-            {{ dnsName }}
-            {% endif %}
-        <br>
-        IP address:
-        {% if dnsAddr%}
-            {{ dnsAddr }}
-            {% endif %}
-        </br>
+        </div>
+
+        <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col"><center>Host Name</center></th>
+                  <th scope="col"><center>Password</center></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                      {% for item in NameInPswd %}
+                            <center><p>{{item}}</p></center>
+                      {% endfor %}
+                  </td>
+                  <td>
+                      {% for item in hostsPassword %}
+                            <p>{{item}}</p>
+                        {% endfor %}
+                  </td>
+                </tr>
+              </tbody>
+          </table>
     </div>
 
 
+    <!--Login stats-->
     <div class="text-center">
-		<h3>
+		<h3 id="logins">
             <br>
                 Login Statistics
             </br>
@@ -156,6 +243,26 @@
        </script>
     </div>
 
+    <!--Network info: DNS-->
+    <div class="text-center">
+		<h3 id="network">
+            <br>
+                DNS
+            </br>
+        </h3>
+         DNS Name:
+        {% if dnsName%}
+            {{ dnsName }}
+            {% endif %}
+        <br>
+        IP address:
+        {% if dnsAddr%}
+            {{ dnsAddr }}
+            {% endif %}
+        </br>
+    </div>
+
+    <!--IP graph-->
     <div class="text-center">
 		<h3>
             <br>
@@ -182,75 +289,15 @@
            var PChart = new Chart(mychart).Pie(pieData);
            </script>
         <div id="js-legend" class="chart-legend">
-            <script>document.getElementById('js-legend').innerHTML = PChart.generateLegend();
+            <script>
+            document.getElementById('js-legend').innerHTML = PChart.generateLegend();
             </script>
         </div>
     </div>
 
+    <!--List of programs-->
     <div class="text-center">
-		<h3>
-            <br>
-                Passwords
-            </br>
-        </h3>
-        </div>
-
-        <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th scope="col"><center>Host Name</center></th>
-                  <th scope="col"><center>Password</center></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                      {% for item in NameInPswd %}
-                            <center><p>{{item}}</p></center>
-                      {% endfor %}
-                  </td>
-                  <td>
-                      {% for item in hostsPassword %}
-                            <p>{{item}}</p>
-                        {% endfor %}
-                  </td>
-                </tr>
-              </tbody>
-          </table>
-    </div>
-
-    <div class="table-responsive text-center">
-        <h3>
-            <br>
-                Contents of /etc/hosts
-            </br>
-        </h3>
-
-        <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th scope="col"><center>Address</center></th>
-                  <th scope="col"><center>Host Name</center></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                      {% for item in hostsAddress %}
-                            <center><p>{{item}}</p></center>
-                      {% endfor %}
-                  </td>
-                  <td>
-                      {% for item in hostsName %}
-                            <center><p>{{item}}</p></center>
-                        {% endfor %}
-                  </td>
-                </tr>
-              </tbody>
-          </table>
-    </div>
-    <div class="text-center">
-		<h3>
+		<h3 id="programs">
             <br>
                 All Programs
             </br>
