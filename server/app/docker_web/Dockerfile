@@ -12,7 +12,7 @@ WORKDIR /easy_forensics/server/app/
 RUN pip install -r requirements.txt
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
+#RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Make port 4000 available to the world outside this container
 EXPOSE 4000
@@ -21,5 +21,5 @@ EXPOSE 4000
 ENV NAME WebserverDocker
 
 # Run app.py when the container launches
-#CMD [cd .. & 'python', "webserver.py"]
-ENTRYPOINT ./webserver.py
+#CMD [pwd, cd .. , "webserver.py"]
+ENTRYPOINT ["./webserver.py"]
