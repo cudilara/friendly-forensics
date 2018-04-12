@@ -24,6 +24,7 @@ def index():
     if request.form['investigation_name'] == "":
         return render_template('basic.html')
     investName, investId = insert_user_investigation_name(db_cursor, db_connection)
+    date = get_date(db_cursor, investId)
     dnsName, dnsAddr = get_dns_data(db_cursor, investId)
     addrRes, nameRes, hostL = get_hosts_data(db_cursor, investId)
     programsResults1, programsResults2, programsResults3, programsResults4, programsResults5 = get_installed_programs(db_cursor, investId)
@@ -40,7 +41,7 @@ def index():
     purple = ["#E1BEE7", "#BA68C8", "#9C27B0", "#7B1FA2", "#6A1B9A", "#4A148C"]
     deepPurple = ["#D1C4E9", "#B388FF", "#9575CD", "#673AB7", "#512DA8", "#311B92"]
 
-    return render_template('basic.html', lastLogins=zip(user, start, end, stats), set=zip(count, country, deepPurple), dnsName=dnsName, dnsAddr=dnsAddr, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, nameID=investId, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=myos,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
+    return render_template('basic.html', lastLogins=zip(user, start, end, stats), set=zip(count, country, deepPurple), dnsName=dnsName, dnsAddr=dnsAddr, IP=IP, country=country, NameInPswd=hostsName, hostsPassword=hostsPassword, acceptedName=investName, nameID=investId, date=date, kernelName=kernelName, machineName=machineName, kernelVersion=kernelVersion, kVersionBuild=kVersionBuild, processor=processor, os=myos,  hostsAddress=addrRes, hostsName=nameRes, allPrograms1=programsResults1, allPrograms2=programsResults2, allPrograms3=programsResults3, allPrograms4=programsResults4, allPrograms5=programsResults5)
 
 
 def get_last_logins(db_cursor, investId):
@@ -152,8 +153,21 @@ def insert_user_investigation_name(db_cursor, db_connection):
             print("Did not insert investigation name.")
         getSQL = "select id_investigation from Investigations where name_investigation = %s"
         db_cursor.execute(getSQL, investigationName)
-        id = db_cursor.fetchall()
-        return investigationName, id[0][0]
+        info = db_cursor.fetchall()
+        id = info[0][0]
+        return investigationName, id
+
+
+def get_date(db_cursor, investId):
+    getSQL = "select date_investigation from Investigations where id_investigation = %s"
+    db_cursor.execute(getSQL, investId)
+    info = db_cursor.fetchall()
+    date = info[0][0]
+    day = date.split(' ')[0]
+    time = date.split(' ')[1]
+    time = time.split('.')[0]
+    date = time + " " + day
+    return date
 
 
 def get_dns_data(db_cursor, investId):

@@ -9,6 +9,8 @@
         <li><a href="#logins">Logins</a></li>
         <li><a href="#network">Network</a></li>
         <li><a href="#programs">Programs</a></li>
+        <li><a href="https://github.com/cudilara/friendly-forensics/wiki">About</a></li>
+        <li><a href="#" onclick="window.print();return false;">Print</a></li>
       </ul>
     </nav>
     <meta charset="utf-8">
@@ -35,6 +37,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
+        color: white;
         overflow: hidden;
         background-color: #333;
     }
@@ -60,7 +63,7 @@
     <div class="jumbotron jumbotron-fluid text-center">
 		<div>
           <h2>
-            😀
+            💾
           </h2>
         </div>
     </div>
@@ -91,11 +94,15 @@
             {{ acceptedName }}
             {% endif %}
         <br>
-        ID:
+        Evidence ID:
         {% if nameID%}
             {{ nameID }}
             {% endif %}
         </br>
+        Date:
+        {% if date%}
+            {{ date }}
+            {% endif %}
     </div>
 
     <!--System Info-->
@@ -287,6 +294,7 @@
            max = 10
            // draw pie chart
            var PChart = new Chart(mychart).Pie(pieData);
+
            </script>
         <div id="js-legend" class="chart-legend">
             <script>
